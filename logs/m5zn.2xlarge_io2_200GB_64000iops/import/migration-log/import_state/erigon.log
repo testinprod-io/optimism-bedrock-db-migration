@@ -1,0 +1,47 @@
+[INFO] [06-01|05:41:24.804] logging to file system                   log dir=migration-log/import_state file prefix=erigon log level=info json=false
+[INFO] [06-01|05:41:24.804] Starting metrics server                  addr=http://127.0.0.1:6060/debug/metrics/prometheus
+[INFO] [06-01|05:41:24.810] Starting Erigon on Optimism Görli testnet... 
+[INFO] [06-01|05:41:24.811] Maximum peer count                       ETH=0 total=0
+[INFO] [06-01|05:41:24.811] starting HTTP APIs                       APIs=eth,erigon,engine
+[INFO] [06-01|05:41:24.811] torrent verbosity                        level=WRN
+[INFO] [06-01|05:41:26.912] Set global gas cap                       cap=50000000
+[INFO] [06-01|05:41:26.914] [Downloader] Runnning with               ipv6-enabled=true ipv4-enabled=true download.rate=16mb upload.rate=4mb
+[INFO] [06-01|05:41:26.914] Opening Database                         label=chaindata path=/home/ubuntu/op-erigon/erigon_db/chaindata
+[INFO] [06-01|05:41:26.914] [db] params: growStep=2GB, mapsSize=7TB, shrinkThreshold=-1, pageSize=4KB, label=chaindata, WriteMap=false, Durable=false, NoReadahead=true,  
+[INFO] [06-01|05:41:26.916] Initialised chain configuration          config="{ChainID: 420, Homestead: 0, DAO: <nil>, Tangerine Whistle: 0, Spurious Dragon: 0, Byzantium: 0, Constantinople: 0, Petersburg: 0, Istanbul: 0, Muir Glacier: 0, Berlin: 0, London: 4061224, Arrow Glacier: 4061224, Gray Glacier: 4061224, Terminal Total Difficulty: 0, Merge Netsplit: 4061224, Shanghai: <nil>, Cancun: <nil>, Prague: <nil>, Engine: unknown}" genesis=0xc1fc15cd51159b1f1e5cbc4b82e85c1447ddfa33c52cf1d98d14fba0d6354be1
+[INFO] [06-01|05:41:26.916] Effective                                prune_flags= snapshot_flags= history.v3=false
+[INFO] [06-01|05:41:26.916] Initialising Ethereum protocol           network=420
+[INFO] [06-01|05:41:26.916] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/op-erigon/erigon_db/ethash-dags count=2
+[INFO] [06-01|05:41:27.242] Starting private RPC server              on=127.0.0.1:9090
+[INFO] [06-01|05:41:27.243] new subscription to logs established 
+[INFO] [06-01|05:41:27.243] Database sanity check for block number   blockNumber=4061224 checkEmpty=true
+[INFO] [06-01|05:41:27.243] World State Trie Root Calculation        elapsed=608ns
+[INFO] [06-01|05:41:27.243] Walk accounts                            index=0 elapsed=30.165µs
+[INFO] [06-01|05:41:27.243] Iterate accounts                         index=0 elapsed=12.107µs
+[INFO] [06-01|05:41:27.243] State trie must by empty 
+[INFO] [06-01|05:41:27.243] state root consistent with target root 
+[INFO] [06-01|05:41:27.243] Importing state                          file=/tmp/migration-artifact/world_trie_state.jsonl stream=true
+[INFO] [06-01|05:41:27.243] Importing state for block number         blockNumber=4061224
+[INFO] [06-01|05:41:27.243] state root from header                   root=0xbfe2b059bc76c33556870c292048f1d28c9d498462a02a3c7aadb6edf1c2d21c
+[INFO] [06-01|05:41:35.243] Import state                             index=23049 elapsed=8.000670581s
+[INFO] [06-01|05:41:43.244] Import state                             index=48239 elapsed=16.0008733s
+[INFO] [06-01|05:41:51.243] Import state                             index=77702 elapsed=24.000295386s
+[INFO] [06-01|05:41:59.245] Import state                             index=88622 elapsed=32.002202391s
+[INFO] [06-01|05:42:07.243] Import state                             index=115588 elapsed=40.000679738s
+[INFO] [06-01|05:42:09.502] Import state                             index=127608 elapsed=42.259529245s
+[INFO] [06-01|05:42:56.909] newly calculated root                    root=0xbfe2b059bc76c33556870c292048f1d28c9d498462a02a3c7aadb6edf1c2d21c
+[INFO] [06-01|05:43:23.473] commit block                             elapsed=26.564378878s
+[INFO] [06-01|05:43:26.917] [p2p] GoodPeers 
+[INFO] [06-01|05:43:39.107] write change sets                        elapsed=15.633817601s
+[INFO] [06-01|05:44:25.534] write history                            elapsed=46.427145993s
+[INFO] [06-01|05:44:25.535] state root stored at blockheader         root=0xbfe2b059bc76c33556870c292048f1d28c9d498462a02a3c7aadb6edf1c2d21c
+[INFO] [06-01|05:44:25.535] state root consistent with block header's state root 
+[INFO] [06-01|05:44:30.067] Sanity check storage trie                file=/tmp/migration-artifact/world_trie_state.jsonl stream=true
+[INFO] [06-01|05:44:30.067] Sanity check storage trie for block number blockNumber=4061224
+[INFO] [06-01|05:44:30.068] state root from header                   root=0xbfe2b059bc76c33556870c292048f1d28c9d498462a02a3c7aadb6edf1c2d21c
+[INFO] [06-01|05:44:38.068] Sanity check storage trie                index=23048 elapsed=8.000375413s
+[INFO] [06-01|05:44:46.068] Sanity check storage trie                index=31309 elapsed=16.000918599s
+[INFO] [06-01|05:44:54.069] Sanity check storage trie                index=65730 elapsed=24.001273769s
+[INFO] [06-01|05:45:02.068] Sanity check storage trie                index=77703 elapsed=32.00081082s
+[INFO] [06-01|05:45:10.068] Sanity check storage trie                index=94545 elapsed=40.00073943s
+[INFO] [06-01|05:45:18.067] Sanity check storage trie                index=117942 elapsed=48.000042465s
