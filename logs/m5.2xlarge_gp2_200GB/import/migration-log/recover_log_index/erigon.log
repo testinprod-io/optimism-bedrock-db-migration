@@ -1,0 +1,346 @@
+[INFO] [05-31|11:55:09.961] logging to file system                   log dir=migration-log/recover_log_index file prefix=erigon log level=info json=false
+[INFO] [05-31|11:55:09.961] Starting metrics server                  addr=http://127.0.0.1:6060/debug/metrics/prometheus
+[INFO] [05-31|11:55:09.969] Starting Erigon on Optimism Görli testnet... 
+[INFO] [05-31|11:55:09.970] Maximum peer count                       ETH=0 total=0
+[INFO] [05-31|11:55:09.970] starting HTTP APIs                       APIs=eth,erigon,engine
+[INFO] [05-31|11:55:09.970] torrent verbosity                        level=WRN
+[INFO] [05-31|11:55:12.072] Set global gas cap                       cap=50000000
+[INFO] [05-31|11:55:12.074] [Downloader] Runnning with               ipv6-enabled=true ipv4-enabled=true download.rate=16mb upload.rate=4mb
+[INFO] [05-31|11:55:12.074] Opening Database                         label=chaindata path=/home/ubuntu/op-erigon/erigon_db/chaindata
+[INFO] [05-31|11:55:12.074] [db] params: growStep=2GB, mapsSize=7TB, shrinkThreshold=-1, pageSize=4KB, label=chaindata, WriteMap=false, Durable=false, NoReadahead=true,  
+[INFO] [05-31|11:55:12.076] Initialised chain configuration          config="{ChainID: 420, Homestead: 0, DAO: <nil>, Tangerine Whistle: 0, Spurious Dragon: 0, Byzantium: 0, Constantinople: 0, Petersburg: 0, Istanbul: 0, Muir Glacier: 0, Berlin: 0, London: 4061224, Arrow Glacier: 4061224, Gray Glacier: 4061224, Terminal Total Difficulty: 0, Merge Netsplit: 4061224, Shanghai: <nil>, Cancun: <nil>, Prague: <nil>, Engine: unknown}" genesis=0xc1fc15cd51159b1f1e5cbc4b82e85c1447ddfa33c52cf1d98d14fba0d6354be1
+[INFO] [05-31|11:55:12.076] Effective                                prune_flags= snapshot_flags= history.v3=false
+[INFO] [05-31|11:55:12.077] Initialising Ethereum protocol           network=420
+[INFO] [05-31|11:55:12.077] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/op-erigon/erigon_db/ethash-dags count=2
+[INFO] [05-31|11:55:12.531] Starting private RPC server              on=127.0.0.1:9090
+[INFO] [05-31|11:55:12.531] new subscription to logs established 
+[INFO] [05-31|11:55:12.531] rpc filters: subscribing to Erigon events 
+[INFO] [05-31|11:55:12.531] new subscription to newHeaders established 
+[INFO] [05-31|11:55:12.531] Recovering Log Index 
+[INFO] [05-31|11:55:12.532] Reading JWT secret                       path=/home/ubuntu/op-erigon/erigon_db/jwt.hex
+[INFO] [05-31|11:55:12.532] HTTP endpoint opened for Engine API      url=127.0.0.1:8551 ws=true ws.compression=true
+[INFO] [05-31|11:55:12.532] HTTP endpoint opened                     url=127.0.0.1:8545 ws=false ws.compression=true grpc=false
+[INFO] [05-31|11:55:20.619] Recovering Log Index                     recovered=150000 elapsed=8.087507309s
+[INFO] [05-31|11:55:28.736] Recovering Log Index                     recovered=297500 elapsed=16.204920099s
+[INFO] [05-31|11:55:36.778] Recovering Log Index                     recovered=412500 elapsed=24.246627831s
+[INFO] [05-31|11:55:44.940] Recovering Log Index                     recovered=525000 elapsed=32.409101818s
+[INFO] [05-31|11:55:53.083] Recovering Log Index                     recovered=620000 elapsed=40.552046008s
+[INFO] [05-31|11:56:01.132] Recovering Log Index                     recovered=697500 elapsed=48.600482207s
+[INFO] [05-31|11:56:09.363] Recovering Log Index                     recovered=787500 elapsed=56.831326588s
+[INFO] [05-31|11:56:17.383] Recovering Log Index                     recovered=867500 elapsed=1m4.851912391s
+[INFO] [05-31|11:56:25.493] Recovering Log Index                     recovered=942500 elapsed=1m12.961141153s
+[INFO] [05-31|11:56:33.692] Recovering Log Index                     recovered=1020000 elapsed=1m21.161084337s
+[INFO] [05-31|11:56:41.788] Recovering Log Index                     recovered=1102500 elapsed=1m29.257049485s
+[INFO] [05-31|11:56:49.976] Recovering Log Index                     recovered=1192500 elapsed=1m37.444667928s
+[INFO] [05-31|11:56:58.205] Recovering Log Index                     recovered=1282500 elapsed=1m45.674026766s
+[INFO] [05-31|11:57:06.226] Recovering Log Index                     recovered=1357500 elapsed=1m53.69472413s
+[INFO] [05-31|11:57:12.077] [p2p] GoodPeers 
+[INFO] [05-31|11:57:14.273] Recovering Log Index                     recovered=1400000 elapsed=2m1.741624356s
+[INFO] [05-31|11:57:22.888] Recovering Log Index                     recovered=1417500 elapsed=2m10.356368375s
+[INFO] [05-31|11:57:31.734] Recovering Log Index                     recovered=1435000 elapsed=2m19.202792491s
+[INFO] [05-31|11:57:40.031] Recovering Log Index                     recovered=1450000 elapsed=2m27.499659254s
+[INFO] [05-31|11:57:49.331] Recovering Log Index                     recovered=1465000 elapsed=2m36.799684915s
+[INFO] [05-31|11:57:57.783] Recovering Log Index                     recovered=1480000 elapsed=2m45.251320985s
+[INFO] [05-31|11:58:06.349] Recovering Log Index                     recovered=1495000 elapsed=2m53.81790501s
+[INFO] [05-31|11:58:15.636] Recovering Log Index                     recovered=1510000 elapsed=3m3.104595905s
+[INFO] [05-31|11:58:24.566] Recovering Log Index                     recovered=1525000 elapsed=3m12.034649602s
+[INFO] [05-31|11:58:33.169] Recovering Log Index                     recovered=1540000 elapsed=3m20.637964014s
+[INFO] [05-31|11:58:42.611] Recovering Log Index                     recovered=1555000 elapsed=3m30.079669655s
+[INFO] [05-31|11:58:50.827] Recovering Log Index                     recovered=1567500 elapsed=3m38.295807231s
+[INFO] [05-31|11:58:59.756] Recovering Log Index                     recovered=1582500 elapsed=3m47.224997062s
+[INFO] [05-31|11:59:08.356] Recovering Log Index                     recovered=1600000 elapsed=3m55.824824531s
+[INFO] [05-31|11:59:12.077] [p2p] GoodPeers 
+[INFO] [05-31|11:59:16.595] Recovering Log Index                     recovered=1617500 elapsed=4m4.063265455s
+[INFO] [05-31|11:59:24.763] Recovering Log Index                     recovered=1635000 elapsed=4m12.231565986s
+[INFO] [05-31|11:59:32.993] Recovering Log Index                     recovered=1650000 elapsed=4m20.461597603s
+[INFO] [05-31|11:59:42.073] Recovering Log Index                     recovered=1667500 elapsed=4m29.541594143s
+[INFO] [05-31|11:59:50.326] Recovering Log Index                     recovered=1682500 elapsed=4m37.794876155s
+[INFO] [05-31|11:59:58.338] Recovering Log Index                     recovered=1700000 elapsed=4m45.806572788s
+[INFO] [05-31|12:00:06.720] Recovering Log Index                     recovered=1715000 elapsed=4m54.188383247s
+[INFO] [05-31|12:00:15.923] Recovering Log Index                     recovered=1730000 elapsed=5m3.391684308s
+[INFO] [05-31|12:00:24.562] Recovering Log Index                     recovered=1742500 elapsed=5m12.030120647s
+[INFO] [05-31|12:00:32.982] Recovering Log Index                     recovered=1755000 elapsed=5m20.450329887s
+[INFO] [05-31|12:00:42.005] Recovering Log Index                     recovered=1767500 elapsed=5m29.473700499s
+[INFO] [05-31|12:00:50.159] Recovering Log Index                     recovered=1780000 elapsed=5m37.627140116s
+[INFO] [05-31|12:00:58.334] Recovering Log Index                     recovered=1792500 elapsed=5m45.802225248s
+[INFO] [05-31|12:01:07.002] Recovering Log Index                     recovered=1807500 elapsed=5m54.470512967s
+[INFO] [05-31|12:01:12.077] [p2p] GoodPeers 
+[INFO] [05-31|12:01:15.710] Recovering Log Index                     recovered=1822500 elapsed=6m3.179065512s
+[INFO] [05-31|12:01:23.944] Recovering Log Index                     recovered=1837500 elapsed=6m11.412470212s
+[INFO] [05-31|12:01:32.709] Recovering Log Index                     recovered=1852500 elapsed=6m20.177408123s
+[INFO] [05-31|12:01:41.699] Recovering Log Index                     recovered=1867500 elapsed=6m29.167404892s
+[INFO] [05-31|12:01:50.001] Recovering Log Index                     recovered=1880000 elapsed=6m37.469153977s
+[INFO] [05-31|12:01:58.641] Recovering Log Index                     recovered=1892500 elapsed=6m46.109334561s
+[INFO] [05-31|12:02:06.882] Recovering Log Index                     recovered=1905000 elapsed=6m54.351045549s
+[INFO] [05-31|12:02:15.337] Recovering Log Index                     recovered=1917500 elapsed=7m2.805913598s
+[INFO] [05-31|12:02:23.969] Recovering Log Index                     recovered=1930000 elapsed=7m11.437738421s
+[INFO] [05-31|12:02:33.117] Recovering Log Index                     recovered=1942500 elapsed=7m20.586077589s
+[INFO] [05-31|12:02:42.106] Recovering Log Index                     recovered=1955000 elapsed=7m29.574496183s
+[INFO] [05-31|12:02:50.813] Recovering Log Index                     recovered=1967500 elapsed=7m38.281317168s
+[INFO] [05-31|12:02:59.818] Recovering Log Index                     recovered=1980000 elapsed=7m47.286491084s
+[INFO] [05-31|12:03:08.363] Recovering Log Index                     recovered=1992500 elapsed=7m55.83140756s
+[INFO] [05-31|12:03:12.077] [p2p] GoodPeers 
+[INFO] [05-31|12:03:16.453] Recovering Log Index                     recovered=2005000 elapsed=8m3.921413432s
+[INFO] [05-31|12:03:26.109] Recovering Log Index                     recovered=2020000 elapsed=8m13.578036816s
+[INFO] [05-31|12:03:34.254] Recovering Log Index                     recovered=2032500 elapsed=8m21.723030735s
+[INFO] [05-31|12:03:42.458] Recovering Log Index                     recovered=2045000 elapsed=8m29.926803879s
+[INFO] [05-31|12:03:51.466] Recovering Log Index                     recovered=2057500 elapsed=8m38.934722642s
+[INFO] [05-31|12:04:00.359] Recovering Log Index                     recovered=2072500 elapsed=8m47.828112309s
+[INFO] [05-31|12:04:09.088] Recovering Log Index                     recovered=2085000 elapsed=8m56.556830119s
+[INFO] [05-31|12:04:17.950] Recovering Log Index                     recovered=2097500 elapsed=9m5.418195832s
+[INFO] [05-31|12:04:27.445] Recovering Log Index                     recovered=2110000 elapsed=9m14.913440163s
+[INFO] [05-31|12:04:36.635] Recovering Log Index                     recovered=2122500 elapsed=9m24.10342023s
+[INFO] [05-31|12:04:46.556] Recovering Log Index                     recovered=2135000 elapsed=9m34.025056671s
+[INFO] [05-31|12:04:55.230] Recovering Log Index                     recovered=2147500 elapsed=9m42.698438501s
+[INFO] [05-31|12:05:05.008] Recovering Log Index                     recovered=2160000 elapsed=9m52.476842143s
+[INFO] [05-31|12:05:12.077] [p2p] GoodPeers 
+[INFO] [05-31|12:05:14.552] Recovering Log Index                     recovered=2172500 elapsed=10m2.02022787s
+[INFO] [05-31|12:05:23.625] Recovering Log Index                     recovered=2185000 elapsed=10m11.093594166s
+[INFO] [05-31|12:05:32.535] Recovering Log Index                     recovered=2197500 elapsed=10m20.003618374s
+[INFO] [05-31|12:05:41.110] Recovering Log Index                     recovered=2210000 elapsed=10m28.578663846s
+[INFO] [05-31|12:05:49.930] Recovering Log Index                     recovered=2222500 elapsed=10m37.398658908s
+[INFO] [05-31|12:05:59.455] Recovering Log Index                     recovered=2235000 elapsed=10m46.924085362s
+[INFO] [05-31|12:06:07.647] Recovering Log Index                     recovered=2245000 elapsed=10m55.115284366s
+[INFO] [05-31|12:06:17.188] Recovering Log Index                     recovered=2257500 elapsed=11m4.656977198s
+[INFO] [05-31|12:06:25.943] Recovering Log Index                     recovered=2267500 elapsed=11m13.411988679s
+[INFO] [05-31|12:06:36.060] Recovering Log Index                     recovered=2277500 elapsed=11m23.528763702s
+[INFO] [05-31|12:06:46.401] Recovering Log Index                     recovered=2287500 elapsed=11m33.8694203s
+[INFO] [05-31|12:06:55.792] Recovering Log Index                     recovered=2297500 elapsed=11m43.260472702s
+[INFO] [05-31|12:07:06.335] Recovering Log Index                     recovered=2310000 elapsed=11m53.803966894s
+[INFO] [05-31|12:07:12.077] [p2p] GoodPeers 
+[INFO] [05-31|12:07:15.885] Recovering Log Index                     recovered=2317500 elapsed=12m3.353924204s
+[INFO] [05-31|12:07:25.809] Recovering Log Index                     recovered=2327500 elapsed=12m13.277287193s
+[INFO] [05-31|12:07:36.281] Recovering Log Index                     recovered=2337500 elapsed=12m23.749274175s
+[INFO] [05-31|12:07:44.405] Recovering Log Index                     recovered=2345000 elapsed=12m31.874049035s
+[INFO] [05-31|12:07:52.659] Recovering Log Index                     recovered=2352500 elapsed=12m40.127409117s
+[INFO] [05-31|12:08:02.939] Recovering Log Index                     recovered=2362500 elapsed=12m50.407353527s
+[INFO] [05-31|12:08:12.589] Recovering Log Index                     recovered=2372500 elapsed=13m0.057498819s
+[INFO] [05-31|12:08:21.812] Recovering Log Index                     recovered=2382500 elapsed=13m9.28104392s
+[INFO] [05-31|12:08:30.757] Recovering Log Index                     recovered=2392500 elapsed=13m18.226052698s
+[INFO] [05-31|12:08:40.662] Recovering Log Index                     recovered=2402500 elapsed=13m28.131050458s
+[INFO] [05-31|12:08:50.364] Recovering Log Index                     recovered=2412500 elapsed=13m37.832534894s
+[INFO] [05-31|12:08:59.022] Recovering Log Index                     recovered=2420000 elapsed=13m46.490813592s
+[INFO] [05-31|12:09:08.106] Recovering Log Index                     recovered=2427500 elapsed=13m55.574444205s
+[INFO] [05-31|12:09:12.077] [p2p] GoodPeers 
+[INFO] [05-31|12:09:18.372] Recovering Log Index                     recovered=2435000 elapsed=14m5.841048773s
+[INFO] [05-31|12:09:27.768] Recovering Log Index                     recovered=2442500 elapsed=14m15.23647612s
+[INFO] [05-31|12:09:36.926] Recovering Log Index                     recovered=2450000 elapsed=14m24.394594408s
+[INFO] [05-31|12:09:45.361] Recovering Log Index                     recovered=2457500 elapsed=14m32.829425685s
+[INFO] [05-31|12:09:55.344] Recovering Log Index                     recovered=2467500 elapsed=14m42.81265764s
+[INFO] [05-31|12:10:04.655] Recovering Log Index                     recovered=2477500 elapsed=14m52.123563855s
+[INFO] [05-31|12:10:14.226] Recovering Log Index                     recovered=2487500 elapsed=15m1.694728136s
+[INFO] [05-31|12:10:24.152] Recovering Log Index                     recovered=2497500 elapsed=15m11.621027001s
+[INFO] [05-31|12:10:33.031] Recovering Log Index                     recovered=2505000 elapsed=15m20.499643631s
+[INFO] [05-31|12:10:41.799] Recovering Log Index                     recovered=2512500 elapsed=15m29.267988623s
+[INFO] [05-31|12:10:50.626] Recovering Log Index                     recovered=2520000 elapsed=15m38.094330944s
+[INFO] [05-31|12:10:59.966] Recovering Log Index                     recovered=2527500 elapsed=15m47.434477282s
+[INFO] [05-31|12:11:10.219] Recovering Log Index                     recovered=2537500 elapsed=15m57.687819986s
+[INFO] [05-31|12:11:12.077] [p2p] GoodPeers 
+[INFO] [05-31|12:11:18.533] Recovering Log Index                     recovered=2545000 elapsed=16m6.001143948s
+[INFO] [05-31|12:11:27.056] Recovering Log Index                     recovered=2552500 elapsed=16m14.524559025s
+[INFO] [05-31|12:11:35.173] Recovering Log Index                     recovered=2560000 elapsed=16m22.641263801s
+[INFO] [05-31|12:11:43.211] Recovering Log Index                     recovered=2567500 elapsed=16m30.679616931s
+[INFO] [05-31|12:11:51.859] Recovering Log Index                     recovered=2575000 elapsed=16m39.327784439s
+[INFO] [05-31|12:12:00.404] Recovering Log Index                     recovered=2582500 elapsed=16m47.872853228s
+[INFO] [05-31|12:12:08.908] Recovering Log Index                     recovered=2590000 elapsed=16m56.376309646s
+[INFO] [05-31|12:12:18.151] Recovering Log Index                     recovered=2597500 elapsed=17m5.619787448s
+[INFO] [05-31|12:12:26.983] Recovering Log Index                     recovered=2605000 elapsed=17m14.451304968s
+[INFO] [05-31|12:12:35.376] Recovering Log Index                     recovered=2612500 elapsed=17m22.845036924s
+[INFO] [05-31|12:12:43.431] Recovering Log Index                     recovered=2620000 elapsed=17m30.900013523s
+[INFO] [05-31|12:12:51.594] Recovering Log Index                     recovered=2627500 elapsed=17m39.063096671s
+[INFO] [05-31|12:12:59.698] Recovering Log Index                     recovered=2637500 elapsed=17m47.166515582s
+[INFO] [05-31|12:13:09.040] Recovering Log Index                     recovered=2650000 elapsed=17m56.508243463s
+[INFO] [05-31|12:13:12.077] [p2p] GoodPeers 
+[INFO] [05-31|12:13:18.598] Recovering Log Index                     recovered=2660000 elapsed=18m6.066601594s
+[INFO] [05-31|12:13:28.408] Recovering Log Index                     recovered=2670000 elapsed=18m15.876819428s
+[INFO] [05-31|12:13:38.090] Recovering Log Index                     recovered=2680000 elapsed=18m25.558608963s
+[INFO] [05-31|12:13:48.527] Recovering Log Index                     recovered=2690000 elapsed=18m35.995228227s
+[INFO] [05-31|12:13:57.067] Recovering Log Index                     recovered=2697500 elapsed=18m44.535518901s
+[INFO] [05-31|12:14:06.067] Recovering Log Index                     recovered=2705000 elapsed=18m53.535199822s
+[INFO] [05-31|12:14:16.149] Recovering Log Index                     recovered=2712500 elapsed=19m3.617155067s
+[INFO] [05-31|12:14:26.343] Recovering Log Index                     recovered=2722500 elapsed=19m13.811948101s
+[INFO] [05-31|12:14:36.477] Recovering Log Index                     recovered=2730000 elapsed=19m23.945416222s
+[INFO] [05-31|12:14:47.015] Recovering Log Index                     recovered=2737500 elapsed=19m34.483762442s
+[INFO] [05-31|12:14:57.591] Recovering Log Index                     recovered=2745000 elapsed=19m45.059318833s
+[INFO] [05-31|12:15:05.855] Recovering Log Index                     recovered=2752500 elapsed=19m53.32385098s
+[INFO] [05-31|12:15:12.078] [p2p] GoodPeers 
+[INFO] [05-31|12:15:16.497] Recovering Log Index                     recovered=2762500 elapsed=20m3.965646587s
+[INFO] [05-31|12:15:26.275] Recovering Log Index                     recovered=2772500 elapsed=20m13.743699981s
+[INFO] [05-31|12:15:35.468] Recovering Log Index                     recovered=2782500 elapsed=20m22.937047593s
+[INFO] [05-31|12:15:45.174] Recovering Log Index                     recovered=2792500 elapsed=20m32.642195003s
+[INFO] [05-31|12:15:55.652] Recovering Log Index                     recovered=2802500 elapsed=20m43.120410071s
+[INFO] [05-31|12:16:06.402] Recovering Log Index                     recovered=2812500 elapsed=20m53.870520107s
+[INFO] [05-31|12:16:15.020] Recovering Log Index                     recovered=2820000 elapsed=21m2.488800336s
+[INFO] [05-31|12:16:25.194] Recovering Log Index                     recovered=2827500 elapsed=21m12.662140879s
+[INFO] [05-31|12:16:34.770] Recovering Log Index                     recovered=2832500 elapsed=21m22.238956101s
+[INFO] [05-31|12:16:43.810] Recovering Log Index                     recovered=2837500 elapsed=21m31.278872297s
+[INFO] [05-31|12:16:53.547] Recovering Log Index                     recovered=2842500 elapsed=21m41.015622448s
+[INFO] [05-31|12:17:03.261] Recovering Log Index                     recovered=2847500 elapsed=21m50.729650186s
+[INFO] [05-31|12:17:12.077] [p2p] GoodPeers 
+[INFO] [05-31|12:17:13.352] Recovering Log Index                     recovered=2852500 elapsed=22m0.820490888s
+[INFO] [05-31|12:17:23.392] Recovering Log Index                     recovered=2857500 elapsed=22m10.860623769s
+[INFO] [05-31|12:17:33.217] Recovering Log Index                     recovered=2862500 elapsed=22m20.685680957s
+[INFO] [05-31|12:17:43.184] Recovering Log Index                     recovered=2867500 elapsed=22m30.652205328s
+[INFO] [05-31|12:17:52.275] Recovering Log Index                     recovered=2872500 elapsed=22m39.743909347s
+[INFO] [05-31|12:18:01.139] Recovering Log Index                     recovered=2877500 elapsed=22m48.607220663s
+[INFO] [05-31|12:18:12.357] Recovering Log Index                     recovered=2885000 elapsed=22m59.825754011s
+[INFO] [05-31|12:18:21.017] Recovering Log Index                     recovered=2890000 elapsed=23m8.485580199s
+[INFO] [05-31|12:18:29.527] Recovering Log Index                     recovered=2895000 elapsed=23m16.995980483s
+[INFO] [05-31|12:18:41.339] Recovering Log Index                     recovered=2902500 elapsed=23m28.807340324s
+[INFO] [05-31|12:18:50.166] Recovering Log Index                     recovered=2907500 elapsed=23m37.634246523s
+[INFO] [05-31|12:19:01.374] Recovering Log Index                     recovered=2912500 elapsed=23m48.842483588s
+[INFO] [05-31|12:19:12.077] [p2p] GoodPeers 
+[INFO] [05-31|12:19:12.362] Recovering Log Index                     recovered=2917500 elapsed=23m59.830886118s
+[INFO] [05-31|12:19:24.979] Recovering Log Index                     recovered=2925000 elapsed=24m12.447534963s
+[INFO] [05-31|12:19:33.046] Recovering Log Index                     recovered=2930000 elapsed=24m20.51433126s
+[INFO] [05-31|12:19:42.774] Recovering Log Index                     recovered=2935000 elapsed=24m30.242693088s
+[INFO] [05-31|12:19:53.249] Recovering Log Index                     recovered=2940000 elapsed=24m40.717664191s
+[INFO] [05-31|12:20:02.686] Recovering Log Index                     recovered=2945000 elapsed=24m50.154492979s
+[INFO] [05-31|12:20:11.319] Recovering Log Index                     recovered=2950000 elapsed=24m58.787980306s
+[INFO] [05-31|12:20:21.929] Recovering Log Index                     recovered=2957500 elapsed=25m9.397949545s
+[INFO] [05-31|12:20:34.178] Recovering Log Index                     recovered=2965000 elapsed=25m21.64645862s
+[INFO] [05-31|12:20:42.844] Recovering Log Index                     recovered=2970000 elapsed=25m30.313071473s
+[INFO] [05-31|12:20:54.643] Recovering Log Index                     recovered=2977500 elapsed=25m42.111316742s
+[INFO] [05-31|12:21:03.763] Recovering Log Index                     recovered=2982500 elapsed=25m51.231372355s
+[INFO] [05-31|12:21:12.077] [p2p] GoodPeers 
+[INFO] [05-31|12:21:12.515] Recovering Log Index                     recovered=2992500 elapsed=25m59.983167395s
+[INFO] [05-31|12:21:21.881] Recovering Log Index                     recovered=3002500 elapsed=26m9.349729073s
+[INFO] [05-31|12:21:31.110] Recovering Log Index                     recovered=3007500 elapsed=26m18.578305216s
+[INFO] [05-31|12:21:39.235] Recovering Log Index                     recovered=3012500 elapsed=26m26.70326109s
+[INFO] [05-31|12:21:48.470] Recovering Log Index                     recovered=3022500 elapsed=26m35.938268609s
+[INFO] [05-31|12:22:00.330] Recovering Log Index                     recovered=3030000 elapsed=26m47.798278253s
+[INFO] [05-31|12:22:08.765] Recovering Log Index                     recovered=3035000 elapsed=26m56.233425446s
+[INFO] [05-31|12:22:17.513] Recovering Log Index                     recovered=3040000 elapsed=27m4.981936432s
+[INFO] [05-31|12:22:26.170] Recovering Log Index                     recovered=3045000 elapsed=27m13.638321021s
+[INFO] [05-31|12:22:34.538] Recovering Log Index                     recovered=3050000 elapsed=27m22.006716643s
+[INFO] [05-31|12:22:42.920] Recovering Log Index                     recovered=3055000 elapsed=27m30.388855879s
+[INFO] [05-31|12:22:51.566] Recovering Log Index                     recovered=3060000 elapsed=27m39.034907041s
+[INFO] [05-31|12:23:02.103] Recovering Log Index                     recovered=3067500 elapsed=27m49.571813225s
+[INFO] [05-31|12:23:12.077] [p2p] GoodPeers 
+[INFO] [05-31|12:23:13.296] Recovering Log Index                     recovered=3075000 elapsed=28m0.764894001s
+[INFO] [05-31|12:23:25.573] Recovering Log Index                     recovered=3082500 elapsed=28m13.041627282s
+[INFO] [05-31|12:23:33.775] Recovering Log Index                     recovered=3087500 elapsed=28m21.243372675s
+[INFO] [05-31|12:23:43.292] Recovering Log Index                     recovered=3095000 elapsed=28m30.76014016s
+[INFO] [05-31|12:23:52.795] Recovering Log Index                     recovered=3105000 elapsed=28m40.263510751s
+[INFO] [05-31|12:24:02.003] Recovering Log Index                     recovered=3115000 elapsed=28m49.471806684s
+[INFO] [05-31|12:24:11.161] Recovering Log Index                     recovered=3125000 elapsed=28m58.630018726s
+[INFO] [05-31|12:24:20.556] Recovering Log Index                     recovered=3135000 elapsed=29m8.025033527s
+[INFO] [05-31|12:24:30.822] Recovering Log Index                     recovered=3145000 elapsed=29m18.290151704s
+[INFO] [05-31|12:24:40.188] Recovering Log Index                     recovered=3155000 elapsed=29m27.656863126s
+[INFO] [05-31|12:24:48.923] Recovering Log Index                     recovered=3165000 elapsed=29m36.391822837s
+[INFO] [05-31|12:24:57.674] Recovering Log Index                     recovered=3175000 elapsed=29m45.14211831s
+[INFO] [05-31|12:25:06.165] Recovering Log Index                     recovered=3185000 elapsed=29m53.633218911s
+[INFO] [05-31|12:25:12.077] [p2p] GoodPeers 
+[INFO] [05-31|12:25:14.967] Recovering Log Index                     recovered=3195000 elapsed=30m2.435459522s
+[INFO] [05-31|12:25:24.344] Recovering Log Index                     recovered=3205000 elapsed=30m11.812119173s
+[INFO] [05-31|12:25:33.869] Recovering Log Index                     recovered=3215000 elapsed=30m21.337197286s
+[INFO] [05-31|12:25:43.572] Recovering Log Index                     recovered=3225000 elapsed=30m31.040473987s
+[INFO] [05-31|12:25:52.999] Recovering Log Index                     recovered=3235000 elapsed=30m40.467349767s
+[INFO] [05-31|12:26:02.294] Recovering Log Index                     recovered=3245000 elapsed=30m49.762362429s
+[INFO] [05-31|12:26:12.047] Recovering Log Index                     recovered=3255000 elapsed=30m59.515641228s
+[INFO] [05-31|12:26:21.469] Recovering Log Index                     recovered=3265000 elapsed=31m8.937361782s
+[INFO] [05-31|12:26:29.480] Recovering Log Index                     recovered=3272500 elapsed=31m16.949052851s
+[INFO] [05-31|12:26:40.590] Recovering Log Index                     recovered=3280000 elapsed=31m28.059028568s
+[INFO] [05-31|12:26:49.622] Recovering Log Index                     recovered=3287500 elapsed=31m37.09071146s
+[INFO] [05-31|12:27:00.047] Recovering Log Index                     recovered=3295000 elapsed=31m47.515773227s
+[INFO] [05-31|12:27:10.154] Recovering Log Index                     recovered=3305000 elapsed=31m57.62290229s
+[INFO] [05-31|12:27:12.077] [p2p] GoodPeers 
+[INFO] [05-31|12:27:20.677] Recovering Log Index                     recovered=3315000 elapsed=32m8.145798324s
+[INFO] [05-31|12:27:30.616] Recovering Log Index                     recovered=3325000 elapsed=32m18.084230371s
+[INFO] [05-31|12:27:39.434] Recovering Log Index                     recovered=3335000 elapsed=32m26.902451818s
+[INFO] [05-31|12:27:48.342] Recovering Log Index                     recovered=3345000 elapsed=32m35.810948044s
+[INFO] [05-31|12:27:57.026] Recovering Log Index                     recovered=3355000 elapsed=32m44.494250033s
+[INFO] [05-31|12:28:05.572] Recovering Log Index                     recovered=3365000 elapsed=32m53.040836442s
+[INFO] [05-31|12:28:14.536] Recovering Log Index                     recovered=3375000 elapsed=33m2.004154161s
+[INFO] [05-31|12:28:23.944] Recovering Log Index                     recovered=3385000 elapsed=33m11.412505366s
+[INFO] [05-31|12:28:36.441] Recovering Log Index                     recovered=3395000 elapsed=33m23.909163119s
+[INFO] [05-31|12:28:45.811] Recovering Log Index                     recovered=3400000 elapsed=33m33.279143939s
+[INFO] [05-31|12:28:56.196] Recovering Log Index                     recovered=3410000 elapsed=33m43.664244408s
+[INFO] [05-31|12:29:06.721] Recovering Log Index                     recovered=3415000 elapsed=33m54.189312286s
+[INFO] [05-31|12:29:12.077] [p2p] GoodPeers 
+[INFO] [05-31|12:29:15.811] Recovering Log Index                     recovered=3417500 elapsed=34m3.279367382s
+[INFO] [05-31|12:29:25.271] Recovering Log Index                     recovered=3420000 elapsed=34m12.739334095s
+[INFO] [05-31|12:29:35.019] Recovering Log Index                     recovered=3422500 elapsed=34m22.487999416s
+[INFO] [05-31|12:29:44.263] Recovering Log Index                     recovered=3425000 elapsed=34m31.731213856s
+[INFO] [05-31|12:29:52.934] Recovering Log Index                     recovered=3427500 elapsed=34m40.402820672s
+[INFO] [05-31|12:30:02.029] Recovering Log Index                     recovered=3435000 elapsed=34m49.497871934s
+[INFO] [05-31|12:30:12.526] Recovering Log Index                     recovered=3445000 elapsed=34m59.994543848s
+[INFO] [05-31|12:30:22.485] Recovering Log Index                     recovered=3450000 elapsed=35m9.954066013s
+[INFO] [05-31|12:30:32.501] Recovering Log Index                     recovered=3457500 elapsed=35m19.969714275s
+[INFO] [05-31|12:30:40.524] Recovering Log Index                     recovered=3465000 elapsed=35m27.993040623s
+[INFO] [05-31|12:30:49.054] Recovering Log Index                     recovered=3472500 elapsed=35m36.523046699s
+[INFO] [05-31|12:30:59.635] Recovering Log Index                     recovered=3482500 elapsed=35m47.10313517s
+[INFO] [05-31|12:31:08.283] Recovering Log Index                     recovered=3490000 elapsed=35m55.751638297s
+[INFO] [05-31|12:31:12.078] [p2p] GoodPeers 
+[INFO] [05-31|12:31:18.883] Recovering Log Index                     recovered=3500000 elapsed=36m6.351842844s
+[INFO] [05-31|12:31:27.798] Recovering Log Index                     recovered=3507500 elapsed=36m15.266584409s
+[INFO] [05-31|12:31:36.123] Recovering Log Index                     recovered=3515000 elapsed=36m23.591801632s
+[INFO] [05-31|12:31:44.211] Recovering Log Index                     recovered=3522500 elapsed=36m31.680087816s
+[INFO] [05-31|12:31:54.538] Recovering Log Index                     recovered=3532500 elapsed=36m42.006573095s
+[INFO] [05-31|12:32:04.266] Recovering Log Index                     recovered=3542500 elapsed=36m51.734992768s
+[INFO] [05-31|12:32:14.098] Recovering Log Index                     recovered=3552500 elapsed=37m1.566754915s
+[INFO] [05-31|12:32:24.647] Recovering Log Index                     recovered=3562500 elapsed=37m12.115111542s
+[INFO] [05-31|12:32:33.350] Recovering Log Index                     recovered=3570000 elapsed=37m20.818542326s
+[INFO] [05-31|12:32:42.833] Recovering Log Index                     recovered=3577500 elapsed=37m30.302083913s
+[INFO] [05-31|12:32:52.343] Recovering Log Index                     recovered=3585000 elapsed=37m39.811904377s
+[INFO] [05-31|12:33:01.257] Recovering Log Index                     recovered=3592500 elapsed=37m48.725414355s
+[INFO] [05-31|12:33:10.507] Recovering Log Index                     recovered=3600000 elapsed=37m57.975450893s
+[INFO] [05-31|12:33:12.077] [p2p] GoodPeers 
+[INFO] [05-31|12:33:20.175] Recovering Log Index                     recovered=3607500 elapsed=38m7.643925047s
+[INFO] [05-31|12:33:28.229] Recovering Log Index                     recovered=3615000 elapsed=38m15.697409688s
+[INFO] [05-31|12:33:36.835] Recovering Log Index                     recovered=3622500 elapsed=38m24.304042557s
+[INFO] [05-31|12:33:45.049] Recovering Log Index                     recovered=3630000 elapsed=38m32.517380508s
+[INFO] [05-31|12:33:55.659] Recovering Log Index                     recovered=3640000 elapsed=38m43.127597969s
+[INFO] [05-31|12:34:04.336] Recovering Log Index                     recovered=3647500 elapsed=38m51.804370211s
+[INFO] [05-31|12:34:12.931] Recovering Log Index                     recovered=3655000 elapsed=39m0.399437163s
+[INFO] [05-31|12:34:20.968] Recovering Log Index                     recovered=3662500 elapsed=39m8.436150438s
+[INFO] [05-31|12:34:31.648] Recovering Log Index                     recovered=3672500 elapsed=39m19.116297899s
+[INFO] [05-31|12:34:40.106] Recovering Log Index                     recovered=3680000 elapsed=39m27.574421518s
+[INFO] [05-31|12:34:49.986] Recovering Log Index                     recovered=3690000 elapsed=39m37.454508874s
+[INFO] [05-31|12:34:59.341] Recovering Log Index                     recovered=3700000 elapsed=39m46.809679545s
+[INFO] [05-31|12:35:08.605] Recovering Log Index                     recovered=3710000 elapsed=39m56.073222954s
+[INFO] [05-31|12:35:12.077] [p2p] GoodPeers 
+[INFO] [05-31|12:35:17.044] Recovering Log Index                     recovered=3720000 elapsed=40m4.513109864s
+[INFO] [05-31|12:35:25.913] Recovering Log Index                     recovered=3730000 elapsed=40m13.381275674s
+[INFO] [05-31|12:35:35.223] Recovering Log Index                     recovered=3740000 elapsed=40m22.691300041s
+[INFO] [05-31|12:35:44.571] Recovering Log Index                     recovered=3750000 elapsed=40m32.039750837s
+[INFO] [05-31|12:35:54.183] Recovering Log Index                     recovered=3760000 elapsed=40m41.651771042s
+[INFO] [05-31|12:36:04.466] Recovering Log Index                     recovered=3770000 elapsed=40m51.934761392s
+[INFO] [05-31|12:36:13.598] Recovering Log Index                     recovered=3777500 elapsed=41m1.066502245s
+[INFO] [05-31|12:36:24.056] Recovering Log Index                     recovered=3785000 elapsed=41m11.524913663s
+[INFO] [05-31|12:36:33.928] Recovering Log Index                     recovered=3792500 elapsed=41m21.396492996s
+[INFO] [05-31|12:36:42.065] Recovering Log Index                     recovered=3797500 elapsed=41m29.53316436s
+[INFO] [05-31|12:36:50.723] Recovering Log Index                     recovered=3805000 elapsed=41m38.191346088s
+[INFO] [05-31|12:37:00.826] Recovering Log Index                     recovered=3812500 elapsed=41m48.295027223s
+[INFO] [05-31|12:37:10.287] Recovering Log Index                     recovered=3820000 elapsed=41m57.755633283s
+[INFO] [05-31|12:37:12.077] [p2p] GoodPeers 
+[INFO] [05-31|12:37:19.878] Recovering Log Index                     recovered=3827500 elapsed=42m7.346570731s
+[INFO] [05-31|12:37:29.741] Recovering Log Index                     recovered=3835000 elapsed=42m17.209844514s
+[INFO] [05-31|12:37:38.663] Recovering Log Index                     recovered=3845000 elapsed=42m26.131875722s
+[INFO] [05-31|12:37:47.563] Recovering Log Index                     recovered=3855000 elapsed=42m35.03149907s
+[INFO] [05-31|12:37:55.618] Recovering Log Index                     recovered=3862500 elapsed=42m43.086541415s
+[INFO] [05-31|12:38:06.428] Recovering Log Index                     recovered=3872500 elapsed=42m53.896614379s
+[INFO] [05-31|12:38:15.291] Recovering Log Index                     recovered=3880000 elapsed=43m2.759943386s
+[INFO] [05-31|12:38:24.151] Recovering Log Index                     recovered=3887500 elapsed=43m11.620088484s
+[INFO] [05-31|12:38:35.222] Recovering Log Index                     recovered=3895000 elapsed=43m22.690160541s
+[INFO] [05-31|12:38:46.680] Recovering Log Index                     recovered=3902500 elapsed=43m34.148473116s
+[INFO] [05-31|12:38:55.627] Recovering Log Index                     recovered=3907500 elapsed=43m43.095167419s
+[INFO] [05-31|12:39:05.322] Recovering Log Index                     recovered=3922500 elapsed=43m52.790370566s
+[INFO] [05-31|12:39:12.077] [p2p] GoodPeers 
+[INFO] [05-31|12:39:13.642] Recovering Log Index                     recovered=3937500 elapsed=44m1.110281347s
+[INFO] [05-31|12:39:25.214] Recovering Log Index                     recovered=3950000 elapsed=44m12.682244679s
+[INFO] [05-31|12:39:35.905] Recovering Log Index                     recovered=3957500 elapsed=44m23.37384286s
+[INFO] [05-31|12:39:44.968] Recovering Log Index                     recovered=3965000 elapsed=44m32.436935401s
+[INFO] [05-31|12:39:53.080] Recovering Log Index                     recovered=3972500 elapsed=44m40.548655573s
+[INFO] [05-31|12:40:01.724] Recovering Log Index                     recovered=3980000 elapsed=44m49.192238869s
+[INFO] [05-31|12:40:10.770] Recovering Log Index                     recovered=3987500 elapsed=44m58.23887339s
+[INFO] [05-31|12:40:21.302] Recovering Log Index                     recovered=3995000 elapsed=45m8.770482649s
+[INFO] [05-31|12:40:30.889] Recovering Log Index                     recovered=4002500 elapsed=45m18.357343141s
+[INFO] [05-31|12:40:41.415] Recovering Log Index                     recovered=4010000 elapsed=45m28.883770058s
+[INFO] [05-31|12:40:52.000] Recovering Log Index                     recovered=4017500 elapsed=45m39.468913212s
+[INFO] [05-31|12:41:01.772] Recovering Log Index                     recovered=4025000 elapsed=45m49.240491864s
+[INFO] [05-31|12:41:12.077] [p2p] GoodPeers 
+[INFO] [05-31|12:41:12.182] Recovering Log Index                     recovered=4032500 elapsed=45m59.650416946s
+[INFO] [05-31|12:41:22.005] Recovering Log Index                     recovered=4042500 elapsed=46m9.473899704s
+[INFO] [05-31|12:41:32.334] Recovering Log Index                     recovered=4050000 elapsed=46m19.802204859s
+[INFO] [05-31|12:41:43.312] Recovering Log Index                     recovered=4057500 elapsed=46m30.780214002s

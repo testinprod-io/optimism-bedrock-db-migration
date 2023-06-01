@@ -1,0 +1,81 @@
+INFO [05-31|19:33:53.566] Starting Geth on Ethereum mainnet... 
+INFO [05-31|19:33:53.566] Bumping default cache on mainnet         provided=1024 updated=4096
+INFO [05-31|19:33:53.568] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [05-31|19:33:53.570] Using deprecated resource file, please move this file to the 'geth' subdirectory of datadir. file=/Users/changwan.park/Downloads/goerli-bedrock-archive/nodekey
+INFO [05-31|19:33:53.573] Set global gas cap                       cap=50,000,000
+INFO [05-31|19:33:53.574] Allocated trie memory caches             clean=614.00MiB dirty=1024.00MiB
+INFO [05-31|19:33:53.579] Using leveldb as the backing database 
+INFO [05-31|19:33:53.579] Allocated cache and file handles         database=/Users/changwan.park/Downloads/goerli-bedrock-archive/chaindata cache=2.00GiB handles=5120
+INFO [05-31|19:33:53.837] Using LevelDB as the backing database 
+INFO [05-31|19:33:53.837] Found legacy ancient chain path          location=/Users/changwan.park/Downloads/goerli-bedrock-archive/chaindata/ancient
+INFO [05-31|19:33:53.859] Opened ancient database                  database=/Users/changwan.park/Downloads/goerli-bedrock-archive/chaindata/ancient readonly=false
+INFO [05-31|19:33:53.862] Disk storage enabled for ethash caches   dir=/Users/changwan.park/Downloads/goerli-bedrock-archive/geth/ethash count=3
+INFO [05-31|19:33:53.862] Disk storage enabled for ethash DAGs     dir=/Users/changwan.park/Library/Ethash count=2
+INFO [05-31|19:33:54.253]  
+INFO [05-31|19:33:54.253] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [05-31|19:33:54.253] Chain ID:  420 (unknown) 
+INFO [05-31|19:33:54.254] Consensus: Optimism 
+INFO [05-31|19:33:54.254]  
+INFO [05-31|19:33:54.254] Pre-Merge hard forks (block based): 
+INFO [05-31|19:33:54.254]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [05-31|19:33:54.254]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [05-31|19:33:54.254]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [05-31|19:33:54.254]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [05-31|19:33:54.254]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [05-31|19:33:54.254]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [05-31|19:33:54.254]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [05-31|19:33:54.254]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [05-31|19:33:54.254]  - Muir Glacier:                #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md) 
+INFO [05-31|19:33:54.254]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [05-31|19:33:54.254]  - London:                      #4061224  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [05-31|19:33:54.254]  - Arrow Glacier:               #4061224  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md) 
+INFO [05-31|19:33:54.254]  - Gray Glacier:                #4061224  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md) 
+INFO [05-31|19:33:54.254]  
+INFO [05-31|19:33:54.254] Merge configured: 
+INFO [05-31|19:33:54.254]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [05-31|19:33:54.254]  - Network known to be merged: true 
+INFO [05-31|19:33:54.254]  - Total terminal difficulty:  0 
+INFO [05-31|19:33:54.254]  - Merge netsplit block:       #4061224  
+INFO [05-31|19:33:54.254]  
+INFO [05-31|19:33:54.254] Post-Merge hard forks (timestamp based): 
+INFO [05-31|19:33:54.254]  - Regolith:                    @1679079600 
+INFO [05-31|19:33:54.254]  
+INFO [05-31|19:33:54.254] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [05-31|19:33:54.254]  
+INFO [05-31|19:33:54.255] Loaded most recent local block           number=4,061,224 hash=0f7835..05175f td=0 age=4mo2w4d
+INFO [05-31|19:33:54.256] Loaded most recent local finalized block number=4,061,224 hash=0f7835..05175f td=0 age=4mo2w4d
+INFO [05-31|19:33:54.258] Initialising Ethereum protocol           network=420 dbversion=8
+INFO [05-31|19:33:54.259] Loaded local transaction journal         transactions=0 dropped=0
+INFO [05-31|19:33:54.259] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [05-31|19:33:54.259] Switch sync mode from snap sync to full sync 
+INFO [05-31|19:33:54.260] Chain post-merge, sync via beacon client 
+INFO [05-31|19:33:54.260] Gasprice oracle is ignoring threshold set threshold=2
+WARN [05-31|19:33:54.261] Unclean shutdown detected                booted=2023-05-31T19:30:27+0900 age=3m27s
+WARN [05-31|19:33:54.261] Engine API enabled                       protocol=eth
+INFO [05-31|19:33:54.262] Starting peer-to-peer node               instance=Geth/v0.1.0-unstable-353e6dd6-20230526/darwin-arm64/go1.19.6
+INFO [05-31|19:33:54.380] New local node record                    seq=18 id=d02ca800c6957ef8 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [05-31|19:33:54.380] Started P2P networking                   self=enode://966efad9d4f21debf82f3e33e29ca938318ecd75941bc76264a8c89490575cd6d38240a6141695c900f5bdccd2f7ab1d9ddcdf407b171d983f7ac894eca5dba8@127.0.0.1:30303
+INFO [05-31|19:33:54.381] IPC endpoint opened                      url=/Users/changwan.park/Downloads/goerli-bedrock-archive/geth.ipc
+INFO [05-31|19:33:54.382] Loaded JWT secret file                   path=/Users/changwan.park/Downloads/goerli-bedrock-archive/geth/jwtsecret crc32=0xc4150cb8
+INFO [05-31|19:33:54.400] HTTP server started                      endpoint=127.0.0.1:8545 auth=false prefix= cors= vhosts=localhost
+INFO [05-31|19:33:54.401] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [05-31|19:33:54.417] HTTP server started                      endpoint=127.0.0.1:8551 auth=true  prefix= cors=localhost vhosts=localhost
+INFO [05-31|19:34:03.502] Got interrupt, shutting down... 
+INFO [05-31|19:34:03.503] HTTP server stopped                      endpoint=127.0.0.1:8545
+INFO [05-31|19:34:03.503] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [05-31|19:34:03.503] IPC endpoint closed                      url=/Users/changwan.park/Downloads/goerli-bedrock-archive/geth.ipc
+INFO [05-31|19:34:03.504] Ethereum protocol stopped 
+INFO [05-31|19:34:03.504] Transaction pool stopped 
+INFO [05-31|19:34:03.505] Writing cached state to disk             block=4,061,224 hash=0f7835..05175f root=bfe2b0..c2d21c
+INFO [05-31|19:34:03.505] Persisted trie from memory database      nodes=0 size=0.00B time="3.792µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-31|19:34:03.505] Writing cached state to disk             block=4,061,223 hash=31267a..a49dc9 root=da1301..2eac3c
+INFO [05-31|19:34:03.505] Persisted trie from memory database      nodes=0 size=0.00B time=708ns     gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-31|19:34:03.505] Writing cached state to disk             block=4,061,097 hash=803777..4f5059 root=81f9ea..e7a9cc
+INFO [05-31|19:34:03.505] Persisted trie from memory database      nodes=0 size=0.00B time="1.25µs"  gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-31|19:34:03.505] Writing snapshot state to disk           root=bfe2b0..c2d21c
+INFO [05-31|19:34:03.505] Persisted trie from memory database      nodes=0 size=0.00B time=625ns     gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-31|19:34:03.506] Writing clean trie cache to disk         path=/Users/changwan.park/Downloads/goerli-bedrock-archive/geth/triecache threads=8
+INFO [05-31|19:34:03.913] Persisted the clean trie cache           path=/Users/changwan.park/Downloads/goerli-bedrock-archive/geth/triecache elapsed=407.481ms
+INFO [05-31|19:34:03.913] Blockchain stopped 
+INFO [05-31|19:34:04.038] New local node record                    seq=19 id=d02ca800c6957ef8 ip=61.78.79.193 udp=30303 tcp=30303
+INFO [05-31|19:34:04.382] Looking for peers                        peercount=0 tried=61 static=0
