@@ -24,3 +24,9 @@ cd op-erigon
 git switch pcw109550/bedrock-db-migration
 make erigon
 
+# op-geth db download
+cd 
+wget https://storage.googleapis.com/oplabs-goerli-data/goerli-bedrock.tar
+tar xvf goerli-bedrock.tar
+mkdir geth_db
+mv geth geth_db/
