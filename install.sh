@@ -3,7 +3,7 @@ set -e
 
 sudo apt update && sudo apt upgrade -y
 
-sudo apt install -y gcc g++ tmux jq
+sudo apt install -y gcc g++ tmux jq make
 
 # install go
 wget https://go.dev/dl/go1.19.6.linux-arm64.tar.gz
