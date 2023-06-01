@@ -1,0 +1,71 @@
+[INFO] [06-01|07:24:11.296] logging to file system                   log dir=migration-log/recover_log_index file prefix=erigon log level=info json=false
+[INFO] [06-01|07:24:11.296] Starting metrics server                  addr=http://127.0.0.1:6060/debug/metrics/prometheus
+[INFO] [06-01|07:24:11.306] Starting Erigon on Optimism Görli testnet... 
+[INFO] [06-01|07:24:11.307] Maximum peer count                       ETH=0 total=0
+[INFO] [06-01|07:24:11.307] starting HTTP APIs                       APIs=eth,erigon,engine
+[INFO] [06-01|07:24:11.307] torrent verbosity                        level=WRN
+[INFO] [06-01|07:24:13.410] Set global gas cap                       cap=50000000
+[INFO] [06-01|07:24:13.413] [Downloader] Runnning with               ipv6-enabled=true ipv4-enabled=true download.rate=16mb upload.rate=4mb
+[INFO] [06-01|07:24:13.413] Opening Database                         label=chaindata path=/home/ubuntu/op-erigon/erigon_db/chaindata
+[INFO] [06-01|07:24:13.413] [db] params: growStep=2GB, mapsSize=7TB, shrinkThreshold=-1, pageSize=4KB, label=chaindata, WriteMap=false, Durable=false, NoReadahead=true,  
+[INFO] [06-01|07:24:13.415] Initialised chain configuration          config="{ChainID: 420, Homestead: 0, DAO: <nil>, Tangerine Whistle: 0, Spurious Dragon: 0, Byzantium: 0, Constantinople: 0, Petersburg: 0, Istanbul: 0, Muir Glacier: 0, Berlin: 0, London: 4061224, Arrow Glacier: 4061224, Gray Glacier: 4061224, Terminal Total Difficulty: 0, Merge Netsplit: 4061224, Shanghai: <nil>, Cancun: <nil>, Prague: <nil>, Engine: unknown}" genesis=0xc1fc15cd51159b1f1e5cbc4b82e85c1447ddfa33c52cf1d98d14fba0d6354be1
+[INFO] [06-01|07:24:13.415] Effective                                prune_flags= snapshot_flags= history.v3=false
+[INFO] [06-01|07:24:13.416] Initialising Ethereum protocol           network=420
+[INFO] [06-01|07:24:13.416] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/op-erigon/erigon_db/ethash-dags count=2
+[INFO] [06-01|07:24:14.043] Starting private RPC server              on=127.0.0.1:9090
+[INFO] [06-01|07:24:14.043] new subscription to logs established 
+[INFO] [06-01|07:24:14.043] rpc filters: subscribing to Erigon events 
+[INFO] [06-01|07:24:14.044] Recovering Log Index 
+[INFO] [06-01|07:24:14.044] Reading JWT secret                       path=/home/ubuntu/op-erigon/erigon_db/jwt.hex
+[INFO] [06-01|07:24:14.044] new subscription to newHeaders established 
+[INFO] [06-01|07:24:14.044] HTTP endpoint opened for Engine API      url=127.0.0.1:8551 ws=true ws.compression=true
+[INFO] [06-01|07:24:14.045] HTTP endpoint opened                     url=127.0.0.1:8545 ws=false ws.compression=true grpc=false
+[INFO] [06-01|07:24:22.111] Recovering Log Index                     recovered=157500 elapsed=8.067358368s
+[INFO] [06-01|07:24:30.183] Recovering Log Index                     recovered=315000 elapsed=16.13960767s
+[INFO] [06-01|07:24:38.237] Recovering Log Index                     recovered=450000 elapsed=24.193610778s
+[INFO] [06-01|07:24:46.278] Recovering Log Index                     recovered=572500 elapsed=32.234320172s
+[INFO] [06-01|07:24:54.335] Recovering Log Index                     recovered=675000 elapsed=40.291307709s
+[INFO] [06-01|07:25:02.435] Recovering Log Index                     recovered=787500 elapsed=48.391836828s
+[INFO] [06-01|07:25:10.547] Recovering Log Index                     recovered=892500 elapsed=56.502985771s
+[INFO] [06-01|07:25:18.553] Recovering Log Index                     recovered=990000 elapsed=1m4.509581141s
+[INFO] [06-01|07:25:26.671] Recovering Log Index                     recovered=1095000 elapsed=1m12.627483166s
+[INFO] [06-01|07:25:34.794] Recovering Log Index                     recovered=1210000 elapsed=1m20.750428929s
+[INFO] [06-01|07:25:42.858] Recovering Log Index                     recovered=1320000 elapsed=1m28.814209345s
+[INFO] [06-01|07:25:50.942] Recovering Log Index                     recovered=1417500 elapsed=1m36.898056159s
+[INFO] [06-01|07:25:59.055] Recovering Log Index                     recovered=1517500 elapsed=1m45.011161586s
+[INFO] [06-01|07:26:07.146] Recovering Log Index                     recovered=1620000 elapsed=1m53.102015568s
+[INFO] [06-01|07:26:13.417] [p2p] GoodPeers 
+[INFO] [06-01|07:26:15.292] Recovering Log Index                     recovered=1730000 elapsed=2m1.248686133s
+[INFO] [06-01|07:26:23.366] Recovering Log Index                     recovered=1820000 elapsed=2m9.32206822s
+[INFO] [06-01|07:26:31.438] Recovering Log Index                     recovered=1905000 elapsed=2m17.394239141s
+[INFO] [06-01|07:26:39.704] Recovering Log Index                     recovered=1985000 elapsed=2m25.660803244s
+[INFO] [06-01|07:26:47.844] Recovering Log Index                     recovered=2065000 elapsed=2m33.800772401s
+[INFO] [06-01|07:26:55.909] Recovering Log Index                     recovered=2140000 elapsed=2m41.86586701s
+[INFO] [06-01|07:27:03.945] Recovering Log Index                     recovered=2212500 elapsed=2m49.901223336s
+[INFO] [06-01|07:27:12.284] Recovering Log Index                     recovered=2280000 elapsed=2m58.240857512s
+[INFO] [06-01|07:27:20.458] Recovering Log Index                     recovered=2342500 elapsed=3m6.414220849s
+[INFO] [06-01|07:27:28.512] Recovering Log Index                     recovered=2410000 elapsed=3m14.468462769s
+[INFO] [06-01|07:27:36.668] Recovering Log Index                     recovered=2475000 elapsed=3m22.624519277s
+[INFO] [06-01|07:27:44.954] Recovering Log Index                     recovered=2542500 elapsed=3m30.910446726s
+[INFO] [06-01|07:27:53.229] Recovering Log Index                     recovered=2607500 elapsed=3m39.185482215s
+[INFO] [06-01|07:28:01.468] Recovering Log Index                     recovered=2682500 elapsed=3m47.424566812s
+[INFO] [06-01|07:28:09.613] Recovering Log Index                     recovered=2742500 elapsed=3m55.569727339s
+[INFO] [06-01|07:28:13.416] [p2p] GoodPeers 
+[INFO] [06-01|07:28:17.860] Recovering Log Index                     recovered=2815000 elapsed=4m3.816101688s
+[INFO] [06-01|07:28:25.884] Recovering Log Index                     recovered=2860000 elapsed=4m11.840897535s
+[INFO] [06-01|07:28:34.082] Recovering Log Index                     recovered=2910000 elapsed=4m20.038491437s
+[INFO] [06-01|07:28:42.131] Recovering Log Index                     recovered=2952500 elapsed=4m28.087777034s
+[INFO] [06-01|07:28:50.354] Recovering Log Index                     recovered=3012500 elapsed=4m36.310304806s
+[INFO] [06-01|07:28:58.449] Recovering Log Index                     recovered=3060000 elapsed=4m44.405060186s
+[INFO] [06-01|07:29:06.585] Recovering Log Index                     recovered=3120000 elapsed=4m52.541628652s
+[INFO] [06-01|07:29:14.658] Recovering Log Index                     recovered=3217500 elapsed=5m0.614619683s
+[INFO] [06-01|07:29:22.679] Recovering Log Index                     recovered=3312500 elapsed=5m8.63505536s
+[INFO] [06-01|07:29:30.851] Recovering Log Index                     recovered=3412500 elapsed=5m16.807880549s
+[INFO] [06-01|07:29:38.893] Recovering Log Index                     recovered=3467500 elapsed=5m24.849018933s
+[INFO] [06-01|07:29:46.962] Recovering Log Index                     recovered=3567500 elapsed=5m32.918311329s
+[INFO] [06-01|07:29:55.033] Recovering Log Index                     recovered=3662500 elapsed=5m40.988924474s
+[INFO] [06-01|07:30:03.110] Recovering Log Index                     recovered=3765000 elapsed=5m49.066623281s
+[INFO] [06-01|07:30:11.159] Recovering Log Index                     recovered=3840000 elapsed=5m57.11500131s
+[INFO] [06-01|07:30:13.417] [p2p] GoodPeers 
+[INFO] [06-01|07:30:19.206] Recovering Log Index                     recovered=3942500 elapsed=6m5.162582622s
+[INFO] [06-01|07:30:27.391] Recovering Log Index                     recovered=4032500 elapsed=6m13.347566634s
