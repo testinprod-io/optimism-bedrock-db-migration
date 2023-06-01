@@ -1,0 +1,30 @@
+[INFO] [06-01|10:13:49.482] logging to file system                   log dir=migration-log/import_receipts file prefix=erigon log level=info json=false
+[INFO] [06-01|10:13:49.482] Starting metrics server                  addr=http://127.0.0.1:6060/debug/metrics/prometheus
+[INFO] [06-01|10:13:49.488] Starting Erigon on Optimism Görli testnet... 
+[INFO] [06-01|10:13:49.489] Maximum peer count                       ETH=0 total=0
+[INFO] [06-01|10:13:49.489] starting HTTP APIs                       APIs=eth,erigon,engine
+[INFO] [06-01|10:13:49.489] torrent verbosity                        level=WRN
+[INFO] [06-01|10:13:51.590] Set global gas cap                       cap=50000000
+[INFO] [06-01|10:13:51.592] [Downloader] Runnning with               ipv6-enabled=true ipv4-enabled=true download.rate=16mb upload.rate=4mb
+[INFO] [06-01|10:13:51.592] Opening Database                         label=chaindata path=/home/ubuntu/op-erigon/erigon_db/chaindata
+[INFO] [06-01|10:13:51.592] [db] params: growStep=2GB, mapsSize=7TB, shrinkThreshold=-1, pageSize=4KB, label=chaindata, WriteMap=false, Durable=false, NoReadahead=true,  
+[INFO] [06-01|10:13:51.593] Initialised chain configuration          config="{ChainID: 420, Homestead: 0, DAO: <nil>, Tangerine Whistle: 0, Spurious Dragon: 0, Byzantium: 0, Constantinople: 0, Petersburg: 0, Istanbul: 0, Muir Glacier: 0, Berlin: 0, London: 4061224, Arrow Glacier: 4061224, Gray Glacier: 4061224, Terminal Total Difficulty: 0, Merge Netsplit: 4061224, Shanghai: <nil>, Cancun: <nil>, Prague: <nil>, Engine: unknown}" genesis=0xc1fc15cd51159b1f1e5cbc4b82e85c1447ddfa33c52cf1d98d14fba0d6354be1
+[INFO] [06-01|10:13:51.593] Effective                                prune_flags= snapshot_flags= history.v3=false
+[INFO] [06-01|10:13:51.594] Initialising Ethereum protocol           network=420
+[INFO] [06-01|10:13:51.594] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/op-erigon/erigon_db/ethash-dags count=2
+[INFO] [06-01|10:13:51.954] Starting private RPC server              on=127.0.0.1:9090
+[INFO] [06-01|10:13:51.954] new subscription to logs established 
+[INFO] [06-01|10:13:51.954] Importing receipts                       file=/tmp/migration-artifact/receipts.rlp
+[INFO] [06-01|10:13:59.955] Import receipts                          index=415944 elapsed=8.000911279s
+[INFO] [06-01|10:14:07.955] Import receipts                          index=787500 elapsed=16.000870329s
+[INFO] [06-01|10:14:15.955] Import receipts                          index=1156302 elapsed=24.000854157s
+[INFO] [06-01|10:14:23.955] Import receipts                          index=1528677 elapsed=32.00079737s
+[INFO] [06-01|10:14:31.956] Import receipts                          index=1892500 elapsed=40.001014942s
+[INFO] [06-01|10:14:39.955] Import receipts                          index=2212500 elapsed=48.000546229s
+[INFO] [06-01|10:14:47.955] Import receipts                          index=2513404 elapsed=56.000826s
+[INFO] [06-01|10:14:55.955] Import receipts                          index=2825000 elapsed=1m4.000744378s
+[INFO] [06-01|10:15:03.955] Import receipts                          index=3072500 elapsed=1m12.000876197s
+[INFO] [06-01|10:15:11.955] Import receipts                          index=3390000 elapsed=1m20.000149s
+[INFO] [06-01|10:15:19.955] Import receipts                          index=3677500 elapsed=1m28.000282007s
+[INFO] [06-01|10:15:27.955] Import receipts                          index=3982946 elapsed=1m36.000011964s
+[INFO] [06-01|10:15:30.138] Import receipts                          index=4061225 elapsed=1m38.183078978s

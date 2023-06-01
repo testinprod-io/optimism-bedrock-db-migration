@@ -1,0 +1,16 @@
+[INFO] [06-01|10:09:51.880] logging to file system                   log dir=migration-log/init_genesis file prefix=erigon log level=info json=false
+[INFO] [06-01|10:09:51.880] Starting metrics server                  addr=http://127.0.0.1:6060/debug/metrics/prometheus
+[INFO] [06-01|10:09:51.886] Opening Database                         label=chaindata path=/home/ubuntu/op-erigon/erigon_db/chaindata
+[INFO] [06-01|10:09:51.886] [db] params: growStep=2GB, mapsSize=7TB, shrinkThreshold=-1, pageSize=4KB, label=chaindata, WriteMap=false, Durable=false, NoReadahead=true,  
+[INFO] [06-01|10:09:51.889] Re-Opening DB in exclusive mode to apply migrations 
+[INFO] [06-01|10:09:51.889] [db] params: growStep=2GB, mapsSize=7TB, shrinkThreshold=-1, pageSize=4KB, label=chaindata, WriteMap=false, Durable=false, NoReadahead=true,  
+[INFO] [06-01|10:09:51.890] Apply migration                          name=db_schema_version5
+[INFO] [06-01|10:09:51.891] Applied migration                        name=db_schema_version5
+[INFO] [06-01|10:09:51.891] Apply migration                          name=txs_begin_end
+[INFO] [06-01|10:09:51.892] Applied migration                        name=txs_begin_end
+[INFO] [06-01|10:09:51.892] Apply migration                          name=reset_blocks_4
+[INFO] [06-01|10:09:51.893] Applied migration                        name=reset_blocks_4
+[INFO] [06-01|10:09:51.893] Updated DB schema to                     version=6.0.0
+[INFO] [06-01|10:09:51.893] [db] params: growStep=2GB, mapsSize=7TB, shrinkThreshold=-1, pageSize=4KB, label=chaindata, WriteMap=false, Durable=false, NoReadahead=true,  
+[INFO] [06-01|10:09:51.898] Writing custom genesis block             hash=0xad7e4e683df9b4b187b52e921d9d88e380c879b3956f6fb4d183baec76012bd0
+[INFO] [06-01|10:09:51.899] Successfully wrote genesis state         hash=0xad7e4e683df9b4b187b52e921d9d88e380c879b3956f6fb4d183baec76012bd0
