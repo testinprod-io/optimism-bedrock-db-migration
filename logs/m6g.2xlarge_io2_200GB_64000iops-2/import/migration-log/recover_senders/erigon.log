@@ -1,0 +1,181 @@
+[INFO] [06-01|06:29:50.063] logging to file system                   log dir=migration-log/recover_senders file prefix=erigon log level=info json=false
+[INFO] [06-01|06:29:50.063] Starting metrics server                  addr=http://127.0.0.1:6060/debug/metrics/prometheus
+[INFO] [06-01|06:29:50.073] Starting Erigon on Optimism Görli testnet... 
+[INFO] [06-01|06:29:50.074] Maximum peer count                       ETH=0 total=0
+[INFO] [06-01|06:29:50.074] starting HTTP APIs                       APIs=eth,erigon,engine
+[INFO] [06-01|06:29:50.074] torrent verbosity                        level=WRN
+[INFO] [06-01|06:29:52.177] Set global gas cap                       cap=50000000
+[INFO] [06-01|06:29:52.180] [Downloader] Runnning with               ipv6-enabled=true ipv4-enabled=true download.rate=16mb upload.rate=4mb
+[INFO] [06-01|06:29:52.180] Opening Database                         label=chaindata path=/home/ubuntu/op-erigon/erigon_db/chaindata
+[INFO] [06-01|06:29:52.180] [db] params: growStep=2GB, mapsSize=7TB, shrinkThreshold=-1, pageSize=4KB, label=chaindata, WriteMap=false, Durable=false, NoReadahead=true,  
+[INFO] [06-01|06:29:52.182] Initialised chain configuration          config="{ChainID: 420, Homestead: 0, DAO: <nil>, Tangerine Whistle: 0, Spurious Dragon: 0, Byzantium: 0, Constantinople: 0, Petersburg: 0, Istanbul: 0, Muir Glacier: 0, Berlin: 0, London: 4061224, Arrow Glacier: 4061224, Gray Glacier: 4061224, Terminal Total Difficulty: 0, Merge Netsplit: 4061224, Shanghai: <nil>, Cancun: <nil>, Prague: <nil>, Engine: unknown}" genesis=0xc1fc15cd51159b1f1e5cbc4b82e85c1447ddfa33c52cf1d98d14fba0d6354be1
+[INFO] [06-01|06:29:52.182] Effective                                prune_flags= snapshot_flags= history.v3=false
+[INFO] [06-01|06:29:52.183] Initialising Ethereum protocol           network=420
+[INFO] [06-01|06:29:52.183] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/op-erigon/erigon_db/ethash-dags count=2
+[INFO] [06-01|06:29:52.806] Starting private RPC server              on=127.0.0.1:9090
+[INFO] [06-01|06:29:52.806] new subscription to logs established 
+[INFO] [06-01|06:29:52.806] rpc filters: subscribing to Erigon events 
+[INFO] [06-01|06:29:52.806] new subscription to newHeaders established 
+[INFO] [06-01|06:29:52.807] Reading JWT secret                       path=/home/ubuntu/op-erigon/erigon_db/jwt.hex
+[INFO] [06-01|06:29:52.807] Recovering Senders 
+[INFO] [06-01|06:29:52.807] Recovery: transactions not found         blockNum=0
+[INFO] [06-01|06:29:52.807] HTTP endpoint opened for Engine API      url=127.0.0.1:8551 ws=true ws.compression=true
+[INFO] [06-01|06:29:52.807] HTTP endpoint opened                     url=127.0.0.1:8545 ws=false ws.compression=true grpc=false
+[INFO] [06-01|06:30:01.223] Recovering senders                       recovered=25000 elapsed=8.416273155s
+[INFO] [06-01|06:30:09.661] Recovering senders                       recovered=52500 elapsed=16.854195084s
+[INFO] [06-01|06:30:18.079] Recovering senders                       recovered=80000 elapsed=25.272346713s
+[INFO] [06-01|06:30:26.485] Recovering senders                       recovered=107500 elapsed=33.678389445s
+[INFO] [06-01|06:30:34.885] Recovering senders                       recovered=135000 elapsed=42.077874428s
+[INFO] [06-01|06:30:43.286] Recovering senders                       recovered=162500 elapsed=50.478715692s
+[INFO] [06-01|06:30:51.680] Recovering senders                       recovered=190000 elapsed=58.872841707s
+[INFO] [06-01|06:31:00.070] Recovering senders                       recovered=217500 elapsed=1m7.263151612s
+[INFO] [06-01|06:31:08.453] Recovering senders                       recovered=245000 elapsed=1m15.646401386s
+[INFO] [06-01|06:31:16.849] Recovering senders                       recovered=272500 elapsed=1m24.041899765s
+[INFO] [06-01|06:31:25.224] Recovering senders                       recovered=300000 elapsed=1m32.416842924s
+[INFO] [06-01|06:31:33.611] Recovering senders                       recovered=327500 elapsed=1m40.803890948s
+[INFO] [06-01|06:31:42.247] Recovering senders                       recovered=357500 elapsed=1m49.440089454s
+[INFO] [06-01|06:31:50.263] Recovering senders                       recovered=385000 elapsed=1m57.455959998s
+[INFO] [06-01|06:31:52.184] [p2p] GoodPeers 
+[INFO] [06-01|06:31:58.460] Recovering senders                       recovered=412500 elapsed=2m5.65283936s
+[INFO] [06-01|06:32:06.854] Recovering senders                       recovered=440000 elapsed=2m14.046803114s
+[INFO] [06-01|06:32:15.256] Recovering senders                       recovered=467500 elapsed=2m22.449007757s
+[INFO] [06-01|06:32:23.599] Recovering senders                       recovered=495000 elapsed=2m30.79188325s
+[INFO] [06-01|06:32:31.987] Recovering senders                       recovered=522500 elapsed=2m39.180107302s
+[INFO] [06-01|06:32:40.362] Recovering senders                       recovered=550000 elapsed=2m47.554998612s
+[INFO] [06-01|06:32:48.767] Recovering senders                       recovered=577500 elapsed=2m55.959724307s
+[INFO] [06-01|06:32:57.144] Recovering senders                       recovered=605000 elapsed=3m4.337151538s
+[INFO] [06-01|06:33:05.488] Recovering senders                       recovered=632500 elapsed=3m12.681483039s
+[INFO] [06-01|06:33:13.944] Recovering senders                       recovered=660000 elapsed=3m21.13687962s
+[INFO] [06-01|06:33:22.358] Recovering senders                       recovered=687500 elapsed=3m29.551330354s
+[INFO] [06-01|06:33:30.766] Recovering senders                       recovered=715000 elapsed=3m37.958745951s
+[INFO] [06-01|06:33:39.158] Recovering senders                       recovered=742500 elapsed=3m46.351481112s
+[INFO] [06-01|06:33:47.576] Recovering senders                       recovered=770000 elapsed=3m54.7696416s
+[INFO] [06-01|06:33:52.183] [p2p] GoodPeers 
+[INFO] [06-01|06:33:56.001] Recovering senders                       recovered=797500 elapsed=4m3.19466958s
+[INFO] [06-01|06:34:04.444] Recovering senders                       recovered=825000 elapsed=4m11.636992594s
+[INFO] [06-01|06:34:12.874] Recovering senders                       recovered=852500 elapsed=4m20.066999375s
+[INFO] [06-01|06:34:21.294] Recovering senders                       recovered=880000 elapsed=4m28.486763441s
+[INFO] [06-01|06:34:29.726] Recovering senders                       recovered=907500 elapsed=4m36.919176152s
+[INFO] [06-01|06:34:38.156] Recovering senders                       recovered=935000 elapsed=4m45.349654744s
+[INFO] [06-01|06:34:46.566] Recovering senders                       recovered=962500 elapsed=4m53.759471782s
+[INFO] [06-01|06:34:54.996] Recovering senders                       recovered=990000 elapsed=5m2.189374337s
+[INFO] [06-01|06:35:03.427] Recovering senders                       recovered=1017500 elapsed=5m10.620437866s
+[INFO] [06-01|06:35:11.865] Recovering senders                       recovered=1045000 elapsed=5m19.057887113s
+[INFO] [06-01|06:35:20.294] Recovering senders                       recovered=1072500 elapsed=5m27.4872223s
+[INFO] [06-01|06:35:28.718] Recovering senders                       recovered=1100000 elapsed=5m35.910871538s
+[INFO] [06-01|06:35:37.114] Recovering senders                       recovered=1127500 elapsed=5m44.30709824s
+[INFO] [06-01|06:35:45.543] Recovering senders                       recovered=1155000 elapsed=5m52.736318956s
+[INFO] [06-01|06:35:52.183] [p2p] GoodPeers 
+[INFO] [06-01|06:35:53.939] Recovering senders                       recovered=1182500 elapsed=6m1.132275315s
+[INFO] [06-01|06:36:02.337] Recovering senders                       recovered=1210000 elapsed=6m9.529712808s
+[INFO] [06-01|06:36:10.759] Recovering senders                       recovered=1237500 elapsed=6m17.952570704s
+[INFO] [06-01|06:36:19.193] Recovering senders                       recovered=1265000 elapsed=6m26.386654956s
+[INFO] [06-01|06:36:27.617] Recovering senders                       recovered=1292500 elapsed=6m34.80986359s
+[INFO] [06-01|06:36:36.048] Recovering senders                       recovered=1320000 elapsed=6m43.24148319s
+[INFO] [06-01|06:36:44.490] Recovering senders                       recovered=1347500 elapsed=6m51.683351417s
+[INFO] [06-01|06:36:52.932] Recovering senders                       recovered=1375000 elapsed=7m0.124888389s
+[INFO] [06-01|06:37:01.365] Recovering senders                       recovered=1402500 elapsed=7m8.558230317s
+[INFO] [06-01|06:37:09.792] Recovering senders                       recovered=1430000 elapsed=7m16.984961379s
+[INFO] [06-01|06:37:18.239] Recovering senders                       recovered=1457500 elapsed=7m25.432691521s
+[INFO] [06-01|06:37:26.654] Recovering senders                       recovered=1485000 elapsed=7m33.846733747s
+[INFO] [06-01|06:37:35.087] Recovering senders                       recovered=1512500 elapsed=7m42.280642117s
+[INFO] [06-01|06:37:43.518] Recovering senders                       recovered=1540000 elapsed=7m50.711652088s
+[INFO] [06-01|06:37:51.954] Recovering senders                       recovered=1567500 elapsed=7m59.147518372s
+[INFO] [06-01|06:37:52.183] [p2p] GoodPeers 
+[INFO] [06-01|06:38:00.379] Recovering senders                       recovered=1595000 elapsed=8m7.57231644s
+[INFO] [06-01|06:38:08.793] Recovering senders                       recovered=1622500 elapsed=8m15.986304905s
+[INFO] [06-01|06:38:17.216] Recovering senders                       recovered=1650000 elapsed=8m24.40928931s
+[INFO] [06-01|06:38:25.641] Recovering senders                       recovered=1677500 elapsed=8m32.833900667s
+[INFO] [06-01|06:38:34.063] Recovering senders                       recovered=1705000 elapsed=8m41.255875378s
+[INFO] [06-01|06:38:42.453] Recovering senders                       recovered=1732500 elapsed=8m49.645788483s
+[INFO] [06-01|06:38:50.833] Recovering senders                       recovered=1760000 elapsed=8m58.026469663s
+[INFO] [06-01|06:38:59.225] Recovering senders                       recovered=1787500 elapsed=9m6.418510278s
+[INFO] [06-01|06:39:07.615] Recovering senders                       recovered=1815000 elapsed=9m14.807800979s
+[INFO] [06-01|06:39:16.015] Recovering senders                       recovered=1842500 elapsed=9m23.208263164s
+[INFO] [06-01|06:39:24.426] Recovering senders                       recovered=1870000 elapsed=9m31.619347083s
+[INFO] [06-01|06:39:32.838] Recovering senders                       recovered=1897500 elapsed=9m40.031378889s
+[INFO] [06-01|06:39:41.227] Recovering senders                       recovered=1925000 elapsed=9m48.419857281s
+[INFO] [06-01|06:39:49.639] Recovering senders                       recovered=1952500 elapsed=9m56.832239726s
+[INFO] [06-01|06:39:52.184] [p2p] GoodPeers 
+[INFO] [06-01|06:39:58.025] Recovering senders                       recovered=1980000 elapsed=10m5.218036443s
+[INFO] [06-01|06:40:06.408] Recovering senders                       recovered=2007500 elapsed=10m13.600911688s
+[INFO] [06-01|06:40:14.801] Recovering senders                       recovered=2035000 elapsed=10m21.99435984s
+[INFO] [06-01|06:40:23.231] Recovering senders                       recovered=2062500 elapsed=10m30.424563397s
+[INFO] [06-01|06:40:31.648] Recovering senders                       recovered=2090000 elapsed=10m38.841252909s
+[INFO] [06-01|06:40:40.058] Recovering senders                       recovered=2117500 elapsed=10m47.25092857s
+[INFO] [06-01|06:40:48.451] Recovering senders                       recovered=2145000 elapsed=10m55.644028809s
+[INFO] [06-01|06:40:56.883] Recovering senders                       recovered=2172500 elapsed=11m4.075759941s
+[INFO] [06-01|06:41:05.280] Recovering senders                       recovered=2200000 elapsed=11m12.472725755s
+[INFO] [06-01|06:41:13.685] Recovering senders                       recovered=2227500 elapsed=11m20.878177142s
+[INFO] [06-01|06:41:22.101] Recovering senders                       recovered=2255000 elapsed=11m29.29433067s
+[INFO] [06-01|06:41:30.522] Recovering senders                       recovered=2282500 elapsed=11m37.714796173s
+[INFO] [06-01|06:41:38.956] Recovering senders                       recovered=2310000 elapsed=11m46.149446623s
+[INFO] [06-01|06:41:47.399] Recovering senders                       recovered=2337500 elapsed=11m54.592397072s
+[INFO] [06-01|06:41:52.183] [p2p] GoodPeers 
+[INFO] [06-01|06:41:55.811] Recovering senders                       recovered=2365000 elapsed=12m3.004099166s
+[INFO] [06-01|06:42:04.209] Recovering senders                       recovered=2392500 elapsed=12m11.402353523s
+[INFO] [06-01|06:42:12.590] Recovering senders                       recovered=2420000 elapsed=12m19.783269987s
+[INFO] [06-01|06:42:20.835] Recovering senders                       recovered=2447500 elapsed=12m28.027913213s
+[INFO] [06-01|06:42:29.157] Recovering senders                       recovered=2475000 elapsed=12m36.349928989s
+[INFO] [06-01|06:42:37.583] Recovering senders                       recovered=2502500 elapsed=12m44.776402511s
+[INFO] [06-01|06:42:45.873] Recovering senders                       recovered=2530000 elapsed=12m53.066409774s
+[INFO] [06-01|06:42:54.338] Recovering senders                       recovered=2557500 elapsed=13m1.530985361s
+[INFO] [06-01|06:43:02.814] Recovering senders                       recovered=2585000 elapsed=13m10.007066984s
+[INFO] [06-01|06:43:11.279] Recovering senders                       recovered=2612500 elapsed=13m18.472530765s
+[INFO] [06-01|06:43:19.767] Recovering senders                       recovered=2640000 elapsed=13m26.959782833s
+[INFO] [06-01|06:43:28.224] Recovering senders                       recovered=2667500 elapsed=13m35.417526574s
+[INFO] [06-01|06:43:36.684] Recovering senders                       recovered=2695000 elapsed=13m43.87725936s
+[INFO] [06-01|06:43:45.121] Recovering senders                       recovered=2722500 elapsed=13m52.314243066s
+[INFO] [06-01|06:43:52.183] [p2p] GoodPeers 
+[INFO] [06-01|06:43:53.571] Recovering senders                       recovered=2750000 elapsed=14m0.763991091s
+[INFO] [06-01|06:44:02.017] Recovering senders                       recovered=2777500 elapsed=14m9.209837436s
+[INFO] [06-01|06:44:10.377] Recovering senders                       recovered=2805000 elapsed=14m17.569931745s
+[INFO] [06-01|06:44:18.634] Recovering senders                       recovered=2832500 elapsed=14m25.827010836s
+[INFO] [06-01|06:44:27.026] Recovering senders                       recovered=2860000 elapsed=14m34.219488563s
+[INFO] [06-01|06:44:35.148] Recovering senders                       recovered=2887500 elapsed=14m42.341369222s
+[INFO] [06-01|06:44:43.198] Recovering senders                       recovered=2915000 elapsed=14m50.390984244s
+[INFO] [06-01|06:44:51.704] Recovering senders                       recovered=2942500 elapsed=14m58.897149291s
+[INFO] [06-01|06:45:00.288] Recovering senders                       recovered=2972500 elapsed=15m7.481268894s
+[INFO] [06-01|06:45:09.047] Recovering senders                       recovered=3002500 elapsed=15m16.240038575s
+[INFO] [06-01|06:45:17.577] Recovering senders                       recovered=3030000 elapsed=15m24.769826618s
+[INFO] [06-01|06:45:26.116] Recovering senders                       recovered=3057500 elapsed=15m33.309460556s
+[INFO] [06-01|06:45:34.667] Recovering senders                       recovered=3085000 elapsed=15m41.860633229s
+[INFO] [06-01|06:45:43.136] Recovering senders                       recovered=3112500 elapsed=15m50.329686051s
+[INFO] [06-01|06:45:51.558] Recovering senders                       recovered=3140000 elapsed=15m58.750907638s
+[INFO] [06-01|06:45:52.184] [p2p] GoodPeers 
+[INFO] [06-01|06:45:59.922] Recovering senders                       recovered=3167500 elapsed=16m7.114934243s
+[INFO] [06-01|06:46:08.363] Recovering senders                       recovered=3195000 elapsed=16m15.5563239s
+[INFO] [06-01|06:46:16.808] Recovering senders                       recovered=3222500 elapsed=16m24.001377351s
+[INFO] [06-01|06:46:25.239] Recovering senders                       recovered=3250000 elapsed=16m32.431802614s
+[INFO] [06-01|06:46:33.666] Recovering senders                       recovered=3277500 elapsed=16m40.858975035s
+[INFO] [06-01|06:46:42.092] Recovering senders                       recovered=3305000 elapsed=16m49.28545461s
+[INFO] [06-01|06:46:50.544] Recovering senders                       recovered=3332500 elapsed=16m57.737229133s
+[INFO] [06-01|06:46:59.011] Recovering senders                       recovered=3360000 elapsed=17m6.204215019s
+[INFO] [06-01|06:47:07.426] Recovering senders                       recovered=3387500 elapsed=17m14.618909275s
+[INFO] [06-01|06:47:16.034] Recovering senders                       recovered=3415000 elapsed=17m23.22738857s
+[INFO] [06-01|06:47:24.719] Recovering senders                       recovered=3442500 elapsed=17m31.91185257s
+[INFO] [06-01|06:47:33.197] Recovering senders                       recovered=3470000 elapsed=17m40.390517435s
+[INFO] [06-01|06:47:41.651] Recovering senders                       recovered=3497500 elapsed=17m48.844422991s
+[INFO] [06-01|06:47:50.089] Recovering senders                       recovered=3525000 elapsed=17m57.282647373s
+[INFO] [06-01|06:47:52.184] [p2p] GoodPeers 
+[INFO] [06-01|06:47:58.574] Recovering senders                       recovered=3552500 elapsed=18m5.767704997s
+[INFO] [06-01|06:48:07.086] Recovering senders                       recovered=3580000 elapsed=18m14.279646456s
+[INFO] [06-01|06:48:15.616] Recovering senders                       recovered=3607500 elapsed=18m22.809326177s
+[INFO] [06-01|06:48:24.116] Recovering senders                       recovered=3635000 elapsed=18m31.309558653s
+[INFO] [06-01|06:48:32.581] Recovering senders                       recovered=3662500 elapsed=18m39.774152187s
+[INFO] [06-01|06:48:41.078] Recovering senders                       recovered=3690000 elapsed=18m48.27128509s
+[INFO] [06-01|06:48:49.555] Recovering senders                       recovered=3717500 elapsed=18m56.748678446s
+[INFO] [06-01|06:48:58.040] Recovering senders                       recovered=3745000 elapsed=19m5.233516706s
+[INFO] [06-01|06:49:06.491] Recovering senders                       recovered=3772500 elapsed=19m13.684562718s
+[INFO] [06-01|06:49:14.923] Recovering senders                       recovered=3800000 elapsed=19m22.116450684s
+[INFO] [06-01|06:49:23.392] Recovering senders                       recovered=3827500 elapsed=19m30.584942416s
+[INFO] [06-01|06:49:31.840] Recovering senders                       recovered=3855000 elapsed=19m39.033163898s
+[INFO] [06-01|06:49:40.294] Recovering senders                       recovered=3882500 elapsed=19m47.486849159s
+[INFO] [06-01|06:49:48.741] Recovering senders                       recovered=3910000 elapsed=19m55.934165898s
+[INFO] [06-01|06:49:52.184] [p2p] GoodPeers 
+[INFO] [06-01|06:49:57.184] Recovering senders                       recovered=3937500 elapsed=20m4.377139488s
+[INFO] [06-01|06:50:05.633] Recovering senders                       recovered=3965000 elapsed=20m12.826059027s
+[INFO] [06-01|06:50:14.108] Recovering senders                       recovered=3992500 elapsed=20m21.300725639s
+[INFO] [06-01|06:50:22.521] Recovering senders                       recovered=4020000 elapsed=20m29.714273732s
+[INFO] [06-01|06:50:30.934] Recovering senders                       recovered=4047500 elapsed=20m38.127228629s
+[INFO] [06-01|06:50:34.380] Recovery: transactions not found         blockNum=4061224

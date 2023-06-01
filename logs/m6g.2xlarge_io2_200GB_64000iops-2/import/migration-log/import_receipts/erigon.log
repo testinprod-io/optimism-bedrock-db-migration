@@ -1,0 +1,40 @@
+[INFO] [06-01|06:13:01.980] logging to file system                   log dir=migration-log/import_receipts file prefix=erigon log level=info json=false
+[INFO] [06-01|06:13:01.980] Starting metrics server                  addr=http://127.0.0.1:6060/debug/metrics/prometheus
+[INFO] [06-01|06:13:01.990] Starting Erigon on Optimism Görli testnet... 
+[INFO] [06-01|06:13:01.991] Maximum peer count                       ETH=0 total=0
+[INFO] [06-01|06:13:01.991] starting HTTP APIs                       APIs=eth,erigon,engine
+[INFO] [06-01|06:13:01.991] torrent verbosity                        level=WRN
+[INFO] [06-01|06:13:04.094] Set global gas cap                       cap=50000000
+[INFO] [06-01|06:13:04.097] [Downloader] Runnning with               ipv6-enabled=true ipv4-enabled=true download.rate=16mb upload.rate=4mb
+[INFO] [06-01|06:13:04.097] Opening Database                         label=chaindata path=/home/ubuntu/op-erigon/erigon_db/chaindata
+[INFO] [06-01|06:13:04.097] [db] params: growStep=2GB, mapsSize=7TB, shrinkThreshold=-1, pageSize=4KB, label=chaindata, WriteMap=false, Durable=false, NoReadahead=true,  
+[INFO] [06-01|06:13:04.099] Initialised chain configuration          config="{ChainID: 420, Homestead: 0, DAO: <nil>, Tangerine Whistle: 0, Spurious Dragon: 0, Byzantium: 0, Constantinople: 0, Petersburg: 0, Istanbul: 0, Muir Glacier: 0, Berlin: 0, London: 4061224, Arrow Glacier: 4061224, Gray Glacier: 4061224, Terminal Total Difficulty: 0, Merge Netsplit: 4061224, Shanghai: <nil>, Cancun: <nil>, Prague: <nil>, Engine: unknown}" genesis=0xc1fc15cd51159b1f1e5cbc4b82e85c1447ddfa33c52cf1d98d14fba0d6354be1
+[INFO] [06-01|06:13:04.100] Effective                                prune_flags= snapshot_flags= history.v3=false
+[INFO] [06-01|06:13:04.100] Initialising Ethereum protocol           network=420
+[INFO] [06-01|06:13:04.100] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/op-erigon/erigon_db/ethash-dags count=2
+[INFO] [06-01|06:13:04.773] Starting private RPC server              on=127.0.0.1:9090
+[INFO] [06-01|06:13:04.773] new subscription to logs established 
+[INFO] [06-01|06:13:04.773] Importing receipts                       file=/tmp/migration-artifact/receipts.rlp
+[INFO] [06-01|06:13:12.774] Import receipts                          index=225000 elapsed=8.001023356s
+[INFO] [06-01|06:13:20.774] Import receipts                          index=447500 elapsed=16.001050852s
+[INFO] [06-01|06:13:28.774] Import receipts                          index=655000 elapsed=24.001005939s
+[INFO] [06-01|06:13:36.774] Import receipts                          index=857500 elapsed=32.000391635s
+[INFO] [06-01|06:13:44.774] Import receipts                          index=1060000 elapsed=40.000876419s
+[INFO] [06-01|06:13:52.773] Import receipts                          index=1272500 elapsed=48.000144347s
+[INFO] [06-01|06:14:00.774] Import receipts                          index=1478980 elapsed=56.00091913s
+[INFO] [06-01|06:14:08.774] Import receipts                          index=1686895 elapsed=1m4.000638975s
+[INFO] [06-01|06:14:16.774] Import receipts                          index=1882500 elapsed=1m12.000849135s
+[INFO] [06-01|06:14:24.774] Import receipts                          index=2064046 elapsed=1m20.000450242s
+[INFO] [06-01|06:14:32.773] Import receipts                          index=2237068 elapsed=1m28.000138499s
+[INFO] [06-01|06:14:40.774] Import receipts                          index=2402500 elapsed=1m36.000828456s
+[INFO] [06-01|06:14:48.774] Import receipts                          index=2572500 elapsed=1m44.00091746s
+[INFO] [06-01|06:14:56.773] Import receipts                          index=2747500 elapsed=1m52.000185333s
+[INFO] [06-01|06:15:04.101] [p2p] GoodPeers 
+[INFO] [06-01|06:15:04.774] Import receipts                          index=2910000 elapsed=2m0.000990539s
+[INFO] [06-01|06:15:12.773] Import receipts                          index=3045000 elapsed=2m8.000227098s
+[INFO] [06-01|06:15:20.774] Import receipts                          index=3212300 elapsed=2m16.001185808s
+[INFO] [06-01|06:15:28.774] Import receipts                          index=3395000 elapsed=2m24.000603591s
+[INFO] [06-01|06:15:36.773] Import receipts                          index=3547500 elapsed=2m32.000142682s
+[INFO] [06-01|06:15:44.774] Import receipts                          index=3732314 elapsed=2m40.000354275s
+[INFO] [06-01|06:15:52.774] Import receipts                          index=3905000 elapsed=2m48.000323818s
+[INFO] [06-01|06:16:00.458] Import receipts                          index=4061225 elapsed=2m55.68494418s

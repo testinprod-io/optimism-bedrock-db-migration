@@ -1,0 +1,24 @@
+[INFO] [06-01|06:12:01.773] logging to file system                   log dir=migration-log/import_totaldifficulty file prefix=erigon log level=info json=false
+[INFO] [06-01|06:12:01.773] Starting metrics server                  addr=http://127.0.0.1:6060/debug/metrics/prometheus
+[INFO] [06-01|06:12:01.782] Starting Erigon on Optimism Görli testnet... 
+[INFO] [06-01|06:12:01.783] Maximum peer count                       ETH=0 total=0
+[INFO] [06-01|06:12:01.784] starting HTTP APIs                       APIs=eth,erigon,engine
+[INFO] [06-01|06:12:01.784] torrent verbosity                        level=WRN
+[INFO] [06-01|06:12:03.887] Set global gas cap                       cap=50000000
+[INFO] [06-01|06:12:03.890] [Downloader] Runnning with               ipv6-enabled=true ipv4-enabled=true download.rate=16mb upload.rate=4mb
+[INFO] [06-01|06:12:03.890] Opening Database                         label=chaindata path=/home/ubuntu/op-erigon/erigon_db/chaindata
+[INFO] [06-01|06:12:03.890] [db] params: growStep=2GB, mapsSize=7TB, shrinkThreshold=-1, pageSize=4KB, label=chaindata, WriteMap=false, Durable=false, NoReadahead=true,  
+[INFO] [06-01|06:12:03.891] Initialised chain configuration          config="{ChainID: 420, Homestead: 0, DAO: <nil>, Tangerine Whistle: 0, Spurious Dragon: 0, Byzantium: 0, Constantinople: 0, Petersburg: 0, Istanbul: 0, Muir Glacier: 0, Berlin: 0, London: 4061224, Arrow Glacier: 4061224, Gray Glacier: 4061224, Terminal Total Difficulty: 0, Merge Netsplit: 4061224, Shanghai: <nil>, Cancun: <nil>, Prague: <nil>, Engine: unknown}" genesis=0xc1fc15cd51159b1f1e5cbc4b82e85c1447ddfa33c52cf1d98d14fba0d6354be1
+[INFO] [06-01|06:12:03.892] Effective                                prune_flags= snapshot_flags= history.v3=false
+[INFO] [06-01|06:12:03.892] Initialising Ethereum protocol           network=420
+[INFO] [06-01|06:12:03.892] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/op-erigon/erigon_db/ethash-dags count=2
+[INFO] [06-01|06:12:04.529] Starting private RPC server              on=127.0.0.1:9090
+[INFO] [06-01|06:12:04.529] new subscription to logs established 
+[INFO] [06-01|06:12:04.529] Importing total difficulty               file=/tmp/migration-artifact/totaldifficulty.rlp
+[INFO] [06-01|06:12:12.529] Import total difficulty                  index=582500 elapsed=8.000017943s
+[INFO] [06-01|06:12:20.530] Import total difficulty                  index=1160000 elapsed=16.0006967s
+[INFO] [06-01|06:12:28.529] Import total difficulty                  index=1740000 elapsed=24.000249734s
+[INFO] [06-01|06:12:36.531] Import total difficulty                  index=2322500 elapsed=32.001505161s
+[INFO] [06-01|06:12:44.530] Import total difficulty                  index=2890000 elapsed=40.000586164s
+[INFO] [06-01|06:12:52.529] Import total difficulty                  index=3447500 elapsed=48.00014396s
+[INFO] [06-01|06:13:00.529] Import total difficulty                  index=4022500 elapsed=56.000010767s
