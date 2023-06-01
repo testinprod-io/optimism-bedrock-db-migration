@@ -5,9 +5,22 @@ sudo apt update && sudo apt upgrade -y
 
 sudo apt install -y gcc g++ tmux jq make
 
+# determine architecture
+if [[ -n "$1" ]]; then
+    if [[ "$1" == "arm" || "$1" == "amd" ]]; then
+        ARCH=$1
+    else
+        echo "invalid arch."
+        exit 1
+    fi
+else
+    echo "Arch not set"
+    exit 1
+fi
+
 # install go
-wget https://go.dev/dl/go1.19.6.linux-arm64.tar.gz
-sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.19.6.linux-arm64.tar.gz
+wget https://go.dev/dl/go1.19.6.linux-"$ARCH"64.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.19.6.linux-"$ARCH"64.tar.gz
 echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
 source ~/.bashrc
 
