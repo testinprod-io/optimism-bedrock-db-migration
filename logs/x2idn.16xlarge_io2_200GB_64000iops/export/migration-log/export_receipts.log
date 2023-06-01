@@ -1,0 +1,84 @@
+INFO [06-01|08:12:06.710] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [06-01|08:12:06.711] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [06-01|08:12:06.713] Set global gas cap                       cap=50,000,000
+INFO [06-01|08:12:06.715] Using leveldb as the backing database 
+INFO [06-01|08:12:06.715] Allocated cache and file handles         database=/home/ubuntu/geth_db/geth/chaindata cache=512.00MiB handles=524,288 readonly=true
+INFO [06-01|08:12:07.042] Using LevelDB as the backing database 
+INFO [06-01|08:12:07.042] Found legacy ancient chain path          location=/home/ubuntu/geth_db/geth/chaindata/ancient
+INFO [06-01|08:12:07.043] Opened ancient database                  database=/home/ubuntu/geth_db/geth/chaindata/ancient readonly=true
+INFO [06-01|08:12:07.043] Disk storage enabled for ethash caches   dir=/home/ubuntu/geth_db/geth/ethash count=3
+INFO [06-01|08:12:07.043] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/.ethash             count=2
+INFO [06-01|08:12:07.044]  
+INFO [06-01|08:12:07.044] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [06-01|08:12:07.044] Chain ID:  420 (unknown) 
+INFO [06-01|08:12:07.044] Consensus: Optimism 
+INFO [06-01|08:12:07.044]  
+INFO [06-01|08:12:07.044] Pre-Merge hard forks (block based): 
+INFO [06-01|08:12:07.044]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [06-01|08:12:07.044]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [06-01|08:12:07.044]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [06-01|08:12:07.044]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [06-01|08:12:07.044]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [06-01|08:12:07.044]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [06-01|08:12:07.044]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [06-01|08:12:07.044]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [06-01|08:12:07.044]  - Muir Glacier:                #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md) 
+INFO [06-01|08:12:07.044]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [06-01|08:12:07.044]  - London:                      #4061224  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [06-01|08:12:07.044]  - Arrow Glacier:               #4061224  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md) 
+INFO [06-01|08:12:07.044]  - Gray Glacier:                #4061224  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md) 
+INFO [06-01|08:12:07.044]  
+INFO [06-01|08:12:07.044] Merge configured: 
+INFO [06-01|08:12:07.044]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [06-01|08:12:07.044]  - Network known to be merged: true 
+INFO [06-01|08:12:07.044]  - Total terminal difficulty:  0 
+INFO [06-01|08:12:07.044]  - Merge netsplit block:       #4061224  
+INFO [06-01|08:12:07.044]  
+INFO [06-01|08:12:07.044] Post-Merge hard forks (timestamp based): 
+INFO [06-01|08:12:07.044]  - Regolith:                    @1679079600 
+INFO [06-01|08:12:07.044]  
+INFO [06-01|08:12:07.044] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [06-01|08:12:07.044]  
+INFO [06-01|08:12:07.044] Loaded most recent local block           number=4,061,224 hash=0f7835..05175f td=0 age=4mo2w5d
+INFO [06-01|08:12:07.044] Loaded most recent local finalized block number=4,061,224 hash=0f7835..05175f td=0 age=4mo2w5d
+INFO [06-01|08:12:07.045] Exporting receipts                       file=/tmp/migration-artifact/receipts.rlp
+INFO [06-01|08:12:07.045] Exporting batch of receipts              count=4,061,225
+INFO [06-01|08:12:15.045] Exporting receipts                       exported=128,414 elapsed=8.000s
+INFO [06-01|08:12:23.045] Exporting receipts                       exported=257,574 elapsed=16.000s
+INFO [06-01|08:12:31.045] Exporting receipts                       exported=384,227 elapsed=24.000s
+INFO [06-01|08:12:39.045] Exporting receipts                       exported=510,408 elapsed=32.000s
+INFO [06-01|08:12:47.045] Exporting receipts                       exported=630,161 elapsed=40.000s
+INFO [06-01|08:12:55.045] Exporting receipts                       exported=745,194 elapsed=48.000s
+INFO [06-01|08:13:03.045] Exporting receipts                       exported=860,804 elapsed=56.000s
+INFO [06-01|08:13:11.046] Exporting receipts                       exported=975,793 elapsed=1m4.000s
+INFO [06-01|08:13:19.046] Exporting receipts                       exported=1,091,851 elapsed=1m12.000s
+INFO [06-01|08:13:27.046] Exporting receipts                       exported=1,212,703 elapsed=1m20.000s
+INFO [06-01|08:13:35.046] Exporting receipts                       exported=1,330,857 elapsed=1m28.000s
+INFO [06-01|08:13:43.046] Exporting receipts                       exported=1,444,953 elapsed=1m36.000s
+INFO [06-01|08:13:51.046] Exporting receipts                       exported=1,558,270 elapsed=1m44.001s
+INFO [06-01|08:13:59.046] Exporting receipts                       exported=1,676,952 elapsed=1m52.001s
+INFO [06-01|08:14:07.046] Exporting receipts                       exported=1,790,686 elapsed=2m0.001s
+INFO [06-01|08:14:15.046] Exporting receipts                       exported=1,897,515 elapsed=2m8.001s
+INFO [06-01|08:14:23.047] Exporting receipts                       exported=1,999,825 elapsed=2m16.001s
+INFO [06-01|08:14:31.047] Exporting receipts                       exported=2,100,912 elapsed=2m24.001s
+INFO [06-01|08:14:39.047] Exporting receipts                       exported=2,196,479 elapsed=2m32.001s
+INFO [06-01|08:14:47.047] Exporting receipts                       exported=2,286,544 elapsed=2m40.001s
+INFO [06-01|08:14:55.047] Exporting receipts                       exported=2,377,936 elapsed=2m48.001s
+INFO [06-01|08:15:03.047] Exporting receipts                       exported=2,475,815 elapsed=2m56.001s
+INFO [06-01|08:15:11.047] Exporting receipts                       exported=2,573,627 elapsed=3m4.002s
+INFO [06-01|08:15:19.047] Exporting receipts                       exported=2,674,969 elapsed=3m12.002s
+INFO [06-01|08:15:27.047] Exporting receipts                       exported=2,770,343 elapsed=3m20.002s
+INFO [06-01|08:15:35.047] Exporting receipts                       exported=2,862,256 elapsed=3m28.002s
+INFO [06-01|08:15:43.047] Exporting receipts                       exported=2,944,113 elapsed=3m36.002s
+INFO [06-01|08:15:51.047] Exporting receipts                       exported=3,033,313 elapsed=3m44.002s
+INFO [06-01|08:15:59.047] Exporting receipts                       exported=3,116,659 elapsed=3m52.002s
+INFO [06-01|08:16:07.048] Exporting receipts                       exported=3,221,158 elapsed=4m0.002s
+INFO [06-01|08:16:15.048] Exporting receipts                       exported=3,321,517 elapsed=4m8.002s
+INFO [06-01|08:16:23.048] Exporting receipts                       exported=3,418,485 elapsed=4m16.002s
+INFO [06-01|08:16:31.048] Exporting receipts                       exported=3,507,529 elapsed=4m24.002s
+INFO [06-01|08:16:39.048] Exporting receipts                       exported=3,609,231 elapsed=4m32.002s
+INFO [06-01|08:16:47.048] Exporting receipts                       exported=3,717,284 elapsed=4m40.002s
+INFO [06-01|08:16:55.048] Exporting receipts                       exported=3,815,787 elapsed=4m48.002s
+INFO [06-01|08:17:03.048] Exporting receipts                       exported=3,909,563 elapsed=4m56.003s
+INFO [06-01|08:17:11.048] Exporting receipts                       exported=4,002,446 elapsed=5m4.003s
+INFO [06-01|08:17:16.725] Exported receipts to                     file=/tmp/migration-artifact/receipts.rlp

@@ -1,0 +1,50 @@
+[INFO] [06-01|08:47:24.526] logging to file system                   log dir=migration-log/import_block file prefix=erigon log level=info json=false
+[INFO] [06-01|08:47:24.526] Starting metrics server                  addr=http://127.0.0.1:6060/debug/metrics/prometheus
+[INFO] [06-01|08:47:24.532] Starting Erigon on Optimism Görli testnet... 
+[INFO] [06-01|08:47:24.532] Maximum peer count                       ETH=0 total=0
+[INFO] [06-01|08:47:24.532] starting HTTP APIs                       APIs=eth,erigon,engine
+[INFO] [06-01|08:47:24.532] torrent verbosity                        level=WRN
+[INFO] [06-01|08:47:26.634] Set global gas cap                       cap=50000000
+[INFO] [06-01|08:47:26.636] [Downloader] Runnning with               ipv6-enabled=true ipv4-enabled=true download.rate=16mb upload.rate=4mb
+[INFO] [06-01|08:47:26.636] Opening Database                         label=chaindata path=/home/ubuntu/op-erigon/erigon_db/chaindata
+[INFO] [06-01|08:47:26.636] [db] params: growStep=2GB, mapsSize=7TB, shrinkThreshold=-1, pageSize=4KB, label=chaindata, WriteMap=false, Durable=false, NoReadahead=true,  
+[INFO] [06-01|08:47:26.637] Initialised chain configuration          config="{ChainID: 420, Homestead: 0, DAO: <nil>, Tangerine Whistle: 0, Spurious Dragon: 0, Byzantium: 0, Constantinople: 0, Petersburg: 0, Istanbul: 0, Muir Glacier: 0, Berlin: 0, London: 4061224, Arrow Glacier: 4061224, Gray Glacier: 4061224, Terminal Total Difficulty: 0, Merge Netsplit: 4061224, Shanghai: <nil>, Cancun: <nil>, Prague: <nil>, Engine: unknown}" genesis=0xc1fc15cd51159b1f1e5cbc4b82e85c1447ddfa33c52cf1d98d14fba0d6354be1
+[INFO] [06-01|08:47:26.637] Effective                                prune_flags= snapshot_flags= history.v3=false
+[INFO] [06-01|08:47:26.637] Initialising Ethereum protocol           network=420
+[INFO] [06-01|08:47:26.637] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/op-erigon/erigon_db/ethash-dags count=2
+[INFO] [06-01|08:47:26.637] Starting private RPC server              on=127.0.0.1:9090
+[INFO] [06-01|08:47:26.638] rpc filters: subscribing to Erigon events 
+[INFO] [06-01|08:47:26.638] new subscription to logs established 
+[INFO] [06-01|08:47:26.638] new subscription to newHeaders established 
+[INFO] [06-01|08:47:26.638] Importing blockchain                     file=/tmp/migration-artifact/blocks.rlp
+[INFO] [06-01|08:47:26.638] Blockchain execution                     execute=false
+[INFO] [06-01|08:47:26.638] Reading JWT secret                       path=/home/ubuntu/op-erigon/erigon_db/jwt.hex
+[INFO] [06-01|08:47:26.638] Generated JWT secret                     path=/home/ubuntu/op-erigon/erigon_db/jwt.hex
+[INFO] [06-01|08:47:26.638] HTTP endpoint opened for Engine API      url=127.0.0.1:8551 ws=true ws.compression=true
+[INFO] [06-01|08:47:26.640] HTTP endpoint opened                     url=127.0.0.1:8545 ws=false ws.compression=true grpc=false
+[INFO] [06-01|08:47:34.638] Import blockchain                        index=235000 elapsed=8.000101419s
+[INFO] [06-01|08:47:42.638] Import blockchain                        index=440000 elapsed=16.000425772s
+[INFO] [06-01|08:47:50.638] Import blockchain                        index=630000 elapsed=24.000381089s
+[INFO] [06-01|08:47:58.638] Import blockchain                        index=812500 elapsed=32.000024754s
+[INFO] [06-01|08:48:06.639] Import blockchain                        index=990000 elapsed=40.000949852s
+[INFO] [06-01|08:48:14.639] Import blockchain                        index=1167500 elapsed=48.000907771s
+[INFO] [06-01|08:48:22.639] Import blockchain                        index=1347500 elapsed=56.000830093s
+[INFO] [06-01|08:48:30.639] Import blockchain                        index=1522500 elapsed=1m4.00104252s
+[INFO] [06-01|08:48:38.639] Import blockchain                        index=1695000 elapsed=1m12.000941072s
+[INFO] [06-01|08:48:46.639] Import blockchain                        index=1868762 elapsed=1m20.001321921s
+[INFO] [06-01|08:48:54.639] Import blockchain                        index=2042500 elapsed=1m28.00064759s
+[INFO] [06-01|08:49:02.638] Import blockchain                        index=2215000 elapsed=1m36.000199719s
+[INFO] [06-01|08:49:10.638] Import blockchain                        index=2379770 elapsed=1m44.000556305s
+[INFO] [06-01|08:49:18.638] Import blockchain                        index=2535000 elapsed=1m52.000495867s
+[INFO] [06-01|08:49:26.638] [p2p] GoodPeers 
+[INFO] [06-01|08:49:26.638] Import blockchain                        index=2690000 elapsed=2m0.000010487s
+[INFO] [06-01|08:49:34.638] Import blockchain                        index=2842500 elapsed=2m8.000452011s
+[INFO] [06-01|08:49:42.638] Import blockchain                        index=2982500 elapsed=2m16.000384766s
+[INFO] [06-01|08:49:50.639] Import blockchain                        index=3117500 elapsed=2m24.001141024s
+[INFO] [06-01|08:49:58.638] Import blockchain                        index=3270000 elapsed=2m32.000254907s
+[INFO] [06-01|08:50:06.638] Import blockchain                        index=3412500 elapsed=2m40.000038913s
+[INFO] [06-01|08:50:14.638] Import blockchain                        index=3552500 elapsed=2m48.000511292s
+[INFO] [06-01|08:50:22.639] Import blockchain                        index=3700000 elapsed=2m56.000813925s
+[INFO] [06-01|08:50:30.638] Import blockchain                        index=3845000 elapsed=3m4.000083716s
+[INFO] [06-01|08:50:38.638] Import blockchain                        index=3995000 elapsed=3m12.000047403s
+[INFO] [06-01|08:50:42.275] Import blockchain                        index=4061224 elapsed=3m15.637120219s

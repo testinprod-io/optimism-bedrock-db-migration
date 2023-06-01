@@ -1,0 +1,64 @@
+[INFO] [06-01|08:59:21.275] logging to file system                   log dir=migration-log/recover_senders file prefix=erigon log level=info json=false
+[INFO] [06-01|08:59:21.275] Starting metrics server                  addr=http://127.0.0.1:6060/debug/metrics/prometheus
+[INFO] [06-01|08:59:21.281] Starting Erigon on Optimism Görli testnet... 
+[INFO] [06-01|08:59:21.282] Maximum peer count                       ETH=0 total=0
+[INFO] [06-01|08:59:21.282] starting HTTP APIs                       APIs=eth,erigon,engine
+[INFO] [06-01|08:59:21.282] torrent verbosity                        level=WRN
+[INFO] [06-01|08:59:23.384] Set global gas cap                       cap=50000000
+[INFO] [06-01|08:59:23.385] [Downloader] Runnning with               ipv6-enabled=true ipv4-enabled=true download.rate=16mb upload.rate=4mb
+[INFO] [06-01|08:59:23.385] Opening Database                         label=chaindata path=/home/ubuntu/op-erigon/erigon_db/chaindata
+[INFO] [06-01|08:59:23.385] [db] params: growStep=2GB, mapsSize=7TB, shrinkThreshold=-1, pageSize=4KB, label=chaindata, WriteMap=false, Durable=false, NoReadahead=true,  
+[INFO] [06-01|08:59:23.386] Initialised chain configuration          config="{ChainID: 420, Homestead: 0, DAO: <nil>, Tangerine Whistle: 0, Spurious Dragon: 0, Byzantium: 0, Constantinople: 0, Petersburg: 0, Istanbul: 0, Muir Glacier: 0, Berlin: 0, London: 4061224, Arrow Glacier: 4061224, Gray Glacier: 4061224, Terminal Total Difficulty: 0, Merge Netsplit: 4061224, Shanghai: <nil>, Cancun: <nil>, Prague: <nil>, Engine: unknown}" genesis=0xc1fc15cd51159b1f1e5cbc4b82e85c1447ddfa33c52cf1d98d14fba0d6354be1
+[INFO] [06-01|08:59:23.386] Effective                                prune_flags= snapshot_flags= history.v3=false
+[INFO] [06-01|08:59:23.387] Initialising Ethereum protocol           network=420
+[INFO] [06-01|08:59:23.387] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/op-erigon/erigon_db/ethash-dags count=2
+[INFO] [06-01|08:59:23.725] Starting private RPC server              on=127.0.0.1:9090
+[INFO] [06-01|08:59:23.725] rpc filters: subscribing to Erigon events 
+[INFO] [06-01|08:59:23.725] new subscription to logs established 
+[INFO] [06-01|08:59:23.725] new subscription to newHeaders established 
+[INFO] [06-01|08:59:23.726] Recovering Senders 
+[INFO] [06-01|08:59:23.726] Recovery: transactions not found         blockNum=0
+[INFO] [06-01|08:59:23.726] Reading JWT secret                       path=/home/ubuntu/op-erigon/erigon_db/jwt.hex
+[INFO] [06-01|08:59:23.726] HTTP endpoint opened for Engine API      url=127.0.0.1:8551 ws=true ws.compression=true
+[INFO] [06-01|08:59:23.726] HTTP endpoint opened                     url=127.0.0.1:8545 ws=false ws.compression=true grpc=false
+[INFO] [06-01|08:59:31.877] Recovering senders                       recovered=105000 elapsed=8.151035509s
+[INFO] [06-01|08:59:39.897] Recovering senders                       recovered=210000 elapsed=16.171878671s
+[INFO] [06-01|08:59:47.916] Recovering senders                       recovered=315000 elapsed=24.190688224s
+[INFO] [06-01|08:59:56.076] Recovering senders                       recovered=425000 elapsed=32.35017277s
+[INFO] [06-01|09:00:04.099] Recovering senders                       recovered=530000 elapsed=40.373094402s
+[INFO] [06-01|09:00:12.163] Recovering senders                       recovered=635000 elapsed=48.437469238s
+[INFO] [06-01|09:00:20.280] Recovering senders                       recovered=740000 elapsed=56.554601202s
+[INFO] [06-01|09:00:28.398] Recovering senders                       recovered=845000 elapsed=1m4.672042128s
+[INFO] [06-01|09:00:36.518] Recovering senders                       recovered=950000 elapsed=1m12.792367574s
+[INFO] [06-01|09:00:44.662] Recovering senders                       recovered=1055000 elapsed=1m20.936066137s
+[INFO] [06-01|09:00:52.783] Recovering senders                       recovered=1160000 elapsed=1m29.057616669s
+[INFO] [06-01|09:01:00.869] Recovering senders                       recovered=1265000 elapsed=1m37.143308595s
+[INFO] [06-01|09:01:09.009] Recovering senders                       recovered=1370000 elapsed=1m45.283129613s
+[INFO] [06-01|09:01:17.118] Recovering senders                       recovered=1475000 elapsed=1m53.392212638s
+[INFO] [06-01|09:01:23.387] [p2p] GoodPeers 
+[INFO] [06-01|09:01:25.233] Recovering senders                       recovered=1580000 elapsed=2m1.507695187s
+[INFO] [06-01|09:01:33.330] Recovering senders                       recovered=1685000 elapsed=2m9.604398497s
+[INFO] [06-01|09:01:41.396] Recovering senders                       recovered=1790000 elapsed=2m17.670721102s
+[INFO] [06-01|09:01:49.467] Recovering senders                       recovered=1895000 elapsed=2m25.741048617s
+[INFO] [06-01|09:01:57.524] Recovering senders                       recovered=2000000 elapsed=2m33.798384096s
+[INFO] [06-01|09:02:05.592] Recovering senders                       recovered=2105000 elapsed=2m41.866411955s
+[INFO] [06-01|09:02:13.669] Recovering senders                       recovered=2210000 elapsed=2m49.943863744s
+[INFO] [06-01|09:02:21.790] Recovering senders                       recovered=2315000 elapsed=2m58.064604867s
+[INFO] [06-01|09:02:29.950] Recovering senders                       recovered=2420000 elapsed=3m6.224950337s
+[INFO] [06-01|09:02:38.082] Recovering senders                       recovered=2525000 elapsed=3m14.356672785s
+[INFO] [06-01|09:02:46.152] Recovering senders                       recovered=2627500 elapsed=3m22.426202483s
+[INFO] [06-01|09:02:54.170] Recovering senders                       recovered=2730000 elapsed=3m30.444033053s
+[INFO] [06-01|09:03:02.329] Recovering senders                       recovered=2835000 elapsed=3m38.603095082s
+[INFO] [06-01|09:03:10.519] Recovering senders                       recovered=2940000 elapsed=3m46.793365226s
+[INFO] [06-01|09:03:18.667] Recovering senders                       recovered=3045000 elapsed=3m54.941474202s
+[INFO] [06-01|09:03:23.387] [p2p] GoodPeers 
+[INFO] [06-01|09:03:26.810] Recovering senders                       recovered=3147500 elapsed=4m3.084649189s
+[INFO] [06-01|09:03:34.989] Recovering senders                       recovered=3252500 elapsed=4m11.263713317s
+[INFO] [06-01|09:03:43.020] Recovering senders                       recovered=3355000 elapsed=4m19.294177911s
+[INFO] [06-01|09:03:51.137] Recovering senders                       recovered=3455000 elapsed=4m27.411102538s
+[INFO] [06-01|09:03:59.169] Recovering senders                       recovered=3557500 elapsed=4m35.443569068s
+[INFO] [06-01|09:04:07.226] Recovering senders                       recovered=3660000 elapsed=4m43.500560701s
+[INFO] [06-01|09:04:15.247] Recovering senders                       recovered=3762500 elapsed=4m51.521923998s
+[INFO] [06-01|09:04:23.283] Recovering senders                       recovered=3865000 elapsed=4m59.557083271s
+[INFO] [06-01|09:04:31.476] Recovering senders                       recovered=3970000 elapsed=5m7.750154365s
+[INFO] [06-01|09:04:38.412] Recovery: transactions not found         blockNum=4061224
