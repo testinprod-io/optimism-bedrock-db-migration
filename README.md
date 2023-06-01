@@ -58,10 +58,10 @@ Parallelizable to reduce to $7902$ s $\simeq 2.20$ h.
 
 |   | Goerli | Mainnet |
 |---|--------|---------|
-| Import Blocks           | $198$ s  | $198 \times A_{B} 5047$ s |
-| Import Total Difficulty | $36$ s   | $36  \times A_{B} 918$ s |
-| Import Receipts         | $100$ s  | $100 \times A_{B} 2549$ s |
-| Import State            | $220$ s  | $220 \times A_{S} 7021$ s |
-| Recover Log Index       | $158$ s  | $158 \times A_{B} 4028$ s |
-| Recover Senders         | $319$ s  | $319 \times A_{B} 8132$ s |
+| Import Blocks           | $198$ s  | $198 \times A_{B} \simeq 5047$ s |
+| Import Total Difficulty | $36$ s   | $36  \times A_{B} \simeq 918$ s |
+| Import Receipts         | $100$ s  | $100 \times A_{B} \simeq 2549$ s |
+| Import State            | $220$ s  | $220 \times A_{S} \simeq 7021$ s |
+| Recover Log Index       | $158$ s  | $158 \times A_{B} \simeq 4028$ s |
+| Recover Senders         | $319$ s  | $319 \times A_{B} \simeq 8132$ s |
 | Total Time              | $1031$ s | $\Sigma = 27695$ s $\simeq 7.69$ h |
