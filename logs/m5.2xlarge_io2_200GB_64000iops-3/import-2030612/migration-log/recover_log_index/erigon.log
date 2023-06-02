@@ -1,0 +1,33 @@
+[INFO] [06-02|06:57:13.637] logging to file system                   log dir=migration-log/recover_log_index file prefix=erigon log level=info json=false
+[INFO] [06-02|06:57:13.637] Starting metrics server                  addr=http://127.0.0.1:6060/debug/metrics/prometheus
+[INFO] [06-02|06:57:13.645] Starting Erigon on Optimism Görli testnet... 
+[INFO] [06-02|06:57:13.646] Maximum peer count                       ETH=0 total=0
+[INFO] [06-02|06:57:13.646] starting HTTP APIs                       APIs=eth,erigon,engine
+[INFO] [06-02|06:57:13.646] torrent verbosity                        level=WRN
+[INFO] [06-02|06:57:15.749] Set global gas cap                       cap=50000000
+[INFO] [06-02|06:57:15.751] [Downloader] Runnning with               ipv6-enabled=true ipv4-enabled=true download.rate=16mb upload.rate=4mb
+[INFO] [06-02|06:57:15.751] Opening Database                         label=chaindata path=/home/ubuntu/op-erigon/erigon_db/chaindata
+[INFO] [06-02|06:57:15.751] [db] params: growStep=2GB, mapsSize=7TB, shrinkThreshold=-1, pageSize=4KB, label=chaindata, WriteMap=false, Durable=false, NoReadahead=true,  
+[INFO] [06-02|06:57:15.753] Initialised chain configuration          config="{ChainID: 420, Homestead: 0, DAO: <nil>, Tangerine Whistle: 0, Spurious Dragon: 0, Byzantium: 0, Constantinople: 0, Petersburg: 0, Istanbul: 0, Muir Glacier: 0, Berlin: 0, London: 4061224, Arrow Glacier: 4061224, Gray Glacier: 4061224, Terminal Total Difficulty: 0, Merge Netsplit: 4061224, Shanghai: <nil>, Cancun: <nil>, Prague: <nil>, Engine: unknown}" genesis=0xc1fc15cd51159b1f1e5cbc4b82e85c1447ddfa33c52cf1d98d14fba0d6354be1
+[INFO] [06-02|06:57:15.753] Effective                                prune_flags= snapshot_flags= history.v3=false
+[INFO] [06-02|06:57:15.753] Initialising Ethereum protocol           network=420
+[INFO] [06-02|06:57:15.753] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/op-erigon/erigon_db/ethash-dags count=2
+[INFO] [06-02|06:57:16.186] Starting private RPC server              on=localhost:12345
+[INFO] [06-02|06:57:16.187] new subscription to logs established 
+[INFO] [06-02|06:57:16.187] rpc filters: subscribing to Erigon events 
+[INFO] [06-02|06:57:16.187] new subscription to newHeaders established 
+[INFO] [06-02|06:57:16.187] Recovering Log Index 
+[INFO] [06-02|06:57:16.187] Reading JWT secret                       path=/home/ubuntu/op-erigon/erigon_db/jwt.hex
+[INFO] [06-02|06:57:16.188] HTTP endpoint opened for Engine API      url=127.0.0.1:8551 ws=true ws.compression=true
+[INFO] [06-02|06:57:16.188] HTTP endpoint opened                     url=127.0.0.1:8545 ws=false ws.compression=true grpc=false
+[INFO] [06-02|06:57:24.241] Recovering Log Index                     recovered=235000 elapsed=8.053378079s
+[INFO] [06-02|06:57:32.299] Recovering Log Index                     recovered=455000 elapsed=16.111902512s
+[INFO] [06-02|06:57:40.308] Recovering Log Index                     recovered=645000 elapsed=24.12048811s
+[INFO] [06-02|06:57:48.327] Recovering Log Index                     recovered=820000 elapsed=32.139805074s
+[INFO] [06-02|06:57:56.396] Recovering Log Index                     recovered=987500 elapsed=40.208415818s
+[INFO] [06-02|06:58:04.410] Recovering Log Index                     recovered=1157500 elapsed=48.223103916s
+[INFO] [06-02|06:58:12.469] Recovering Log Index                     recovered=1335000 elapsed=56.282113462s
+[INFO] [06-02|06:58:20.486] Recovering Log Index                     recovered=1490000 elapsed=1m4.298909859s
+[INFO] [06-02|06:58:28.605] Recovering Log Index                     recovered=1650000 elapsed=1m12.417595432s
+[INFO] [06-02|06:58:36.678] Recovering Log Index                     recovered=1805000 elapsed=1m20.490828454s
+[INFO] [06-02|06:58:44.810] Recovering Log Index                     recovered=1940000 elapsed=1m28.622492292s

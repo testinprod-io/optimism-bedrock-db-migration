@@ -1,0 +1,59 @@
+INFO [06-02|07:06:12.868] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [06-02|07:06:12.869] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [06-02|07:06:12.872] Set global gas cap                       cap=50,000,000
+INFO [06-02|07:06:12.875] Using leveldb as the backing database 
+INFO [06-02|07:06:12.875] Allocated cache and file handles         database=/home/ubuntu/geth_db/geth/chaindata cache=512.00MiB handles=524,288 readonly=true
+INFO [06-02|07:06:13.160] Using LevelDB as the backing database 
+INFO [06-02|07:06:13.160] Found legacy ancient chain path          location=/home/ubuntu/geth_db/geth/chaindata/ancient
+INFO [06-02|07:06:13.160] Opened ancient database                  database=/home/ubuntu/geth_db/geth/chaindata/ancient readonly=true
+INFO [06-02|07:06:13.163] Disk storage enabled for ethash caches   dir=/home/ubuntu/geth_db/geth/ethash count=3
+INFO [06-02|07:06:13.163] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/.ethash             count=2
+INFO [06-02|07:06:13.163]  
+INFO [06-02|07:06:13.164] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [06-02|07:06:13.164] Chain ID:  420 (unknown) 
+INFO [06-02|07:06:13.164] Consensus: Optimism 
+INFO [06-02|07:06:13.164]  
+INFO [06-02|07:06:13.164] Pre-Merge hard forks (block based): 
+INFO [06-02|07:06:13.164]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [06-02|07:06:13.164]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [06-02|07:06:13.164]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [06-02|07:06:13.164]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [06-02|07:06:13.164]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [06-02|07:06:13.164]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [06-02|07:06:13.164]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [06-02|07:06:13.164]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [06-02|07:06:13.164]  - Muir Glacier:                #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md) 
+INFO [06-02|07:06:13.164]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [06-02|07:06:13.164]  - London:                      #4061224  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [06-02|07:06:13.164]  - Arrow Glacier:               #4061224  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md) 
+INFO [06-02|07:06:13.164]  - Gray Glacier:                #4061224  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md) 
+INFO [06-02|07:06:13.164]  
+INFO [06-02|07:06:13.164] Merge configured: 
+INFO [06-02|07:06:13.164]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [06-02|07:06:13.164]  - Network known to be merged: true 
+INFO [06-02|07:06:13.164]  - Total terminal difficulty:  0 
+INFO [06-02|07:06:13.164]  - Merge netsplit block:       #4061224  
+INFO [06-02|07:06:13.164]  
+INFO [06-02|07:06:13.164] Post-Merge hard forks (timestamp based): 
+INFO [06-02|07:06:13.164]  - Regolith:                    @1679079600 
+INFO [06-02|07:06:13.164]  
+INFO [06-02|07:06:13.164] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [06-02|07:06:13.164]  
+INFO [06-02|07:06:13.165] Loaded most recent local block           number=4,061,224 hash=0f7835..05175f td=0 age=4mo2w6d
+INFO [06-02|07:06:13.165] Loaded most recent local finalized block number=4,061,224 hash=0f7835..05175f td=0 age=4mo2w6d
+INFO [06-02|07:06:13.165] Exporting blockchain                     file=/tmp/migration-artifact/blocks.rlp
+INFO [06-02|07:06:13.166] Exporting batch of blocks                count=3,045,919
+INFO [06-02|07:06:21.166] Exporting blocks                         exported=226,609 elapsed=8.000s
+INFO [06-02|07:06:29.166] Exporting blocks                         exported=451,229 elapsed=16.000s
+INFO [06-02|07:06:37.166] Exporting blocks                         exported=672,904 elapsed=24.000s
+INFO [06-02|07:06:45.166] Exporting blocks                         exported=894,806 elapsed=32.000s
+INFO [06-02|07:06:53.166] Exporting blocks                         exported=1,115,441 elapsed=40.000s
+INFO [06-02|07:07:01.166] Exporting blocks                         exported=1,336,863 elapsed=48.000s
+INFO [06-02|07:07:09.166] Exporting blocks                         exported=1,557,834 elapsed=56.000s
+INFO [06-02|07:07:17.166] Exporting blocks                         exported=1,780,566 elapsed=1m4.000s
+INFO [06-02|07:07:25.166] Exporting blocks                         exported=2,004,047 elapsed=1m12.000s
+INFO [06-02|07:07:33.166] Exporting blocks                         exported=2,225,343 elapsed=1m20.000s
+INFO [06-02|07:07:41.166] Exporting blocks                         exported=2,442,014 elapsed=1m28.000s
+INFO [06-02|07:07:49.166] Exporting blocks                         exported=2,656,927 elapsed=1m36.000s
+INFO [06-02|07:07:57.166] Exporting blocks                         exported=2,871,387 elapsed=1m44.000s
+INFO [06-02|07:08:03.853] Exported blockchain to                   file=/tmp/migration-artifact/blocks.rlp

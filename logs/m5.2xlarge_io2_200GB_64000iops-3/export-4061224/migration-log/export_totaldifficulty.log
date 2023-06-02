@@ -1,0 +1,62 @@
+INFO [06-02|10:12:02.847] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [06-02|10:12:02.849] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [06-02|10:12:02.852] Set global gas cap                       cap=50,000,000
+INFO [06-02|10:12:02.855] Using leveldb as the backing database 
+INFO [06-02|10:12:02.855] Allocated cache and file handles         database=/home/ubuntu/geth_db/geth/chaindata cache=512.00MiB handles=524,288 readonly=true
+INFO [06-02|10:12:03.162] Using LevelDB as the backing database 
+INFO [06-02|10:12:03.162] Found legacy ancient chain path          location=/home/ubuntu/geth_db/geth/chaindata/ancient
+INFO [06-02|10:12:03.162] Opened ancient database                  database=/home/ubuntu/geth_db/geth/chaindata/ancient readonly=true
+INFO [06-02|10:12:03.164] Disk storage enabled for ethash caches   dir=/home/ubuntu/geth_db/geth/ethash count=3
+INFO [06-02|10:12:03.164] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/.ethash             count=2
+INFO [06-02|10:12:03.165]  
+INFO [06-02|10:12:03.165] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [06-02|10:12:03.165] Chain ID:  420 (unknown) 
+INFO [06-02|10:12:03.165] Consensus: Optimism 
+INFO [06-02|10:12:03.165]  
+INFO [06-02|10:12:03.165] Pre-Merge hard forks (block based): 
+INFO [06-02|10:12:03.165]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [06-02|10:12:03.165]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [06-02|10:12:03.165]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [06-02|10:12:03.165]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [06-02|10:12:03.165]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [06-02|10:12:03.165]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [06-02|10:12:03.165]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [06-02|10:12:03.165]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [06-02|10:12:03.165]  - Muir Glacier:                #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md) 
+INFO [06-02|10:12:03.165]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [06-02|10:12:03.165]  - London:                      #4061224  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [06-02|10:12:03.165]  - Arrow Glacier:               #4061224  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md) 
+INFO [06-02|10:12:03.165]  - Gray Glacier:                #4061224  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md) 
+INFO [06-02|10:12:03.165]  
+INFO [06-02|10:12:03.165] Merge configured: 
+INFO [06-02|10:12:03.165]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [06-02|10:12:03.165]  - Network known to be merged: true 
+INFO [06-02|10:12:03.165]  - Total terminal difficulty:  0 
+INFO [06-02|10:12:03.165]  - Merge netsplit block:       #4061224  
+INFO [06-02|10:12:03.165]  
+INFO [06-02|10:12:03.165] Post-Merge hard forks (timestamp based): 
+INFO [06-02|10:12:03.165]  - Regolith:                    @1679079600 
+INFO [06-02|10:12:03.165]  
+INFO [06-02|10:12:03.165] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [06-02|10:12:03.165]  
+INFO [06-02|10:12:03.166] Loaded most recent local block           number=4,061,224 hash=0f7835..05175f td=0 age=4mo2w6d
+INFO [06-02|10:12:03.166] Loaded most recent local finalized block number=4,061,224 hash=0f7835..05175f td=0 age=4mo2w6d
+INFO [06-02|10:12:03.167] Exporting total difficulty               file=/tmp/migration-artifact/totaldifficulty.rlp
+INFO [06-02|10:12:03.167] Exporting batch of total difficulty      count=4,061,225
+INFO [06-02|10:12:11.167] Exporting total difficulty               exported=263,113 elapsed=8.000s
+INFO [06-02|10:12:19.167] Exporting total difficulty               exported=521,276 elapsed=16.000s
+INFO [06-02|10:12:27.167] Exporting total difficulty               exported=770,921 elapsed=24.000s
+INFO [06-02|10:12:35.167] Exporting total difficulty               exported=1,024,914 elapsed=32.000s
+INFO [06-02|10:12:43.167] Exporting total difficulty               exported=1,279,369 elapsed=40.000s
+INFO [06-02|10:12:51.167] Exporting total difficulty               exported=1,534,725 elapsed=48.000s
+INFO [06-02|10:12:59.167] Exporting total difficulty               exported=1,790,779 elapsed=56.000s
+INFO [06-02|10:13:07.167] Exporting total difficulty               exported=2,048,474 elapsed=1m4.000s
+INFO [06-02|10:13:15.167] Exporting total difficulty               exported=2,304,108 elapsed=1m12.000s
+INFO [06-02|10:13:23.167] Exporting total difficulty               exported=2,554,737 elapsed=1m20.000s
+INFO [06-02|10:13:31.167] Exporting total difficulty               exported=2,805,722 elapsed=1m28.000s
+INFO [06-02|10:13:39.168] Exporting total difficulty               exported=3,051,544 elapsed=1m36.000s
+INFO [06-02|10:13:47.168] Exporting total difficulty               exported=3,301,179 elapsed=1m44.000s
+INFO [06-02|10:13:55.168] Exporting total difficulty               exported=3,548,913 elapsed=1m52.000s
+INFO [06-02|10:14:03.168] Exporting total difficulty               exported=3,798,081 elapsed=2m0.000s
+INFO [06-02|10:14:11.168] Exporting total difficulty               exported=4,022,312 elapsed=2m8.001s
+INFO [06-02|10:14:13.058] Exported total difficulty to             file=/tmp/migration-artifact/totaldifficulty.rlp

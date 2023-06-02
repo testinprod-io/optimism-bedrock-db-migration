@@ -1,0 +1,99 @@
+[INFO] [06-02|10:24:13.705] logging to file system                   log dir=migration-log/import_block file prefix=erigon log level=info json=false
+[INFO] [06-02|10:24:13.705] Starting metrics server                  addr=http://127.0.0.1:6060/debug/metrics/prometheus
+[INFO] [06-02|10:24:13.713] Starting Erigon on Optimism Görli testnet... 
+[INFO] [06-02|10:24:13.714] Maximum peer count                       ETH=0 total=0
+[INFO] [06-02|10:24:13.714] starting HTTP APIs                       APIs=eth,erigon,engine
+[INFO] [06-02|10:24:13.714] torrent verbosity                        level=WRN
+[INFO] [06-02|10:24:15.816] Set global gas cap                       cap=50000000
+[INFO] [06-02|10:24:15.818] [Downloader] Runnning with               ipv6-enabled=true ipv4-enabled=true download.rate=16mb upload.rate=4mb
+[INFO] [06-02|10:24:15.818] Opening Database                         label=chaindata path=/home/ubuntu/op-erigon/erigon_db/chaindata
+[INFO] [06-02|10:24:15.818] [db] params: growStep=2GB, mapsSize=7TB, shrinkThreshold=-1, pageSize=4KB, label=chaindata, WriteMap=false, Durable=false, NoReadahead=true,  
+[INFO] [06-02|10:24:15.819] Initialised chain configuration          config="{ChainID: 420, Homestead: 0, DAO: <nil>, Tangerine Whistle: 0, Spurious Dragon: 0, Byzantium: 0, Constantinople: 0, Petersburg: 0, Istanbul: 0, Muir Glacier: 0, Berlin: 0, London: 4061224, Arrow Glacier: 4061224, Gray Glacier: 4061224, Terminal Total Difficulty: 0, Merge Netsplit: 4061224, Shanghai: <nil>, Cancun: <nil>, Prague: <nil>, Engine: unknown}" genesis=0xc1fc15cd51159b1f1e5cbc4b82e85c1447ddfa33c52cf1d98d14fba0d6354be1
+[INFO] [06-02|10:24:15.819] Effective                                prune_flags= snapshot_flags= history.v3=false
+[INFO] [06-02|10:24:15.820] Initialising Ethereum protocol           network=420
+[INFO] [06-02|10:24:15.820] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/op-erigon/erigon_db/ethash-dags count=2
+[INFO] [06-02|10:24:15.820] Starting private RPC server              on=localhost:12345
+[INFO] [06-02|10:24:15.820] new subscription to logs established 
+[INFO] [06-02|10:24:15.821] rpc filters: subscribing to Erigon events 
+[INFO] [06-02|10:24:15.821] new subscription to newHeaders established 
+[INFO] [06-02|10:24:15.821] Importing blockchain                     file=/tmp/migration-artifact/blocks.rlp
+[INFO] [06-02|10:24:15.821] Blockchain execution                     execute=false
+[INFO] [06-02|10:24:15.821] Reading JWT secret                       path=/home/ubuntu/op-erigon/erigon_db/jwt.hex
+[INFO] [06-02|10:24:15.821] Generated JWT secret                     path=/home/ubuntu/op-erigon/erigon_db/jwt.hex
+[INFO] [06-02|10:24:15.821] HTTP endpoint opened for Engine API      url=127.0.0.1:8551 ws=true ws.compression=true
+[INFO] [06-02|10:24:15.822] HTTP endpoint opened                     url=127.0.0.1:8545 ws=false ws.compression=true grpc=false
+[INFO] [06-02|10:24:23.821] Import blockchain                        index=117500 elapsed=8.000086025s
+[INFO] [06-02|10:24:31.822] Import blockchain                        index=200000 elapsed=16.000763687s
+[INFO] [06-02|10:24:39.822] Import blockchain                        index=275000 elapsed=24.000799993s
+[INFO] [06-02|10:24:47.822] Import blockchain                        index=345000 elapsed=32.001004638s
+[INFO] [06-02|10:24:55.822] Import blockchain                        index=412500 elapsed=40.000665321s
+[INFO] [06-02|10:25:03.821] Import blockchain                        index=477500 elapsed=48.000184079s
+[INFO] [06-02|10:25:11.822] Import blockchain                        index=540000 elapsed=56.001042981s
+[INFO] [06-02|10:25:19.822] Import blockchain                        index=605000 elapsed=1m4.000827067s
+[INFO] [06-02|10:25:27.821] Import blockchain                        index=665000 elapsed=1m12.000305507s
+[INFO] [06-02|10:25:35.822] Import blockchain                        index=727500 elapsed=1m20.001040703s
+[INFO] [06-02|10:25:43.822] Import blockchain                        index=787500 elapsed=1m28.000573825s
+[INFO] [06-02|10:25:51.821] Import blockchain                        index=847500 elapsed=1m36.000243216s
+[INFO] [06-02|10:25:59.822] Import blockchain                        index=907500 elapsed=1m44.000909685s
+[INFO] [06-02|10:26:07.822] Import blockchain                        index=967500 elapsed=1m52.00078909s
+[INFO] [06-02|10:26:15.821] Import blockchain                        index=1027500 elapsed=2m0.000112014s
+[INFO] [06-02|10:26:15.821] [p2p] GoodPeers 
+[INFO] [06-02|10:26:23.822] Import blockchain                        index=1087500 elapsed=2m8.000788899s
+[INFO] [06-02|10:26:31.821] Import blockchain                        index=1147500 elapsed=2m16.000466365s
+[INFO] [06-02|10:26:39.821] Import blockchain                        index=1207500 elapsed=2m24.000186577s
+[INFO] [06-02|10:26:47.821] Import blockchain                        index=1270000 elapsed=2m32.000216231s
+[INFO] [06-02|10:26:55.822] Import blockchain                        index=1330000 elapsed=2m40.000636229s
+[INFO] [06-02|10:27:03.821] Import blockchain                        index=1387500 elapsed=2m48.000188863s
+[INFO] [06-02|10:27:11.821] Import blockchain                        index=1447500 elapsed=2m56.0001639s
+[INFO] [06-02|10:27:19.821] Import blockchain                        index=1505000 elapsed=3m4.000303688s
+[INFO] [06-02|10:27:27.822] Import blockchain                        index=1562500 elapsed=3m12.000845924s
+[INFO] [06-02|10:27:35.822] Import blockchain                        index=1620000 elapsed=3m20.00105766s
+[INFO] [06-02|10:27:43.821] Import blockchain                        index=1677500 elapsed=3m28.000189331s
+[INFO] [06-02|10:27:51.822] Import blockchain                        index=1735000 elapsed=3m36.000991241s
+[INFO] [06-02|10:27:59.822] Import blockchain                        index=1792500 elapsed=3m44.000642847s
+[INFO] [06-02|10:28:07.821] Import blockchain                        index=1850000 elapsed=3m52.000517634s
+[INFO] [06-02|10:28:15.821] [p2p] GoodPeers 
+[INFO] [06-02|10:28:15.822] Import blockchain                        index=1907500 elapsed=4m0.000639825s
+[INFO] [06-02|10:28:23.821] Import blockchain                        index=1965000 elapsed=4m8.000132664s
+[INFO] [06-02|10:28:31.821] Import blockchain                        index=2022500 elapsed=4m16.000154243s
+[INFO] [06-02|10:28:39.822] Import blockchain                        index=2080000 elapsed=4m24.000623715s
+[INFO] [06-02|10:28:47.822] Import blockchain                        index=2137500 elapsed=4m32.000913158s
+[INFO] [06-02|10:28:55.822] Import blockchain                        index=2195000 elapsed=4m40.00095559s
+[INFO] [06-02|10:29:03.822] Import blockchain                        index=2252500 elapsed=4m48.001005815s
+[INFO] [06-02|10:29:11.821] Import blockchain                        index=2307500 elapsed=4m56.000470033s
+[INFO] [06-02|10:29:19.821] Import blockchain                        index=2365000 elapsed=5m4.000129245s
+[INFO] [06-02|10:29:27.822] Import blockchain                        index=2420000 elapsed=5m12.000700208s
+[INFO] [06-02|10:29:35.821] Import blockchain                        index=2475000 elapsed=5m20.000131335s
+[INFO] [06-02|10:29:43.822] Import blockchain                        index=2530000 elapsed=5m28.000890623s
+[INFO] [06-02|10:29:51.821] Import blockchain                        index=2582500 elapsed=5m36.000050789s
+[INFO] [06-02|10:29:59.821] Import blockchain                        index=2637500 elapsed=5m44.000479142s
+[INFO] [06-02|10:30:07.822] Import blockchain                        index=2692500 elapsed=5m52.000941976s
+[INFO] [06-02|10:30:15.821] [p2p] GoodPeers 
+[INFO] [06-02|10:30:15.822] Import blockchain                        index=2747500 elapsed=6m0.000639552s
+[INFO] [06-02|10:30:23.822] Import blockchain                        index=2800000 elapsed=6m8.000525965s
+[INFO] [06-02|10:30:31.822] Import blockchain                        index=2855000 elapsed=6m16.000690147s
+[INFO] [06-02|10:30:39.821] Import blockchain                        index=2905000 elapsed=6m24.00015979s
+[INFO] [06-02|10:30:47.822] Import blockchain                        index=2955000 elapsed=6m32.001041113s
+[INFO] [06-02|10:30:55.822] Import blockchain                        index=3005000 elapsed=6m40.000741018s
+[INFO] [06-02|10:31:03.822] Import blockchain                        index=3055000 elapsed=6m48.000630009s
+[INFO] [06-02|10:31:11.822] Import blockchain                        index=3102500 elapsed=6m56.000642468s
+[INFO] [06-02|10:31:19.822] Import blockchain                        index=3155000 elapsed=7m4.000909226s
+[INFO] [06-02|10:31:27.822] Import blockchain                        index=3207500 elapsed=7m12.001012447s
+[INFO] [06-02|10:31:35.822] Import blockchain                        index=3260000 elapsed=7m20.000815825s
+[INFO] [06-02|10:31:43.821] Import blockchain                        index=3310000 elapsed=7m28.000259619s
+[INFO] [06-02|10:31:51.822] Import blockchain                        index=3362500 elapsed=7m36.000914077s
+[INFO] [06-02|10:31:59.821] Import blockchain                        index=3412500 elapsed=7m44.00047678s
+[INFO] [06-02|10:32:07.821] Import blockchain                        index=3460000 elapsed=7m52.000073181s
+[INFO] [06-02|10:32:15.821] [p2p] GoodPeers 
+[INFO] [06-02|10:32:15.822] Import blockchain                        index=3510000 elapsed=8m0.000979347s
+[INFO] [06-02|10:32:23.821] Import blockchain                        index=3560000 elapsed=8m8.000117057s
+[INFO] [06-02|10:32:31.821] Import blockchain                        index=3612500 elapsed=8m16.000144627s
+[INFO] [06-02|10:32:39.822] Import blockchain                        index=3662500 elapsed=8m24.000964495s
+[INFO] [06-02|10:32:47.822] Import blockchain                        index=3712500 elapsed=8m32.00085851s
+[INFO] [06-02|10:32:55.821] Import blockchain                        index=3765000 elapsed=8m40.000275706s
+[INFO] [06-02|10:33:03.822] Import blockchain                        index=3815000 elapsed=8m48.000630893s
+[INFO] [06-02|10:33:11.821] Import blockchain                        index=3867500 elapsed=8m56.000480701s
+[INFO] [06-02|10:33:19.822] Import blockchain                        index=3917500 elapsed=9m4.000833648s
+[INFO] [06-02|10:33:27.821] Import blockchain                        index=3970000 elapsed=9m12.000351861s
+[INFO] [06-02|10:33:35.822] Import blockchain                        index=4020000 elapsed=9m20.00092149s
+[INFO] [06-02|10:33:42.360] Import blockchain                        index=4061224 elapsed=9m26.53931441s

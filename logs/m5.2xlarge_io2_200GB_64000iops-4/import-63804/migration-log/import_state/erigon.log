@@ -1,0 +1,35 @@
+[INFO] [06-02|10:05:52.614] logging to file system                   log dir=migration-log/import_state file prefix=erigon log level=info json=false
+[INFO] [06-02|10:05:52.614] Starting metrics server                  addr=http://127.0.0.1:6060/debug/metrics/prometheus
+[INFO] [06-02|10:05:52.622] Starting Erigon on Optimism Görli testnet... 
+[INFO] [06-02|10:05:52.623] Maximum peer count                       ETH=0 total=0
+[INFO] [06-02|10:05:52.623] starting HTTP APIs                       APIs=eth,erigon,engine
+[INFO] [06-02|10:05:52.623] torrent verbosity                        level=WRN
+[INFO] [06-02|10:05:54.727] Set global gas cap                       cap=50000000
+[INFO] [06-02|10:05:54.729] [Downloader] Runnning with               ipv6-enabled=true ipv4-enabled=true download.rate=16mb upload.rate=4mb
+[INFO] [06-02|10:05:54.729] Opening Database                         label=chaindata path=/home/ubuntu/op-erigon/erigon_db/chaindata
+[INFO] [06-02|10:05:54.729] [db] params: growStep=2GB, mapsSize=7TB, shrinkThreshold=-1, pageSize=4KB, label=chaindata, WriteMap=false, Durable=false, NoReadahead=true,  
+[INFO] [06-02|10:05:54.730] Initialised chain configuration          config="{ChainID: 420, Homestead: 0, DAO: <nil>, Tangerine Whistle: 0, Spurious Dragon: 0, Byzantium: 0, Constantinople: 0, Petersburg: 0, Istanbul: 0, Muir Glacier: 0, Berlin: 0, London: 4061224, Arrow Glacier: 4061224, Gray Glacier: 4061224, Terminal Total Difficulty: 0, Merge Netsplit: 4061224, Shanghai: <nil>, Cancun: <nil>, Prague: <nil>, Engine: unknown}" genesis=0xc1fc15cd51159b1f1e5cbc4b82e85c1447ddfa33c52cf1d98d14fba0d6354be1
+[INFO] [06-02|10:05:54.731] Effective                                prune_flags= snapshot_flags= history.v3=false
+[INFO] [06-02|10:05:54.731] Initialising Ethereum protocol           network=420
+[INFO] [06-02|10:05:54.731] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/op-erigon/erigon_db/ethash-dags count=2
+[INFO] [06-02|10:05:55.173] Starting private RPC server              on=localhost:12345
+[INFO] [06-02|10:05:55.173] new subscription to logs established 
+[INFO] [06-02|10:05:55.173] Database sanity check for block number   blockNumber=4061224 checkEmpty=true
+[INFO] [06-02|10:05:55.173] World State Trie Root Calculation        elapsed=311ns
+[INFO] [06-02|10:05:55.173] State trie must by empty 
+[INFO] [06-02|10:05:55.173] state root consistent with target root 
+[INFO] [06-02|10:05:55.173] Importing state                          file=/tmp/migration-artifact/world_trie_state.jsonl stream=true
+[INFO] [06-02|10:05:55.173] Importing state for block number         blockNumber=4061224
+[INFO] [06-02|10:05:55.173] Walk accounts                            index=0 elapsed=73.63µs
+[INFO] [06-02|10:05:55.173] Iterate accounts                         index=0 elapsed=111.467µs
+[INFO] [06-02|10:05:55.173] state root from header                   root=0xbfe2b059bc76c33556870c292048f1d28c9d498462a02a3c7aadb6edf1c2d21c
+[INFO] [06-02|10:06:03.174] Import state                             index=23048 elapsed=8.000684049s
+[INFO] [06-02|10:06:11.174] Import state                             index=23935 elapsed=16.000627314s
+[INFO] [06-02|10:06:19.175] Import state                             index=57891 elapsed=24.001322655s
+[INFO] [06-02|10:06:21.220] Import state                             index=63805 elapsed=26.047133486s
+[INFO] [06-02|10:06:48.744] newly calculated root                    root=0x43e6b9f37508d0ae41ced23be622571c276e6b9a8e2d3fd42981eed9bac7f7f5
+[INFO] [06-02|10:07:02.926] commit block                             elapsed=14.181254838s
+[INFO] [06-02|10:07:11.543] write change sets                        elapsed=8.617416686s
+[INFO] [06-02|10:07:35.203] write history                            elapsed=23.659677788s
+[INFO] [06-02|10:07:35.203] state root stored at blockheader         root=0xbfe2b059bc76c33556870c292048f1d28c9d498462a02a3c7aadb6edf1c2d21c
+[INFO] [06-02|10:07:35.203] state trie root mismatch, expected %x, got %x LOG15_ERROR=
