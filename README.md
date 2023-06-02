@@ -42,6 +42,35 @@ Summation of estimation for [data export](#time-estimation-for-export) and [data
 
 (Export) $2.20$ h + (Import) $7.69$ h = $9.89$ h
 
+Linearity comes from below observations:
+
+|   | Export Blocks | Export Total Difficulty | Export Receipts |
+|---|---------------|-------------------------|-----------------|
+| `quad`     | $37$ s  | $31$ s | $100$ s |
+| `quad * 2` | $73$ s  | $63$ s | $212$ s |
+| `quad * 3` | $112$ s | $96$ s | $350$ s |
+| `quad * 4` | $151$ s | $131$ s | $468$ s |
+
+Here, `quad * 4` equals total prebedrock blocks for optimism goerli.
+
+|   | Import Blocks | Import Total Difficulty | Import Receipts | Recover Log Index | Recover Senders | 
+|---|---------------|-------------------------|-----------------|-------------------|-----------------|
+| `quad`     | $106$ s | $12$ s | $34$ s | $44$ s | $97$ s  |
+| `quad * 2` | $226$ s | $23$ s | $66$ s | $98$ s | $191$ s |
+| `quad * 3` | $410$ s | $35$ s | $108$ s | $184$ s | $287$ s | 
+| `quad * 4` | $570$ s | $46$ s | $147$ s | $265$ s | $326$ s |
+
+Here, `quad * 4` equals total prebedrock blocks for optimism goerli.
+
+|   | Import State |
+|---|--------------|
+| `quad`     | $82$ s  |
+| `quad * 2` | $106$ s |
+| `quad * 3` | $185$ s |
+| `quad * 4` | $243$ s |
+
+Here, `quad * 4` equals total prebedrock accounts for optimism goerli.
+
 ## Time Estimation for Export
 
 |   | Goerli | Mainnet |
