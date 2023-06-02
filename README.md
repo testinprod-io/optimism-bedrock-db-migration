@@ -72,6 +72,8 @@ Parallelizable to reduce to $7902$ s $\simeq 2.20$ h.
 
 This experiment finds relation between number of accounts and state import memory consumption.
 
+Above screenshot records memory graph from trial 1 to 7.
+
 There are $127608$ accounts for optimism goerli.
 
 | Trial | Start | End | Max Memory |
@@ -83,11 +85,17 @@ There are $127608$ accounts for optimism goerli.
 | 5 | `start` | `quad` | $3.97$ GB |
 | 6 | `start` | `quad * 3` | $9.95$ GB |
 | 7 | `quad * 3` | `end` | $2.56$ GB |
+| 8 | `start` | `end` | $14.3$ GB | 
+| 9 | `start` | `end` | $12.4$ GB | 
+| 10 | `start` | `end` | $12.5$ GB | 
+
 
 Analyzing results from trial 1, 2, 3, 4: 
-- $13.4 / ((5.27 + 5.26) / 2 + 7.58) \simeq 1.04$
-Analyzing results from trial 1, 6, 7: 
-- $13.4 / (9.95 + 2.56) \simeq 1.07$
 
-If we assume that memory consumption relation is linear, optimism mainnet memory requirement be:
-- $13.4 \times A_{S} \simeq 427.59 $ GB
+$13.4 / ((5.27 + 5.26) / 2 + 7.58) \simeq 1.04$
+
+Analyzing results from trial 1, 6, 7: 
+
+$13.4 / (9.95 + 2.56) \simeq 1.07$
+
+If we assume that memory consumption relation is linear, optimism mainnet memory requirement be $13.4 \times A_{S} $, about $ 427 $ GB
