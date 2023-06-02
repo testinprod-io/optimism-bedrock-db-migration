@@ -65,3 +65,29 @@ Parallelizable to reduce to $7902$ s $\simeq 2.20$ h.
 | Recover Log Index       | $158$ s  | $158 \times A_{B} \simeq 4028$ s |
 | Recover Senders         | $319$ s  | $319 \times A_{B} \simeq 8132$ s |
 | Total Time              | $1031$ s | $\Sigma = 27695$ s $\simeq 7.69$ h |
+
+## Memory Estimation
+
+![memory-evaluation-optimism-goerli](./assets/memory-evaluation-optimism-goerli.png)
+
+This experiment finds relation between number of accounts and state import memory consumption.
+
+There are $127608$ accounts for optimism goerli.
+
+| Trial | Start | End | Max Memory |
+|-------|-------|-----|------------|
+| 1 | `start` | `end` | $13.4$ GB | 
+| 2 | `start` | `half` | $5.27$ GB |
+| 3 | `start` | `half` | $5.26$ GB |
+| 4 | `half` | `end` | $7.58$ GB |
+| 5 | `start` | `quad` | $3.97$ GB |
+| 6 | `start` | `quad * 3` | $9.95$ GB |
+| 7 | `quad * 3` | `end` | $2.56$ GB |
+
+Analyzing results from trial 1, 2, 3, 4: 
+- $13.4 / ((5.27 + 5.26) / 2 + 7.58) \simeq 1.04$
+Analyzing results from trial 1, 6, 7: 
+- $13.4 / (9.95 + 2.56) \simeq 1.07$
+
+If we assume that memory consumption relation is linear, optimism mainnet memory requirement be:
+- $13.4 \times A_{S} \simeq 427.59 $ GB
