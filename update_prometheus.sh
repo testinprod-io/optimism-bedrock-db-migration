@@ -9,15 +9,6 @@ else
     echo "prometheus endpoint not set"
     exit 1
 fi
-# sanity check prometheus endpoint
-RESPONSE=$(wget --spider --server-response "$PROMETHEUS_ENDPOINT"/debug/metrics/prometheus 2>&1)
-STATUS_CODE=$(echo "$RESPONSE" | awk '/HTTP\/1.1/{print $2}')
-if [[ "$STATUS_CODE" == "200" ]]; then
-    echo "The URL is accessible (status code: $STATUS_CODE)"
-else
-    echo "prometheus endpoint sanity check failure (status code: $STATUS_CODE)"
-    exit 1
-fi
 
 # install yq
 ARCH="linux_amd64"
@@ -38,3 +29,13 @@ PROMETHEUS_YAML_TEMP="/home/ubuntu/op-erigon/cmd/prometheus/prometheus.temp.yml"
 yq eval '.scrape_configs[0].static_configs[0].targets += ["'"$PROMETHEUS_ENDPOINT"'"]' $PROMETHEUS_YAML > $PROMETHEUS_YAML_TEMP
 mv $PROMETHEUS_YAML_TEMP $PROMETHEUS_YAML
 echo "prometheus yaml updated"
+
+# sanity check prometheus endpoint
+RESPONSE=$(wget --spider --server-response "$PROMETHEUS_ENDPOINT"/debug/metrics/prometheus 2>&1)
+STATUS_CODE=$(echo "$RESPONSE" | awk '/HTTP\/1.1/{print $2}')
+if [[ "$STATUS_CODE" == "200" ]]; then
+    echo "The URL is accessible (status code: $STATUS_CODE)"
+else
+    echo "prometheus endpoint sanity check failure (status code: $STATUS_CODE)"
+    exit 1
+fi
