@@ -3,7 +3,7 @@ set -e
 
 sudo apt update && sudo apt upgrade -y
 
-XDG_DATA_HOME="~/.local/share/"
+XDG_DATA_HOME="$HOME/.local/share/"
 if [[ -n "$1" ]]; then
     XDG_DATA_HOME=$1
 fi
