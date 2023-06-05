@@ -10,7 +10,7 @@ else
     exit 1
 fi
 # sanity check prometheus endpoint
-RESPONSE=$(wget --spider --server-response "$PROMETHEUS_ENDPOINT" 2>&1)
+RESPONSE=$(wget --spider --server-response "$PROMETHEUS_ENDPOINT"/debug/metrics/prometheus 2>&1)
 STATUS_CODE=$(echo "$RESPONSE" | awk '/HTTP\/1.1/{print $2}')
 if [[ "$STATUS_CODE" == "200" ]]; then
     echo "The URL is accessible (status code: $STATUS_CODE)"
