@@ -45,9 +45,18 @@ OP_GETH_DB_ENDPOINT="https://storage.googleapis.com/oplabs-goerli-data/goerli-be
 if [[ -n "$2" ]]; then
     OP_GETH_DB_ENDPOINT=$2
 fi
+echo "op-geth db endpoint set to $OP_GETH_DB_ENDPOINT"
 
-cd 
-wget $OP_GETH_DB_ENDPOINT
+# determine data location
+DATA_DIR=$HOME
+if [[ -n "$3" ]]; then
+    DATA_DIR=$3
+    mkdir -p "$DATA_DIR"
+fi
+echo "data directory set to $DATA_DIR"
+
+cd "$DATA_DIR"
+wget "$OP_GETH_DB_ENDPOINT"
 tar xvf goerli-bedrock.tar
 mkdir geth_db
 mv geth geth_db/
