@@ -1,5 +1,5 @@
 #!/bin/bash
-set e
+set -e
 
 sudo apt update && sudo apt upgrade -y
 
