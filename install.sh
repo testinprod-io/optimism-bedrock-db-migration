@@ -40,8 +40,14 @@ git switch pcw109550/bedrock-db-migration
 make erigon
 
 # op-geth db download
+# determine endpoint
+OP_GETH_DB_ENDPOINT="https://storage.googleapis.com/oplabs-goerli-data/goerli-bedrock.tar"
+if [[ -n "$2" ]]; then
+    OP_GETH_DB_ENDPOINT=$2
+fi
+
 cd 
-wget https://storage.googleapis.com/oplabs-goerli-data/goerli-bedrock.tar
+wget $OP_GETH_DB_ENDPOINT
 tar xvf goerli-bedrock.tar
 mkdir geth_db
 mv geth geth_db/
