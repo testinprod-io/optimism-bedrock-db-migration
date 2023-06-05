@@ -34,5 +34,7 @@ if [ ! -f $PROMETHEUS_YAML ]; then
     exit 1
 fi
 
-yq eval '.scrape_configs[0].static_configs[0].targets += ["'"$PROMETHEUS_ENDPOINT"'"]' $PROMETHEUS_YAML > $PROMETHEUS_YAML
-
+PROMETHEUS_YAML_TEMP="/home/ubuntu/op-erigon/cmd/prometheus/prometheus.temp.yml"
+yq eval '.scrape_configs[0].static_configs[0].targets += ["'"$PROMETHEUS_ENDPOINT"'"]' $PROMETHEUS_YAML > $PROMETHEUS_YAML_TEMP
+mv $PROMETHEUS_YAML_TEMP $PROMETHEUS_YAML
+echo "prometheus yaml updated"
