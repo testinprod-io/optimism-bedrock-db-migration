@@ -6,7 +6,7 @@ init_filesystem() {
     MOUNT_DIR=$2
 
     DEVICE_DIR="/dev/$DEVICE"
-    
+
     sudo mkdir -p "$MOUNT_DIR"
     sudo chown -R $(whoami):$(whoami) "$MOUNT_DIR"
 
@@ -15,7 +15,7 @@ init_filesystem() {
         exit 1
     fi
 
-    if ! sudo file -s "$DEVICE_DIR" | grep -q "data"; then 
+    if sudo file -s "$DEVICE_DIR" | grep -q "XFS"; then 
         echo "device $DEVICE has fs initialized"
         exit 1
     fi
