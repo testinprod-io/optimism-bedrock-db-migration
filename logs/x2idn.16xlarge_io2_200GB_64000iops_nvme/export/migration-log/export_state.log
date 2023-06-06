@@ -1,0 +1,25 @@
+INFO [06-06|06:17:26.277] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [06-06|06:17:26.278] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [06-06|06:17:26.280] Set global gas cap                       cap=50,000,000
+INFO [06-06|06:17:26.283] Using leveldb as the backing database 
+INFO [06-06|06:17:26.283] Allocated cache and file handles         database=/data1/geth_db/geth/chaindata cache=512.00MiB handles=524,288 readonly=true
+INFO [06-06|06:17:26.626] Using LevelDB as the backing database 
+INFO [06-06|06:17:26.627] Found legacy ancient chain path          location=/data1/geth_db/geth/chaindata/ancient
+INFO [06-06|06:17:26.627] Opened ancient database                  database=/data1/geth_db/geth/chaindata/ancient readonly=true
+INFO [06-06|06:17:26.627] State dump configured                    block=4,061,224 hash=0x0f783549ea4313b784eadd9b8e8a69913b368b7366363ea814d7707ac505175f skipcode=false skipstorage=false start=0x0000000000000000000000000000000000000000000000000000000000000000 limit=0
+INFO [06-06|06:17:26.627] Trie dumping started                     root=bfe2b0..c2d21c
+INFO [06-06|06:17:34.651] Trie dumping in progress                 at="[16 45 62 250 204 151 155 69 25 75 30 79 10 133 247 37 180 78 121 110 194 119 229 121 140 239 63 215 225 39 128 193]" accounts=8066 elapsed=8.023s
+INFO [06-06|06:17:42.653] Trie dumping in progress                 at="[41 117 58 89 244 197 119 116 206 131 60 114 242 42 68 189 22 238 216 86 101 51 144 74 93 239 57 202 216 159 169 96]" accounts=20494 elapsed=16.025s
+INFO [06-06|06:18:27.470] Trie dumping in progress                 at="[46 166 113 5 123 1 199 107 205 255 75 248 11 172 94 210 149 12 109 10 222 157 240 147 211 23 2 19 192 28 23 43]" accounts=23049 elapsed=1m0.842s
+INFO [06-06|06:18:36.140] Trie dumping in progress                 at="[74 30 160 146 90 78 23 221 23 199 29 32 34 118 141 208 104 173 178 60 55 17 76 164 44 56 233 133 54 117 107 136]" accounts=36879 elapsed=1m9.512s
+INFO [06-06|06:18:44.141] Trie dumping in progress                 at="[90 44 230 197 143 59 225 253 43 244 141 171 28 17 95 113 178 146 209 129 152 209 236 1 5 46 25 105 155 9 14 144]" accounts=45056 elapsed=1m17.513s
+INFO [06-06|06:18:52.143] Trie dumping in progress                 at="[107 193 165 137 205 231 159 97 189 180 138 220 156 89 28 15 236 1 225 72 174 233 185 32 250 109 78 90 169 113 41 33]" accounts=53683 elapsed=1m25.515s
+INFO [06-06|06:19:09.127] Trie dumping in progress                 at="[131 180 56 192 37 9 144 250 194 165 245 190 98 71 20 168 164 82 69 36 188 50 76 140 69 118 67 100 163 145 200 128]" accounts=65730 elapsed=1m42.499s
+INFO [06-06|06:19:17.128] Trie dumping in progress                 at="[142 195 169 221 134 205 68 133 91 128 195 42 64 124 77 243 42 237 242 226 22 227 253 187 211 221 222 186 145 92 250 89]" accounts=71356 elapsed=1m50.500s
+INFO [06-06|06:19:50.939] Trie dumping in progress                 at="[155 148 14 39 173 79 229 32 6 101 43 132 52 175 219 126 185 13 112 42 119 209 26 88 68 98 30 184 249 57 51 195]" accounts=77703 elapsed=2m24.311s
+INFO [06-06|06:19:59.975] Trie dumping in progress                 at="[171 47 65 213 166 204 209 14 165 49 242 93 170 146 189 20 200 53 158 196 0 34 132 246 12 167 19 173 163 240 243 197]" accounts=85595 elapsed=2m33.347s
+INFO [06-06|06:20:09.164] Trie dumping in progress                 at="[183 21 86 171 82 194 29 58 113 192 121 103 168 212 99 59 75 97 11 63 247 64 67 73 199 34 210 238 217 250 130 88]" accounts=91533 elapsed=2m42.536s
+INFO [06-06|06:20:29.589] Trie dumping in progress                 at="[198 220 101 31 149 81 52 57 78 237 7 249 229 191 251 235 134 219 0 52 87 165 208 208 237 48 150 211 81 253 18 249]" accounts=99471 elapsed=3m2.961s
+INFO [06-06|06:20:38.680] Trie dumping in progress                 at="[220 29 228 126 104 190 252 77 21 170 87 40 131 162 61 231 11 39 8 209 47 41 48 148 203 52 240 135 155 20 23 11]" accounts=109,834 elapsed=3m12.052s
+INFO [06-06|06:20:47.210] Trie dumping in progress                 at="[244 29 38 43 47 36 234 32 187 211 189 124 249 149 27 196 63 144 225 26 88 125 117 30 37 30 194 74 159 233 255 183]" accounts=121,756 elapsed=3m20.582s
+INFO [06-06|06:20:51.252] Trie dumping complete                    accounts=127,608 elapsed=3m24.624s

@@ -1,0 +1,23 @@
+[INFO] [06-06|06:54:26.422] logging to file system                   log dir=migration-log/drop_log_index file prefix=erigon log level=info json=false
+[INFO] [06-06|06:54:26.422] Starting metrics server                  addr=http://0.0.0.0:55555/debug/metrics/prometheus
+[INFO] [06-06|06:54:26.428] Starting Erigon on Optimism Görli testnet... 
+[INFO] [06-06|06:54:26.429] Maximum peer count                       ETH=0 total=0
+[INFO] [06-06|06:54:26.429] starting HTTP APIs                       APIs=eth,erigon,engine
+[INFO] [06-06|06:54:26.429] torrent verbosity                        level=WRN
+[INFO] [06-06|06:54:28.531] Set global gas cap                       cap=50000000
+[INFO] [06-06|06:54:28.533] [Downloader] Runnning with               ipv6-enabled=true ipv4-enabled=true download.rate=16mb upload.rate=4mb
+[INFO] [06-06|06:54:28.533] Opening Database                         label=chaindata path=/data1/erigon_db/chaindata
+[INFO] [06-06|06:54:28.533] [db] params: growStep=2GB, mapsSize=7TB, shrinkThreshold=-1, pageSize=4KB, label=chaindata, WriteMap=false, Durable=false, NoReadahead=true,  
+[INFO] [06-06|06:54:28.534] Initialised chain configuration          config="{ChainID: 420, Homestead: 0, DAO: <nil>, Tangerine Whistle: 0, Spurious Dragon: 0, Byzantium: 0, Constantinople: 0, Petersburg: 0, Istanbul: 0, Muir Glacier: 0, Berlin: 0, London: 4061224, Arrow Glacier: 4061224, Gray Glacier: 4061224, Terminal Total Difficulty: 0, Merge Netsplit: 4061224, Shanghai: <nil>, Cancun: <nil>, Prague: <nil>, Engine: unknown}" genesis=0xc1fc15cd51159b1f1e5cbc4b82e85c1447ddfa33c52cf1d98d14fba0d6354be1
+[INFO] [06-06|06:54:28.534] Effective                                prune_flags= snapshot_flags= history.v3=false
+[INFO] [06-06|06:54:28.535] Initialising Ethereum protocol           network=420
+[INFO] [06-06|06:54:28.535] Disk storage enabled for ethash DAGs     dir=/data1/erigon_db/ethash-dags count=2
+[INFO] [06-06|06:54:28.875] Starting private RPC server              on=localhost:12345
+[INFO] [06-06|06:54:28.875] new subscription to logs established 
+[INFO] [06-06|06:54:28.875] rpc filters: subscribing to Erigon events 
+[INFO] [06-06|06:54:28.875] Dropping Log Index 
+[INFO] [06-06|06:54:28.875] Dropped LogTopicIndex Table              elapsed=3.442µs
+[INFO] [06-06|06:54:28.875] Dropped LogAddressIndex Table            elapsed=14.033µs
+[INFO] [06-06|06:54:28.875] new subscription to newHeaders established 
+[INFO] [06-06|06:54:28.875] Reading JWT secret                       path=/data1/erigon_db/jwt.hex
+[INFO] [06-06|06:54:28.875] DB commit                                elapsed=515.357µs
