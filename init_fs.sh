@@ -8,7 +8,6 @@ init_filesystem() {
     DEVICE_DIR="/dev/$DEVICE"
 
     sudo mkdir -p "$MOUNT_DIR"
-    sudo chown -R $(whoami):$(whoami) "$MOUNT_DIR"
 
     if ! lsblk -f "$DEVICE_DIR" | grep -q "$DEVICE"; then
         echo "device $DEVICE does not exist"
@@ -26,6 +25,8 @@ init_filesystem() {
 
     # mount
     sudo mount "$DEVICE_DIR" "$MOUNT_DIR"
+
+    sudo chown -R $(whoami):$(whoami) "$MOUNT_DIR"
 }
 
 init_filesystem "nvme1n1" "/data1"
