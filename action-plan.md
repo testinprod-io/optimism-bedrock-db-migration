@@ -18,7 +18,7 @@ git clone https://github.com/testinprod-io/optimism-bedrock-db-migration
 cd optimism-bedrock-db-migration
 ./init_fs.sh  # to mount 1900 GB NVMe SSD
 ./install.sh [arch] [optional:op-geth-database-download-endpoint] [optional:data-dir]
-# ex) ./install.sh amd https://storage.googleapis.com/oplabs-goerli-data/goerli-bedrock.tar
+# ex) ./install.sh amd https://storage.googleapis.com/oplabs-goerli-data/goerli-bedrock.tar /data1
 ```
 
 ### Migration Monitor Instance
@@ -72,6 +72,7 @@ cd
 cd op-geth
 ./migrate.sh [bedrock_start_block_num] [geth_bedrock_archive_location] [optional:artifact_path] 2>&1 | tee migration.log
 # ex) ./migrate.sh 4061224 /home/ubuntu/geth_db  2>&1 | tee migration.log
+# ex) ./migrate.sh 4061224 /data1/geth_db /data1/migration-artifact 2>&1 | tee migration.log
 ```
 
 ### DB export
@@ -81,6 +82,7 @@ cd
 cd op-erigon
 ./migrate.sh [chain_name] [bedrock_start_block_num] [optional:artifact_path] [optional:erigon_db_path] 2>&1 | tee migration.log
 # ex) ./migrate.sh optimism-goerli 4061224 2>&1 | tee migration.log
+# ex) ./migrate.sh optimism-goerli 4061224 /data1/migration-artifact /data2/erigon_db
 ```
 
 ## Migration Monitor
