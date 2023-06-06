@@ -128,3 +128,10 @@ Analyzing results from trial 1, 6, 7:
 $13.4 / (9.95 + 2.56) \simeq 1.07$
 
 If we assume that memory consumption relation is linear, optimism mainnet memory requirement be $13.4 \times A_{S} $, about $ 427 $ GB
+
+## Gzip Time Estimation
+
+Used `x2idn.16xlarge` instance.
+
+Goerli takes $8$ s for compression.
+Mainnet may take $8 \times \max{(A_{B}, A_{S})} = 240$ s for compression.
