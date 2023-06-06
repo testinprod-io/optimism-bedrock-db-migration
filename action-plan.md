@@ -21,6 +21,8 @@ cd optimism-bedrock-db-migration
 # ex) ./install.sh amd https://storage.googleapis.com/oplabs-goerli-data/goerli-bedrock.tar /data1
 ```
 
+`./init_fs.sh` will mount available NVMe SSDs to directory `/data1` and `/data2`. It assumes that device names are `nvme1n1` and `nvme2n1`.
+
 ### Migration Monitor Instance
 
 Boot up instance for migration monitoring.
