@@ -13,7 +13,7 @@ CHANNEL="#op-erigon-mainnet-bedrock-migration"
 MESSAGE="$1"
 
 # never fail
-curl -X POST -H "Authorization: Bearer $OAUTH_TOKEN" \
+curl -s -X POST -H "Authorization: Bearer $OAUTH_TOKEN" \
      -H 'Content-type: application/json' \
      -d "{'channel': '$CHANNEL', 'text': '$MESSAGE'}" \
      https://slack.com/api/chat.postMessage || true
