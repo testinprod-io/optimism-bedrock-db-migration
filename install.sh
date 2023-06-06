@@ -31,6 +31,7 @@ git clone https://github.com/testinprod-io/op-geth
 cd op-geth
 git switch pcw109550/bedrock-db-migration
 make geth
+cp ../optimism-bedrock-db-migration/slack_report.sh .
 
 # setup import
 cd 
@@ -38,6 +39,7 @@ git clone https://github.com/testinprod-io/op-erigon
 cd op-erigon
 git switch pcw109550/bedrock-db-migration
 make erigon
+cp ../optimism-bedrock-db-migration/slack_report.sh .
 
 # op-geth db download
 # determine endpoint
