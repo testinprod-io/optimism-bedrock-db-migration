@@ -85,7 +85,7 @@ cd
 cd op-erigon
 ./migrate.sh [chain_name] [bedrock_start_block_num] [optional:artifact_path] [optional:erigon_db_path] 2>&1 | tee migration.log
 # ex) ./migrate.sh optimism-goerli 4061224 2>&1 | tee migration.log
-# ex) ./migrate.sh optimism-goerli 4061224 /data1/migration-artifact /data2/erigon_db
+# ex) ./migrate.sh optimism-goerli 4061224 /data1/migration-artifact /data2/erigon_db | tee migration.log
 ```
 
 ## Migration Monitor
