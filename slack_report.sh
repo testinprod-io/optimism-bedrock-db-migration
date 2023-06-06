@@ -9,7 +9,7 @@ if [[ $# -eq 0 ]]; then
     exit 0
 fi
 
-CHANNEL="#op-erigon-mainnet-bedrock-migration"
+CHANNEL="#op-erigon-bedrock-migration"
 MESSAGE="$1"
 
 # never fail
