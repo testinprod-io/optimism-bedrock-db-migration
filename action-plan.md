@@ -103,3 +103,68 @@ docker compose up prometheus grafana
 ```
 
 Go to `[migration-monitor-public-ip]:3000` for resource monitoring.
+
+## Postprocessing and DB Upload
+
+### Upload Bedrock Genesis DB
+
+Upload to GCP:
+
+```sh
+cd /data1
+tar cf op-erigon-goerli-bedrock-genesis.tar erigon_db/chaindata/
+gsutil -m cp op-erigon-goerli-bedrock-genesis.tar gs://op-erigon-misc/op-erigon-mainnet-goerli-genesis.tar
+# for mainnet:
+#  tar cf op-erigon-mainnet-bedrock-genesis.tar erigon_db/chaindata/
+#  gsutil -m cp op-erigon-mainnet-bedrock-genesis.tar gs://op-erigon-misc/op-erigon-mainnet-bedrock-genesis.tar
+```
+
+### Single Block State Transition
+
+State transition:
+
+```sh
+cd https://github.com/testinprod-io/op-fast-sync
+git clone https://github.com/testinprod-io/op-fast-sync
+cd op-fast-sync
+pip install -r requirements.txt
+python3 main.py --l1=[L1_RPC_ENDPOINT] --l2=[L2_RPC_ENDPOINT] --rpc=[OP_ERIGON_RPC_ENDPOINT] --engine=[OP_ERIGON_ENGINE_ENDPOINT] --jwt-secret=[OP_ERIGON_JWT_SECRET_PATH]
+```
+
+Check next block hash for confirmation.
+
+### Upload Bedrock Genesis DB with Single Block State Transition
+
+Upload to GCP:
+
+```sh
+cd /data1
+tar cf {block_number}.tar erigon_db/chaindata/
+gsutil -m cp {block_number}.tar gs://op-erigon-backup/goerli
+# for mainnet:
+#  gsutil -m cp {block_number}.tar gs://op-erigon-backup/mainnet
+```
+
+### Gzip Bedrock Genesis DB with Single Block State Transition
+
+Compression:
+
+```sh
+sudo apt install pigz -y
+cd /data1
+pigs -k {block_number}.tar
+# pigs will create {block_number}.tar.gz
+mv {block_number}.tar.gz op-erigon-goerli.tar.gz
+# for mainnet:
+#  mv {block_number}.tar.gz op-erigon-mainnet.tar.gz
+```
+
+Upload to CF:
+
+```sh
+# supply cred
+aws configure
+aws s3 cp --endpoint-url https://<accountid>.r2.cloudflarestorage.com op-erigon-goerli.tar.gz s3://op-erigon-data/op-erigon-goerli.tar.gz
+# for mainnet:
+# aws s3 cp --endpoint-url https://<accountid>.r2.cloudflarestorage.com op-erigon-mainnet.tar.gz s3://op-erigon-data/op-erigon-mainnet.tar.gz
+```
