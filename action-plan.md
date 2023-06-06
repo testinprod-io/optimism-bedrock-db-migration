@@ -16,6 +16,7 @@ Run below commands.
 cd
 git clone https://github.com/testinprod-io/optimism-bedrock-db-migration
 cd optimism-bedrock-db-migration
+./install_utils.sh  # to install gsutils and awscli
 ./init_fs.sh  # to mount 1900 GB NVMe SSD
 ./install.sh [arch] [optional:op-geth-database-download-endpoint] [optional:data-dir]
 # ex) ./install.sh amd https://storage.googleapis.com/oplabs-goerli-data/goerli-bedrock.tar /data1
