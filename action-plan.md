@@ -155,7 +155,7 @@ Compression:
 ```sh
 sudo apt install pigz -y
 cd /data1
-pigs -k {block_number}.tar
+pigz -k {block_number}.tar
 # pigs will create {block_number}.tar.gz
 mv {block_number}.tar.gz op-erigon-goerli.tar.gz
 # for mainnet:
