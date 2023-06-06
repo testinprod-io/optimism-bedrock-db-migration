@@ -107,6 +107,8 @@ Go to `[migration-monitor-public-ip]:3000` for resource monitoring.
 
 ## Postprocessing and DB Upload
 
+At `bedrock-migration` instance,
+
 ### Upload Bedrock Genesis DB
 
 Upload to GCP:
