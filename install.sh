@@ -58,7 +58,7 @@ fi
 echo "data directory set to $DATA_DIR"
 
 cd "$DATA_DIR"
-wget "$OP_GETH_DB_ENDPOINT"
-tar xvf goerli-bedrock.tar
+wget "$OP_GETH_DB_ENDPOINT" -O bedrock.tar
+tar xvf bedrock.tar
 mkdir geth_db
 mv geth geth_db/
