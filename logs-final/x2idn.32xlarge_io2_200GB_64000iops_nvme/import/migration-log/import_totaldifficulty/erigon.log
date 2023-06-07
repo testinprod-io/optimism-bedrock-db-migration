@@ -1,0 +1,118 @@
+[INFO] [06-07|14:48:22.746] logging to file system                   log dir=migration-log/import_totaldifficulty file prefix=erigon log level=info json=false
+[INFO] [06-07|14:48:22.746] Starting metrics server                  addr=http://0.0.0.0:55555/debug/metrics/prometheus
+[INFO] [06-07|14:48:22.752] Starting Erigon on Optimism Mainnet... 
+[INFO] [06-07|14:48:22.753] Maximum peer count                       ETH=0 total=0
+[INFO] [06-07|14:48:22.753] starting HTTP APIs                       APIs=eth,erigon,engine
+[INFO] [06-07|14:48:22.753] torrent verbosity                        level=WRN
+[INFO] [06-07|14:48:24.855] Set global gas cap                       cap=50000000
+[INFO] [06-07|14:48:24.855] [Downloader] Runnning with               ipv6-enabled=true ipv4-enabled=true download.rate=16mb upload.rate=4mb
+[INFO] [06-07|14:48:24.855] Opening Database                         label=chaindata path=/data2/erigon_db/chaindata
+[INFO] [06-07|14:48:24.855] [db] params: growStep=2GB, mapsSize=7TB, shrinkThreshold=-1, pageSize=4KB, label=chaindata, WriteMap=false, Durable=false, NoReadahead=true,  
+[INFO] [06-07|14:48:24.857] Initialised chain configuration          config="{ChainID: 10, Homestead: 0, DAO: <nil>, Tangerine Whistle: 0, Spurious Dragon: 0, Byzantium: 0, Constantinople: 0, Petersburg: 0, Istanbul: 0, Muir Glacier: 0, Berlin: 3950000, London: 3950000, Arrow Glacier: 3950000, Gray Glacier: 3950000, Terminal Total Difficulty: 0, Merge Netsplit: 3950000, Shanghai: <nil>, Cancun: <nil>, Prague: <nil>, Engine: unknown}" genesis=0x7ca38a1916c42007829c55e69d3e9a73265554b586a499015373241b8a3fa48b
+[INFO] [06-07|14:48:24.857] Effective                                prune_flags= snapshot_flags= history.v3=false
+[INFO] [06-07|14:48:24.857] Initialising Ethereum protocol           network=10
+[INFO] [06-07|14:48:24.857] Disk storage enabled for ethash DAGs     dir=/data2/erigon_db/ethash-dags count=2
+[INFO] [06-07|14:48:25.206] Starting private RPC server              on=localhost:12345
+[INFO] [06-07|14:48:25.206] new subscription to logs established 
+[INFO] [06-07|14:48:25.207] Importing total difficulty               file=/data1/migration-artifact/totaldifficulty.rlp
+[INFO] [06-07|14:48:33.207] Import total difficulty                  index=1152500 elapsed=8.000043276s
+[INFO] [06-07|14:48:41.208] Import total difficulty                  index=2295000 elapsed=16.001012538s
+[INFO] [06-07|14:48:49.209] Import total difficulty                  index=3430000 elapsed=24.001900643s
+[INFO] [06-07|14:48:57.207] Import total difficulty                  index=4530000 elapsed=32.00069148s
+[INFO] [06-07|14:49:05.208] Import total difficulty                  index=5645000 elapsed=40.000992982s
+[INFO] [06-07|14:49:13.207] Import total difficulty                  index=6757500 elapsed=48.000435045s
+[INFO] [06-07|14:49:21.208] Import total difficulty                  index=7862500 elapsed=56.00108801s
+[INFO] [06-07|14:49:29.208] Import total difficulty                  index=8980000 elapsed=1m4.001014237s
+[INFO] [06-07|14:49:37.208] Import total difficulty                  index=10085000 elapsed=1m12.000797807s
+[INFO] [06-07|14:49:45.207] Import total difficulty                  index=11192500 elapsed=1m20.000465041s
+[INFO] [06-07|14:49:53.207] Import total difficulty                  index=12310000 elapsed=1m28.000019817s
+[INFO] [06-07|14:50:01.208] Import total difficulty                  index=13415000 elapsed=1m36.00085523s
+[INFO] [06-07|14:50:09.207] Import total difficulty                  index=14525000 elapsed=1m44.000685429s
+[INFO] [06-07|14:50:17.207] Import total difficulty                  index=15647500 elapsed=1m52.000693733s
+[INFO] [06-07|14:50:24.858] [p2p] GoodPeers 
+[INFO] [06-07|14:50:25.207] Import total difficulty                  index=16767500 elapsed=2m0.000449279s
+[INFO] [06-07|14:50:33.207] Import total difficulty                  index=17887500 elapsed=2m8.000268672s
+[INFO] [06-07|14:50:41.208] Import total difficulty                  index=19015000 elapsed=2m16.000818522s
+[INFO] [06-07|14:50:49.208] Import total difficulty                  index=20135000 elapsed=2m24.001398275s
+[INFO] [06-07|14:50:57.207] Import total difficulty                  index=21255000 elapsed=2m32.000381096s
+[INFO] [06-07|14:51:05.207] Import total difficulty                  index=22372500 elapsed=2m40.000036437s
+[INFO] [06-07|14:51:13.207] Import total difficulty                  index=23495000 elapsed=2m48.000100564s
+[INFO] [06-07|14:51:21.207] Import total difficulty                  index=24610000 elapsed=2m56.000117976s
+[INFO] [06-07|14:51:29.208] Import total difficulty                  index=25722500 elapsed=3m4.001301673s
+[INFO] [06-07|14:51:37.207] Import total difficulty                  index=26832500 elapsed=3m12.000138126s
+[INFO] [06-07|14:51:45.207] Import total difficulty                  index=27947500 elapsed=3m20.00009157s
+[INFO] [06-07|14:51:53.207] Import total difficulty                  index=29055000 elapsed=3m28.000446718s
+[INFO] [06-07|14:52:01.207] Import total difficulty                  index=30170000 elapsed=3m36.00042355s
+[INFO] [06-07|14:52:09.208] Import total difficulty                  index=31280000 elapsed=3m44.00130512s
+[INFO] [06-07|14:52:17.207] Import total difficulty                  index=32395000 elapsed=3m52.00027577s
+[INFO] [06-07|14:52:24.858] [p2p] GoodPeers 
+[INFO] [06-07|14:52:25.207] Import total difficulty                  index=33500000 elapsed=4m0.000508474s
+[INFO] [06-07|14:52:33.207] Import total difficulty                  index=34615000 elapsed=4m8.000462378s
+[INFO] [06-07|14:52:41.208] Import total difficulty                  index=35730000 elapsed=4m16.001339626s
+[INFO] [06-07|14:52:49.207] Import total difficulty                  index=36855000 elapsed=4m24.00060337s
+[INFO] [06-07|14:52:57.207] Import total difficulty                  index=37982500 elapsed=4m32.000610141s
+[INFO] [06-07|14:53:05.208] Import total difficulty                  index=39100000 elapsed=4m40.000830504s
+[INFO] [06-07|14:53:13.207] Import total difficulty                  index=40212500 elapsed=4m48.000334629s
+[INFO] [06-07|14:53:21.208] Import total difficulty                  index=41317500 elapsed=4m56.001192944s
+[INFO] [06-07|14:53:29.207] Import total difficulty                  index=42430000 elapsed=5m4.00073606s
+[INFO] [06-07|14:53:37.207] Import total difficulty                  index=43542500 elapsed=5m12.000363082s
+[INFO] [06-07|14:53:45.208] Import total difficulty                  index=44667500 elapsed=5m20.000750622s
+[INFO] [06-07|14:53:53.208] Import total difficulty                  index=45790000 elapsed=5m28.000754197s
+[INFO] [06-07|14:54:01.207] Import total difficulty                  index=46920000 elapsed=5m36.000631898s
+[INFO] [06-07|14:54:09.207] Import total difficulty                  index=48042500 elapsed=5m44.000197194s
+[INFO] [06-07|14:54:17.207] Import total difficulty                  index=49165000 elapsed=5m52.00039643s
+[INFO] [06-07|14:54:24.859] [p2p] GoodPeers 
+[INFO] [06-07|14:54:25.207] Import total difficulty                  index=50272500 elapsed=6m0.000675579s
+[INFO] [06-07|14:54:33.207] Import total difficulty                  index=51385000 elapsed=6m8.000259403s
+[INFO] [06-07|14:54:41.208] Import total difficulty                  index=52495000 elapsed=6m16.001203441s
+[INFO] [06-07|14:54:49.208] Import total difficulty                  index=53615000 elapsed=6m24.001037453s
+[INFO] [06-07|14:54:57.207] Import total difficulty                  index=54727500 elapsed=6m32.000327853s
+[INFO] [06-07|14:55:05.207] Import total difficulty                  index=55847500 elapsed=6m40.000039248s
+[INFO] [06-07|14:55:13.207] Import total difficulty                  index=56970000 elapsed=6m48.000245314s
+[INFO] [06-07|14:55:21.208] Import total difficulty                  index=58087500 elapsed=6m56.000770775s
+[INFO] [06-07|14:55:29.208] Import total difficulty                  index=59207500 elapsed=7m4.001318018s
+[INFO] [06-07|14:55:37.208] Import total difficulty                  index=60332500 elapsed=7m12.000779383s
+[INFO] [06-07|14:55:45.208] Import total difficulty                  index=61455000 elapsed=7m20.000762585s
+[INFO] [06-07|14:55:53.207] Import total difficulty                  index=62587500 elapsed=7m28.000678799s
+[INFO] [06-07|14:56:01.208] Import total difficulty                  index=63704950 elapsed=7m36.000962389s
+[INFO] [06-07|14:56:09.208] Import total difficulty                  index=64822500 elapsed=7m44.000788968s
+[INFO] [06-07|14:56:17.207] Import total difficulty                  index=65952500 elapsed=7m52.000723753s
+[INFO] [06-07|14:56:24.857] [p2p] GoodPeers 
+[INFO] [06-07|14:56:25.208] Import total difficulty                  index=67082500 elapsed=8m0.000912512s
+[INFO] [06-07|14:56:33.208] Import total difficulty                  index=68210000 elapsed=8m8.000959352s
+[INFO] [06-07|14:56:41.208] Import total difficulty                  index=69330000 elapsed=8m16.000855323s
+[INFO] [06-07|14:56:49.208] Import total difficulty                  index=70437500 elapsed=8m24.001094322s
+[INFO] [06-07|14:56:57.208] Import total difficulty                  index=71554924 elapsed=8m32.000840373s
+[INFO] [06-07|14:57:05.207] Import total difficulty                  index=72672500 elapsed=8m40.000201116s
+[INFO] [06-07|14:57:13.207] Import total difficulty                  index=73792500 elapsed=8m48.000252838s
+[INFO] [06-07|14:57:21.208] Import total difficulty                  index=74900000 elapsed=8m56.000864467s
+[INFO] [06-07|14:57:29.208] Import total difficulty                  index=76020000 elapsed=9m4.001117079s
+[INFO] [06-07|14:57:37.207] Import total difficulty                  index=77132500 elapsed=9m12.000684479s
+[INFO] [06-07|14:57:45.207] Import total difficulty                  index=78232500 elapsed=9m20.000536004s
+[INFO] [06-07|14:57:53.207] Import total difficulty                  index=79360000 elapsed=9m28.000627766s
+[INFO] [06-07|14:58:01.207] Import total difficulty                  index=80475000 elapsed=9m36.000186122s
+[INFO] [06-07|14:58:09.208] Import total difficulty                  index=81590000 elapsed=9m44.001462687s
+[INFO] [06-07|14:58:17.207] Import total difficulty                  index=82700000 elapsed=9m52.000653172s
+[INFO] [06-07|14:58:24.859] [p2p] GoodPeers 
+[INFO] [06-07|14:58:25.208] Import total difficulty                  index=83807500 elapsed=10m0.000828676s
+[INFO] [06-07|14:58:33.207] Import total difficulty                  index=84915000 elapsed=10m8.000447336s
+[INFO] [06-07|14:58:41.207] Import total difficulty                  index=86007500 elapsed=10m16.000685509s
+[INFO] [06-07|14:58:49.207] Import total difficulty                  index=87125000 elapsed=10m24.000347315s
+[INFO] [06-07|14:58:57.207] Import total difficulty                  index=88237500 elapsed=10m32.000152311s
+[INFO] [06-07|14:59:05.207] Import total difficulty                  index=89355000 elapsed=10m40.000706811s
+[INFO] [06-07|14:59:13.208] Import total difficulty                  index=90457500 elapsed=10m48.000823061s
+[INFO] [06-07|14:59:21.208] Import total difficulty                  index=91565000 elapsed=10m56.000842489s
+[INFO] [06-07|14:59:29.207] Import total difficulty                  index=92665000 elapsed=11m4.000553016s
+[INFO] [06-07|14:59:37.208] Import total difficulty                  index=93765000 elapsed=11m12.001034925s
+[INFO] [06-07|14:59:45.208] Import total difficulty                  index=94870000 elapsed=11m20.0009419s
+[INFO] [06-07|14:59:53.207] Import total difficulty                  index=95972500 elapsed=11m28.000621501s
+[INFO] [06-07|15:00:01.207] Import total difficulty                  index=97065000 elapsed=11m36.000408505s
+[INFO] [06-07|15:00:09.209] Import total difficulty                  index=98167500 elapsed=11m44.001804509s
+[INFO] [06-07|15:00:17.207] Import total difficulty                  index=99280000 elapsed=11m52.000274073s
+[INFO] [06-07|15:00:24.859] [p2p] GoodPeers 
+[INFO] [06-07|15:00:25.208] Import total difficulty                  index=100382500 elapsed=12m0.000958969s
+[INFO] [06-07|15:00:33.207] Import total difficulty                  index=101480000 elapsed=12m8.000378596s
+[INFO] [06-07|15:00:41.208] Import total difficulty                  index=102580225 elapsed=12m16.001021448s
+[INFO] [06-07|15:00:49.207] Import total difficulty                  index=103682500 elapsed=12m24.000018019s
+[INFO] [06-07|15:00:57.207] Import total difficulty                  index=104780000 elapsed=12m32.000391586s
+[INFO] [06-07|15:01:00.502] Import total difficulty                  index=105235064 elapsed=12m35.295568906s

@@ -1,0 +1,17 @@
+[INFO] [06-07|13:11:07.879] logging to file system                   log dir=migration-log/recover_genesis file prefix=erigon log level=info json=false
+[INFO] [06-07|13:11:07.879] Starting metrics server                  addr=http://0.0.0.0:55555/debug/metrics/prometheus
+[INFO] [06-07|13:11:07.885] Starting Erigon on Optimism Mainnet... 
+[INFO] [06-07|13:11:07.885] Maximum peer count                       ETH=0 total=0
+[INFO] [06-07|13:11:07.885] starting HTTP APIs                       APIs=eth,erigon,engine
+[INFO] [06-07|13:11:07.885] torrent verbosity                        level=WRN
+[INFO] [06-07|13:11:09.988] Set global gas cap                       cap=50000000
+[INFO] [06-07|13:11:09.989] [Downloader] Runnning with               ipv6-enabled=true ipv4-enabled=true download.rate=16mb upload.rate=4mb
+[INFO] [06-07|13:11:09.989] Opening Database                         label=chaindata path=/data2/erigon_db/chaindata
+[INFO] [06-07|13:11:09.989] [db] params: growStep=2GB, mapsSize=7TB, shrinkThreshold=-1, pageSize=4KB, label=chaindata, WriteMap=false, Durable=false, NoReadahead=true,  
+[INFO] [06-07|13:11:09.990] Initialised chain configuration          config="{ChainID: 10, Homestead: 0, DAO: <nil>, Tangerine Whistle: 0, Spurious Dragon: 0, Byzantium: 0, Constantinople: 0, Petersburg: 0, Istanbul: 0, Muir Glacier: 0, Berlin: 3950000, London: 3950000, Arrow Glacier: 3950000, Gray Glacier: 3950000, Terminal Total Difficulty: 0, Merge Netsplit: 3950000, Shanghai: <nil>, Cancun: <nil>, Prague: <nil>, Engine: unknown}" genesis=0x2b955e7dd8df0ba8a50ee3e5c79065be9a370b1e52398694001067d40f7d6731
+[INFO] [06-07|13:11:09.990] Effective                                prune_flags= snapshot_flags= history.v3=false
+[INFO] [06-07|13:11:09.994] Initialising Ethereum protocol           network=10
+[INFO] [06-07|13:11:09.994] Disk storage enabled for ethash DAGs     dir=/data2/erigon_db/ethash-dags count=2
+[INFO] [06-07|13:11:09.994] Starting private RPC server              on=localhost:12345
+[INFO] [06-07|13:11:09.994] new subscription to logs established 
+[INFO] [06-07|13:11:09.995] Successfully wrote regenesis state       hash=0x7ca38a1916c42007829c55e69d3e9a73265554b586a499015373241b8a3fa48b root=0xeddb4c1786789419153a27c4c80ff44a2226b6eda04f7e22ce5bae892ea568eb

@@ -1,0 +1,309 @@
+INFO [06-07|05:48:26.781] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [06-07|05:48:26.782] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [06-07|05:48:26.784] Set global gas cap                       cap=50,000,000
+INFO [06-07|05:48:26.851] Using leveldb as the backing database 
+INFO [06-07|05:48:26.851] Allocated cache and file handles         database=/data1/geth_db/geth/chaindata cache=512.00MiB handles=524,288 readonly=true
+INFO [06-07|05:48:27.242] Using LevelDB as the backing database 
+INFO [06-07|05:48:27.242] Found legacy ancient chain path          location=/data1/geth_db/geth/chaindata/ancient
+INFO [06-07|05:48:27.242] Opened ancient database                  database=/data1/geth_db/geth/chaindata/ancient readonly=true
+INFO [06-07|05:48:27.245] Disk storage enabled for ethash caches   dir=/data1/geth_db/geth/ethash count=3
+INFO [06-07|05:48:27.245] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/.ethash       count=2
+INFO [06-07|05:48:27.245]  
+INFO [06-07|05:48:27.245] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [06-07|05:48:27.245] Chain ID:  10 (unknown) 
+INFO [06-07|05:48:27.245] Consensus: Optimism 
+INFO [06-07|05:48:27.245]  
+INFO [06-07|05:48:27.245] Pre-Merge hard forks (block based): 
+INFO [06-07|05:48:27.245]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [06-07|05:48:27.245]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [06-07|05:48:27.245]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [06-07|05:48:27.245]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [06-07|05:48:27.245]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [06-07|05:48:27.246]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [06-07|05:48:27.246]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [06-07|05:48:27.246]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [06-07|05:48:27.246]  - Muir Glacier:                #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md) 
+INFO [06-07|05:48:27.246]  - Berlin:                      #3950000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [06-07|05:48:27.246]  - London:                      #105235063 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [06-07|05:48:27.246]  - Arrow Glacier:               #105235063 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md) 
+INFO [06-07|05:48:27.246]  - Gray Glacier:                #105235063 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md) 
+INFO [06-07|05:48:27.246]  
+INFO [06-07|05:48:27.246] Merge configured: 
+INFO [06-07|05:48:27.246]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [06-07|05:48:27.246]  - Network known to be merged: true 
+INFO [06-07|05:48:27.246]  - Total terminal difficulty:  0 
+INFO [06-07|05:48:27.246]  - Merge netsplit block:       #105235063 
+INFO [06-07|05:48:27.246]  
+INFO [06-07|05:48:27.246] Post-Merge hard forks (timestamp based): 
+INFO [06-07|05:48:27.246]  - Regolith:                    @0          
+INFO [06-07|05:48:27.246]  
+INFO [06-07|05:48:27.246] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [06-07|05:48:27.246]  
+INFO [06-07|05:48:27.246] Loaded most recent local block           number=105,235,063 hash=dbf6a8..c2afd3 td=0 age=13h20m4s
+INFO [06-07|05:48:27.246] Loaded most recent local finalized block number=105,235,063 hash=dbf6a8..c2afd3 td=0 age=13h20m4s
+INFO [06-07|05:48:27.247] Exporting total difficulty               file=/data1/migration-artifact/totaldifficulty.rlp
+INFO [06-07|05:48:27.247] Exporting batch of total difficulty      count=105,235,064
+INFO [06-07|05:48:35.247] Exporting total difficulty               exported=398,858 elapsed=8.000s
+INFO [06-07|05:48:43.247] Exporting total difficulty               exported=799,226 elapsed=16.000s
+INFO [06-07|05:48:51.247] Exporting total difficulty               exported=1,197,020 elapsed=24.000s
+INFO [06-07|05:48:59.247] Exporting total difficulty               exported=1,596,686 elapsed=32.000s
+INFO [06-07|05:49:07.247] Exporting total difficulty               exported=1,999,508 elapsed=40.000s
+INFO [06-07|05:49:15.247] Exporting total difficulty               exported=2,402,419 elapsed=48.000s
+INFO [06-07|05:49:23.247] Exporting total difficulty               exported=2,802,516 elapsed=56.000s
+INFO [06-07|05:49:31.248] Exporting total difficulty               exported=3,203,312 elapsed=1m4.000s
+INFO [06-07|05:49:39.248] Exporting total difficulty               exported=3,604,517 elapsed=1m12.000s
+INFO [06-07|05:49:47.248] Exporting total difficulty               exported=4,003,052 elapsed=1m20.000s
+INFO [06-07|05:49:55.248] Exporting total difficulty               exported=4,400,716 elapsed=1m28.000s
+INFO [06-07|05:50:03.248] Exporting total difficulty               exported=4,793,488 elapsed=1m36.000s
+INFO [06-07|05:50:11.248] Exporting total difficulty               exported=5,191,601 elapsed=1m44.001s
+INFO [06-07|05:50:19.248] Exporting total difficulty               exported=5,589,873 elapsed=1m52.001s
+INFO [06-07|05:50:27.248] Exporting total difficulty               exported=5,988,261 elapsed=2m0.001s
+INFO [06-07|05:50:35.248] Exporting total difficulty               exported=6,384,135 elapsed=2m8.001s
+INFO [06-07|05:50:43.248] Exporting total difficulty               exported=6,783,361 elapsed=2m16.001s
+INFO [06-07|05:50:51.248] Exporting total difficulty               exported=7,182,163 elapsed=2m24.001s
+INFO [06-07|05:50:59.249] Exporting total difficulty               exported=7,581,262 elapsed=2m32.001s
+INFO [06-07|05:51:07.249] Exporting total difficulty               exported=7,980,843 elapsed=2m40.001s
+INFO [06-07|05:51:15.249] Exporting total difficulty               exported=8,379,545 elapsed=2m48.001s
+INFO [06-07|05:51:23.249] Exporting total difficulty               exported=8,774,893 elapsed=2m56.001s
+INFO [06-07|05:51:31.249] Exporting total difficulty               exported=9,171,835 elapsed=3m4.001s
+INFO [06-07|05:51:39.249] Exporting total difficulty               exported=9,568,996 elapsed=3m12.001s
+INFO [06-07|05:51:47.249] Exporting total difficulty               exported=9,968,221 elapsed=3m20.002s
+INFO [06-07|05:51:55.249] Exporting total difficulty               exported=10,365,213 elapsed=3m28.002s
+INFO [06-07|05:52:03.249] Exporting total difficulty               exported=10,764,533 elapsed=3m36.002s
+INFO [06-07|05:52:11.249] Exporting total difficulty               exported=11,161,859 elapsed=3m44.002s
+INFO [06-07|05:52:19.249] Exporting total difficulty               exported=11,562,027 elapsed=3m52.002s
+INFO [06-07|05:52:27.249] Exporting total difficulty               exported=11,962,198 elapsed=4m0.002s
+INFO [06-07|05:52:35.249] Exporting total difficulty               exported=12,361,884 elapsed=4m8.002s
+INFO [06-07|05:52:43.250] Exporting total difficulty               exported=12,762,018 elapsed=4m16.002s
+INFO [06-07|05:52:51.250] Exporting total difficulty               exported=13,160,021 elapsed=4m24.002s
+INFO [06-07|05:52:59.250] Exporting total difficulty               exported=13,559,439 elapsed=4m32.002s
+INFO [06-07|05:53:07.250] Exporting total difficulty               exported=13,960,097 elapsed=4m40.002s
+INFO [06-07|05:53:15.250] Exporting total difficulty               exported=14,360,532 elapsed=4m48.002s
+INFO [06-07|05:53:23.250] Exporting total difficulty               exported=14,760,352 elapsed=4m56.002s
+INFO [06-07|05:53:31.250] Exporting total difficulty               exported=15,160,360 elapsed=5m4.003s
+INFO [06-07|05:53:39.250] Exporting total difficulty               exported=15,561,057 elapsed=5m12.003s
+INFO [06-07|05:53:47.250] Exporting total difficulty               exported=15,961,709 elapsed=5m20.003s
+INFO [06-07|05:53:55.250] Exporting total difficulty               exported=16,363,495 elapsed=5m28.003s
+INFO [06-07|05:54:03.250] Exporting total difficulty               exported=16,762,941 elapsed=5m36.003s
+INFO [06-07|05:54:11.250] Exporting total difficulty               exported=17,163,832 elapsed=5m44.003s
+INFO [06-07|05:54:19.250] Exporting total difficulty               exported=17,564,650 elapsed=5m52.003s
+INFO [06-07|05:54:27.250] Exporting total difficulty               exported=17,965,256 elapsed=6m0.003s
+INFO [06-07|05:54:35.251] Exporting total difficulty               exported=18,366,060 elapsed=6m8.003s
+INFO [06-07|05:54:43.251] Exporting total difficulty               exported=18,763,999 elapsed=6m16.003s
+INFO [06-07|05:54:51.251] Exporting total difficulty               exported=19,164,335 elapsed=6m24.003s
+INFO [06-07|05:54:59.251] Exporting total difficulty               exported=19,563,717 elapsed=6m32.003s
+INFO [06-07|05:55:07.251] Exporting total difficulty               exported=19,963,847 elapsed=6m40.003s
+INFO [06-07|05:55:15.251] Exporting total difficulty               exported=20,364,736 elapsed=6m48.003s
+INFO [06-07|05:55:23.251] Exporting total difficulty               exported=20,764,106 elapsed=6m56.004s
+INFO [06-07|05:55:31.251] Exporting total difficulty               exported=21,163,561 elapsed=7m4.004s
+INFO [06-07|05:55:39.251] Exporting total difficulty               exported=21,563,968 elapsed=7m12.004s
+INFO [06-07|05:55:47.251] Exporting total difficulty               exported=21,962,114 elapsed=7m20.004s
+INFO [06-07|05:55:55.251] Exporting total difficulty               exported=22,360,966 elapsed=7m28.004s
+INFO [06-07|05:56:03.251] Exporting total difficulty               exported=22,760,860 elapsed=7m36.004s
+INFO [06-07|05:56:11.251] Exporting total difficulty               exported=23,160,615 elapsed=7m44.004s
+INFO [06-07|05:56:19.251] Exporting total difficulty               exported=23,561,179 elapsed=7m52.004s
+INFO [06-07|05:56:27.252] Exporting total difficulty               exported=23,958,907 elapsed=8m0.004s
+INFO [06-07|05:56:35.252] Exporting total difficulty               exported=24,357,439 elapsed=8m8.004s
+INFO [06-07|05:56:43.252] Exporting total difficulty               exported=24,756,462 elapsed=8m16.004s
+INFO [06-07|05:56:51.252] Exporting total difficulty               exported=25,155,745 elapsed=8m24.004s
+INFO [06-07|05:56:59.252] Exporting total difficulty               exported=25,555,210 elapsed=8m32.004s
+INFO [06-07|05:57:07.252] Exporting total difficulty               exported=25,954,391 elapsed=8m40.004s
+INFO [06-07|05:57:15.252] Exporting total difficulty               exported=26,352,497 elapsed=8m48.005s
+INFO [06-07|05:57:23.252] Exporting total difficulty               exported=26,751,161 elapsed=8m56.005s
+INFO [06-07|05:57:31.252] Exporting total difficulty               exported=27,148,838 elapsed=9m4.005s
+INFO [06-07|05:57:39.252] Exporting total difficulty               exported=27,549,156 elapsed=9m12.005s
+INFO [06-07|05:57:47.252] Exporting total difficulty               exported=27,950,188 elapsed=9m20.005s
+INFO [06-07|05:57:55.252] Exporting total difficulty               exported=28,350,790 elapsed=9m28.005s
+INFO [06-07|05:58:03.252] Exporting total difficulty               exported=28,749,907 elapsed=9m36.005s
+INFO [06-07|05:58:11.253] Exporting total difficulty               exported=29,149,412 elapsed=9m44.005s
+INFO [06-07|05:58:19.253] Exporting total difficulty               exported=29,547,359 elapsed=9m52.005s
+INFO [06-07|05:58:27.253] Exporting total difficulty               exported=29,946,420 elapsed=10m0.005s
+INFO [06-07|05:58:35.253] Exporting total difficulty               exported=30,345,279 elapsed=10m8.005s
+INFO [06-07|05:58:43.253] Exporting total difficulty               exported=30,744,107 elapsed=10m16.005s
+INFO [06-07|05:58:51.253] Exporting total difficulty               exported=31,142,965 elapsed=10m24.005s
+INFO [06-07|05:58:59.253] Exporting total difficulty               exported=31,541,882 elapsed=10m32.006s
+INFO [06-07|05:59:07.253] Exporting total difficulty               exported=31,940,821 elapsed=10m40.006s
+INFO [06-07|05:59:15.253] Exporting total difficulty               exported=32,340,002 elapsed=10m48.006s
+INFO [06-07|05:59:23.253] Exporting total difficulty               exported=32,739,131 elapsed=10m56.006s
+INFO [06-07|05:59:31.253] Exporting total difficulty               exported=33,137,988 elapsed=11m4.006s
+INFO [06-07|05:59:39.253] Exporting total difficulty               exported=33,537,040 elapsed=11m12.006s
+INFO [06-07|05:59:47.254] Exporting total difficulty               exported=33,936,694 elapsed=11m20.007s
+INFO [06-07|05:59:55.254] Exporting total difficulty               exported=34,336,706 elapsed=11m28.007s
+INFO [06-07|06:00:03.254] Exporting total difficulty               exported=34,736,191 elapsed=11m36.007s
+INFO [06-07|06:00:11.254] Exporting total difficulty               exported=35,135,747 elapsed=11m44.007s
+INFO [06-07|06:00:19.255] Exporting total difficulty               exported=35,535,412 elapsed=11m52.007s
+INFO [06-07|06:00:27.255] Exporting total difficulty               exported=35,934,856 elapsed=12m0.007s
+INFO [06-07|06:00:35.255] Exporting total difficulty               exported=36,334,429 elapsed=12m8.007s
+INFO [06-07|06:00:43.255] Exporting total difficulty               exported=36,734,337 elapsed=12m16.007s
+INFO [06-07|06:00:51.255] Exporting total difficulty               exported=37,134,004 elapsed=12m24.007s
+INFO [06-07|06:00:59.255] Exporting total difficulty               exported=37,535,006 elapsed=12m32.007s
+INFO [06-07|06:01:07.255] Exporting total difficulty               exported=37,935,707 elapsed=12m40.007s
+INFO [06-07|06:01:15.255] Exporting total difficulty               exported=38,336,131 elapsed=12m48.008s
+INFO [06-07|06:01:23.255] Exporting total difficulty               exported=38,736,797 elapsed=12m56.008s
+INFO [06-07|06:01:31.255] Exporting total difficulty               exported=39,137,129 elapsed=13m4.008s
+INFO [06-07|06:01:39.255] Exporting total difficulty               exported=39,537,707 elapsed=13m12.008s
+INFO [06-07|06:01:47.255] Exporting total difficulty               exported=39,938,237 elapsed=13m20.008s
+INFO [06-07|06:01:55.255] Exporting total difficulty               exported=40,336,707 elapsed=13m28.008s
+INFO [06-07|06:02:03.255] Exporting total difficulty               exported=40,736,231 elapsed=13m36.008s
+INFO [06-07|06:02:11.256] Exporting total difficulty               exported=41,136,348 elapsed=13m44.008s
+INFO [06-07|06:02:19.256] Exporting total difficulty               exported=41,536,391 elapsed=13m52.008s
+INFO [06-07|06:02:27.256] Exporting total difficulty               exported=41,936,248 elapsed=14m0.008s
+INFO [06-07|06:02:35.256] Exporting total difficulty               exported=42,335,363 elapsed=14m8.008s
+INFO [06-07|06:02:43.256] Exporting total difficulty               exported=42,734,594 elapsed=14m16.008s
+INFO [06-07|06:02:51.256] Exporting total difficulty               exported=43,134,490 elapsed=14m24.008s
+INFO [06-07|06:02:59.256] Exporting total difficulty               exported=43,534,488 elapsed=14m32.008s
+INFO [06-07|06:03:07.256] Exporting total difficulty               exported=43,934,909 elapsed=14m40.009s
+INFO [06-07|06:03:15.256] Exporting total difficulty               exported=44,334,803 elapsed=14m48.009s
+INFO [06-07|06:03:23.256] Exporting total difficulty               exported=44,734,674 elapsed=14m56.009s
+INFO [06-07|06:03:31.256] Exporting total difficulty               exported=45,133,485 elapsed=15m4.009s
+INFO [06-07|06:03:39.256] Exporting total difficulty               exported=45,532,100 elapsed=15m12.009s
+INFO [06-07|06:03:47.256] Exporting total difficulty               exported=45,932,645 elapsed=15m20.009s
+INFO [06-07|06:03:55.256] Exporting total difficulty               exported=46,334,066 elapsed=15m28.009s
+INFO [06-07|06:04:03.259] Exporting total difficulty               exported=46,735,451 elapsed=15m36.012s
+INFO [06-07|06:04:11.260] Exporting total difficulty               exported=47,136,093 elapsed=15m44.013s
+INFO [06-07|06:04:19.260] Exporting total difficulty               exported=47,538,016 elapsed=15m52.013s
+INFO [06-07|06:04:27.260] Exporting total difficulty               exported=47,939,427 elapsed=16m0.013s
+INFO [06-07|06:04:35.261] Exporting total difficulty               exported=48,340,284 elapsed=16m8.013s
+INFO [06-07|06:04:43.261] Exporting total difficulty               exported=48,741,359 elapsed=16m16.013s
+INFO [06-07|06:04:51.261] Exporting total difficulty               exported=49,142,536 elapsed=16m24.013s
+INFO [06-07|06:04:59.261] Exporting total difficulty               exported=49,544,458 elapsed=16m32.013s
+INFO [06-07|06:05:07.261] Exporting total difficulty               exported=49,945,551 elapsed=16m40.013s
+INFO [06-07|06:05:15.261] Exporting total difficulty               exported=50,347,287 elapsed=16m48.013s
+INFO [06-07|06:05:23.261] Exporting total difficulty               exported=50,748,914 elapsed=16m56.013s
+INFO [06-07|06:05:31.261] Exporting total difficulty               exported=51,150,940 elapsed=17m4.014s
+INFO [06-07|06:05:39.261] Exporting total difficulty               exported=51,553,613 elapsed=17m12.014s
+INFO [06-07|06:05:47.261] Exporting total difficulty               exported=51,955,256 elapsed=17m20.014s
+INFO [06-07|06:05:55.261] Exporting total difficulty               exported=52,356,026 elapsed=17m28.014s
+INFO [06-07|06:06:03.263] Exporting total difficulty               exported=52,756,215 elapsed=17m36.015s
+INFO [06-07|06:06:11.264] Exporting total difficulty               exported=53,156,957 elapsed=17m44.017s
+INFO [06-07|06:06:19.264] Exporting total difficulty               exported=53,558,181 elapsed=17m52.017s
+INFO [06-07|06:06:27.264] Exporting total difficulty               exported=53,958,655 elapsed=18m0.017s
+INFO [06-07|06:06:35.264] Exporting total difficulty               exported=54,360,368 elapsed=18m8.017s
+INFO [06-07|06:06:43.264] Exporting total difficulty               exported=54,760,861 elapsed=18m16.017s
+INFO [06-07|06:06:51.265] Exporting total difficulty               exported=55,162,399 elapsed=18m24.017s
+INFO [06-07|06:06:59.265] Exporting total difficulty               exported=55,563,727 elapsed=18m32.017s
+INFO [06-07|06:07:07.265] Exporting total difficulty               exported=55,965,730 elapsed=18m40.017s
+INFO [06-07|06:07:15.265] Exporting total difficulty               exported=56,367,268 elapsed=18m48.017s
+INFO [06-07|06:07:23.265] Exporting total difficulty               exported=56,768,802 elapsed=18m56.017s
+INFO [06-07|06:07:31.265] Exporting total difficulty               exported=57,169,728 elapsed=19m4.017s
+INFO [06-07|06:07:39.265] Exporting total difficulty               exported=57,571,223 elapsed=19m12.018s
+INFO [06-07|06:07:47.265] Exporting total difficulty               exported=57,972,850 elapsed=19m20.018s
+INFO [06-07|06:07:55.265] Exporting total difficulty               exported=58,373,805 elapsed=19m28.018s
+INFO [06-07|06:08:03.265] Exporting total difficulty               exported=58,775,416 elapsed=19m36.018s
+INFO [06-07|06:08:11.265] Exporting total difficulty               exported=59,176,800 elapsed=19m44.018s
+INFO [06-07|06:08:19.265] Exporting total difficulty               exported=59,579,017 elapsed=19m52.018s
+INFO [06-07|06:08:27.265] Exporting total difficulty               exported=59,980,387 elapsed=20m0.018s
+INFO [06-07|06:08:35.266] Exporting total difficulty               exported=60,381,785 elapsed=20m8.018s
+INFO [06-07|06:08:43.266] Exporting total difficulty               exported=60,783,809 elapsed=20m16.018s
+INFO [06-07|06:08:51.266] Exporting total difficulty               exported=61,186,304 elapsed=20m24.018s
+INFO [06-07|06:08:59.266] Exporting total difficulty               exported=61,588,337 elapsed=20m32.018s
+INFO [06-07|06:09:07.266] Exporting total difficulty               exported=61,990,965 elapsed=20m40.018s
+INFO [06-07|06:09:15.266] Exporting total difficulty               exported=62,393,223 elapsed=20m48.018s
+INFO [06-07|06:09:23.266] Exporting total difficulty               exported=62,795,134 elapsed=20m56.018s
+INFO [06-07|06:09:31.266] Exporting total difficulty               exported=63,196,702 elapsed=21m4.019s
+INFO [06-07|06:09:39.266] Exporting total difficulty               exported=63,598,069 elapsed=21m12.019s
+INFO [06-07|06:09:47.266] Exporting total difficulty               exported=63,999,323 elapsed=21m20.019s
+INFO [06-07|06:09:55.266] Exporting total difficulty               exported=64,400,796 elapsed=21m28.019s
+INFO [06-07|06:10:03.266] Exporting total difficulty               exported=64,802,772 elapsed=21m36.019s
+INFO [06-07|06:10:11.266] Exporting total difficulty               exported=65,204,503 elapsed=21m44.019s
+INFO [06-07|06:10:19.266] Exporting total difficulty               exported=65,606,357 elapsed=21m52.019s
+INFO [06-07|06:10:27.267] Exporting total difficulty               exported=66,008,568 elapsed=22m0.019s
+INFO [06-07|06:10:35.267] Exporting total difficulty               exported=66,410,215 elapsed=22m8.019s
+INFO [06-07|06:10:43.267] Exporting total difficulty               exported=66,811,941 elapsed=22m16.020s
+INFO [06-07|06:10:51.267] Exporting total difficulty               exported=67,214,173 elapsed=22m24.020s
+INFO [06-07|06:10:59.267] Exporting total difficulty               exported=67,615,580 elapsed=22m32.020s
+INFO [06-07|06:11:07.267] Exporting total difficulty               exported=68,017,109 elapsed=22m40.020s
+INFO [06-07|06:11:15.267] Exporting total difficulty               exported=68,416,846 elapsed=22m48.020s
+INFO [06-07|06:11:23.268] Exporting total difficulty               exported=68,817,478 elapsed=22m56.020s
+INFO [06-07|06:11:31.268] Exporting total difficulty               exported=69,218,089 elapsed=23m4.020s
+INFO [06-07|06:11:39.268] Exporting total difficulty               exported=69,618,660 elapsed=23m12.020s
+INFO [06-07|06:11:47.268] Exporting total difficulty               exported=70,019,260 elapsed=23m20.020s
+INFO [06-07|06:11:55.268] Exporting total difficulty               exported=70,420,184 elapsed=23m28.020s
+INFO [06-07|06:12:03.268] Exporting total difficulty               exported=70,820,937 elapsed=23m36.020s
+INFO [06-07|06:12:11.268] Exporting total difficulty               exported=71,221,098 elapsed=23m44.021s
+INFO [06-07|06:12:19.268] Exporting total difficulty               exported=71,621,478 elapsed=23m52.021s
+INFO [06-07|06:12:27.268] Exporting total difficulty               exported=72,022,814 elapsed=24m0.021s
+INFO [06-07|06:12:35.268] Exporting total difficulty               exported=72,423,412 elapsed=24m8.021s
+INFO [06-07|06:12:43.268] Exporting total difficulty               exported=72,824,033 elapsed=24m16.021s
+INFO [06-07|06:12:51.268] Exporting total difficulty               exported=73,223,386 elapsed=24m24.021s
+INFO [06-07|06:12:59.268] Exporting total difficulty               exported=73,623,770 elapsed=24m32.021s
+INFO [06-07|06:13:07.268] Exporting total difficulty               exported=74,024,415 elapsed=24m40.021s
+INFO [06-07|06:13:15.269] Exporting total difficulty               exported=74,424,850 elapsed=24m48.021s
+INFO [06-07|06:13:23.269] Exporting total difficulty               exported=74,824,468 elapsed=24m56.021s
+INFO [06-07|06:13:31.269] Exporting total difficulty               exported=75,225,041 elapsed=25m4.021s
+INFO [06-07|06:13:39.269] Exporting total difficulty               exported=75,624,246 elapsed=25m12.021s
+INFO [06-07|06:13:47.269] Exporting total difficulty               exported=76,024,997 elapsed=25m20.021s
+INFO [06-07|06:13:55.269] Exporting total difficulty               exported=76,425,523 elapsed=25m28.021s
+INFO [06-07|06:14:03.269] Exporting total difficulty               exported=76,823,881 elapsed=25m36.021s
+INFO [06-07|06:14:11.269] Exporting total difficulty               exported=77,223,373 elapsed=25m44.022s
+INFO [06-07|06:14:19.269] Exporting total difficulty               exported=77,623,057 elapsed=25m52.022s
+INFO [06-07|06:14:27.269] Exporting total difficulty               exported=78,022,915 elapsed=26m0.022s
+INFO [06-07|06:14:35.269] Exporting total difficulty               exported=78,423,626 elapsed=26m8.022s
+INFO [06-07|06:14:43.269] Exporting total difficulty               exported=78,823,847 elapsed=26m16.022s
+INFO [06-07|06:14:51.269] Exporting total difficulty               exported=79,224,553 elapsed=26m24.022s
+INFO [06-07|06:14:59.269] Exporting total difficulty               exported=79,624,983 elapsed=26m32.022s
+INFO [06-07|06:15:07.269] Exporting total difficulty               exported=80,024,927 elapsed=26m40.022s
+INFO [06-07|06:15:15.270] Exporting total difficulty               exported=80,423,799 elapsed=26m48.022s
+INFO [06-07|06:15:23.270] Exporting total difficulty               exported=80,823,125 elapsed=26m56.022s
+INFO [06-07|06:15:31.270] Exporting total difficulty               exported=81,221,912 elapsed=27m4.022s
+INFO [06-07|06:15:39.270] Exporting total difficulty               exported=81,621,305 elapsed=27m12.022s
+INFO [06-07|06:15:47.270] Exporting total difficulty               exported=82,020,289 elapsed=27m20.022s
+INFO [06-07|06:15:55.270] Exporting total difficulty               exported=82,421,496 elapsed=27m28.022s
+INFO [06-07|06:16:03.270] Exporting total difficulty               exported=82,822,660 elapsed=27m36.023s
+INFO [06-07|06:16:11.270] Exporting total difficulty               exported=83,222,715 elapsed=27m44.023s
+INFO [06-07|06:16:19.270] Exporting total difficulty               exported=83,623,129 elapsed=27m52.023s
+INFO [06-07|06:16:27.270] Exporting total difficulty               exported=84,023,104 elapsed=28m0.023s
+INFO [06-07|06:16:35.270] Exporting total difficulty               exported=84,422,214 elapsed=28m8.023s
+INFO [06-07|06:16:43.270] Exporting total difficulty               exported=84,821,826 elapsed=28m16.023s
+INFO [06-07|06:16:51.270] Exporting total difficulty               exported=85,221,381 elapsed=28m24.023s
+INFO [06-07|06:16:59.271] Exporting total difficulty               exported=85,620,020 elapsed=28m32.023s
+INFO [06-07|06:17:07.271] Exporting total difficulty               exported=86,019,195 elapsed=28m40.023s
+INFO [06-07|06:17:15.271] Exporting total difficulty               exported=86,418,019 elapsed=28m48.023s
+INFO [06-07|06:17:23.271] Exporting total difficulty               exported=86,817,166 elapsed=28m56.023s
+INFO [06-07|06:17:31.271] Exporting total difficulty               exported=87,216,015 elapsed=29m4.023s
+INFO [06-07|06:17:39.271] Exporting total difficulty               exported=87,615,734 elapsed=29m12.023s
+INFO [06-07|06:17:47.271] Exporting total difficulty               exported=88,015,714 elapsed=29m20.023s
+INFO [06-07|06:17:55.271] Exporting total difficulty               exported=88,415,080 elapsed=29m28.024s
+INFO [06-07|06:18:03.271] Exporting total difficulty               exported=88,815,295 elapsed=29m36.024s
+INFO [06-07|06:18:11.271] Exporting total difficulty               exported=89,215,362 elapsed=29m44.024s
+INFO [06-07|06:18:19.271] Exporting total difficulty               exported=89,615,642 elapsed=29m52.024s
+INFO [06-07|06:18:27.271] Exporting total difficulty               exported=90,015,204 elapsed=30m0.024s
+INFO [06-07|06:18:35.271] Exporting total difficulty               exported=90,415,264 elapsed=30m8.024s
+INFO [06-07|06:18:43.271] Exporting total difficulty               exported=90,815,946 elapsed=30m16.024s
+INFO [06-07|06:18:51.272] Exporting total difficulty               exported=91,216,196 elapsed=30m24.024s
+INFO [06-07|06:18:59.272] Exporting total difficulty               exported=91,615,560 elapsed=30m32.024s
+INFO [06-07|06:19:07.272] Exporting total difficulty               exported=92,016,885 elapsed=30m40.024s
+INFO [06-07|06:19:15.272] Exporting total difficulty               exported=92,418,976 elapsed=30m48.024s
+INFO [06-07|06:19:23.272] Exporting total difficulty               exported=92,819,895 elapsed=30m56.024s
+INFO [06-07|06:19:31.272] Exporting total difficulty               exported=93,221,354 elapsed=31m4.024s
+INFO [06-07|06:19:39.272] Exporting total difficulty               exported=93,622,842 elapsed=31m12.025s
+INFO [06-07|06:19:47.272] Exporting total difficulty               exported=94,023,411 elapsed=31m20.025s
+INFO [06-07|06:19:55.272] Exporting total difficulty               exported=94,423,473 elapsed=31m28.025s
+INFO [06-07|06:20:03.272] Exporting total difficulty               exported=94,821,283 elapsed=31m36.025s
+INFO [06-07|06:20:11.272] Exporting total difficulty               exported=95,219,646 elapsed=31m44.025s
+INFO [06-07|06:20:19.272] Exporting total difficulty               exported=95,617,200 elapsed=31m52.025s
+INFO [06-07|06:20:27.272] Exporting total difficulty               exported=96,015,445 elapsed=32m0.025s
+INFO [06-07|06:20:35.273] Exporting total difficulty               exported=96,412,091 elapsed=32m8.025s
+INFO [06-07|06:20:43.273] Exporting total difficulty               exported=96,810,532 elapsed=32m16.025s
+INFO [06-07|06:20:51.273] Exporting total difficulty               exported=97,209,495 elapsed=32m24.025s
+INFO [06-07|06:20:59.273] Exporting total difficulty               exported=97,608,916 elapsed=32m32.025s
+INFO [06-07|06:21:07.273] Exporting total difficulty               exported=98,008,966 elapsed=32m40.025s
+INFO [06-07|06:21:15.273] Exporting total difficulty               exported=98,408,682 elapsed=32m48.025s
+INFO [06-07|06:21:23.273] Exporting total difficulty               exported=98,808,953 elapsed=32m56.025s
+INFO [06-07|06:21:31.273] Exporting total difficulty               exported=99,209,681 elapsed=33m4.026s
+INFO [06-07|06:21:39.273] Exporting total difficulty               exported=99,611,033 elapsed=33m12.026s
+INFO [06-07|06:21:47.273] Exporting total difficulty               exported=100,007,750 elapsed=33m20.026s
+INFO [06-07|06:21:55.273] Exporting total difficulty               exported=100,406,214 elapsed=33m28.026s
+INFO [06-07|06:22:03.273] Exporting total difficulty               exported=100,803,507 elapsed=33m36.026s
+INFO [06-07|06:22:11.273] Exporting total difficulty               exported=101,200,090 elapsed=33m44.026s
+INFO [06-07|06:22:19.273] Exporting total difficulty               exported=101,597,981 elapsed=33m52.026s
+INFO [06-07|06:22:27.274] Exporting total difficulty               exported=101,994,823 elapsed=34m0.026s
+INFO [06-07|06:22:35.274] Exporting total difficulty               exported=102,391,644 elapsed=34m8.026s
+INFO [06-07|06:22:43.274] Exporting total difficulty               exported=102,786,880 elapsed=34m16.026s
+INFO [06-07|06:22:51.274] Exporting total difficulty               exported=103,185,102 elapsed=34m24.026s
+INFO [06-07|06:22:59.274] Exporting total difficulty               exported=103,582,703 elapsed=34m32.026s
+INFO [06-07|06:23:07.274] Exporting total difficulty               exported=103,979,751 elapsed=34m40.026s
+INFO [06-07|06:23:15.274] Exporting total difficulty               exported=104,375,535 elapsed=34m48.026s
+INFO [06-07|06:23:23.274] Exporting total difficulty               exported=104,771,180 elapsed=34m56.027s
+INFO [06-07|06:23:31.274] Exporting total difficulty               exported=105,161,340 elapsed=35m4.027s
+INFO [06-07|06:23:33.630] Exported total difficulty to             file=/data1/migration-artifact/totaldifficulty.rlp

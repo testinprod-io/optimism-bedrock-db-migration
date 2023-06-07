@@ -1,0 +1,144 @@
+[INFO] [06-07|16:03:57.978] logging to file system                   log dir=migration-log/import_state file prefix=erigon log level=info json=false
+[INFO] [06-07|16:03:57.978] Starting metrics server                  addr=http://0.0.0.0:55555/debug/metrics/prometheus
+[INFO] [06-07|16:03:57.984] Starting Erigon on Optimism Mainnet... 
+[INFO] [06-07|16:03:57.984] Maximum peer count                       ETH=0 total=0
+[INFO] [06-07|16:03:57.984] starting HTTP APIs                       APIs=eth,erigon,engine
+[INFO] [06-07|16:03:57.984] torrent verbosity                        level=WRN
+[INFO] [06-07|16:04:00.086] Set global gas cap                       cap=50000000
+[INFO] [06-07|16:04:00.087] [Downloader] Runnning with               ipv6-enabled=true ipv4-enabled=true download.rate=16mb upload.rate=4mb
+[INFO] [06-07|16:04:00.087] Opening Database                         label=chaindata path=/data2/erigon_db/chaindata
+[INFO] [06-07|16:04:00.087] [db] params: growStep=2GB, mapsSize=7TB, shrinkThreshold=-1, pageSize=4KB, label=chaindata, WriteMap=false, Durable=false, NoReadahead=true,  
+[INFO] [06-07|16:04:00.088] Initialised chain configuration          config="{ChainID: 10, Homestead: 0, DAO: <nil>, Tangerine Whistle: 0, Spurious Dragon: 0, Byzantium: 0, Constantinople: 0, Petersburg: 0, Istanbul: 0, Muir Glacier: 0, Berlin: 3950000, London: 3950000, Arrow Glacier: 3950000, Gray Glacier: 3950000, Terminal Total Difficulty: 0, Merge Netsplit: 3950000, Shanghai: <nil>, Cancun: <nil>, Prague: <nil>, Engine: unknown}" genesis=0x7ca38a1916c42007829c55e69d3e9a73265554b586a499015373241b8a3fa48b
+[INFO] [06-07|16:04:00.088] Effective                                prune_flags= snapshot_flags= history.v3=false
+[INFO] [06-07|16:04:00.089] Initialising Ethereum protocol           network=10
+[INFO] [06-07|16:04:00.089] Disk storage enabled for ethash DAGs     dir=/data2/erigon_db/ethash-dags count=2
+[INFO] [06-07|16:04:00.438] Starting private RPC server              on=localhost:12345
+[INFO] [06-07|16:04:00.439] new subscription to logs established 
+[INFO] [06-07|16:04:00.439] Database sanity check for block number   blockNumber=105235063 checkEmpty=true
+[INFO] [06-07|16:04:00.439] World State Trie Root Calculation        elapsed=696ns
+[INFO] [06-07|16:04:00.439] State trie must by empty 
+[INFO] [06-07|16:04:00.439] state root consistent with target root 
+[INFO] [06-07|16:04:00.439] Importing state                          file=/data1/migration-artifact/world_trie_state.jsonl stream=true
+[INFO] [06-07|16:04:00.439] Importing state for block number         blockNumber=105235063
+[INFO] [06-07|16:04:00.439] Walk accounts                            index=0 elapsed=73.442µs
+[INFO] [06-07|16:04:00.439] Iterate accounts                         index=0 elapsed=75.108µs
+[INFO] [06-07|16:04:00.439] state root from header                   root=0x920314c198da844a041d63bf6cbe8b59583165fd2229d1b3f599da812fd424cb
+[INFO] [06-07|16:04:08.439] Import state                             index=68093 elapsed=8.000160263s
+[INFO] [06-07|16:04:16.440] Import state                             index=183107 elapsed=16.000820199s
+[INFO] [06-07|16:04:24.440] Import state                             index=317635 elapsed=24.001056957s
+[INFO] [06-07|16:04:32.441] Import state                             index=374704 elapsed=32.002288338s
+[INFO] [06-07|16:04:40.440] Import state                             index=440011 elapsed=40.000845995s
+[INFO] [06-07|16:04:48.440] Import state                             index=500500 elapsed=48.000930083s
+[INFO] [06-07|16:04:56.439] Import state                             index=596775 elapsed=56.000159789s
+[INFO] [06-07|16:05:04.440] Import state                             index=602032 elapsed=1m4.000836589s
+[INFO] [06-07|16:05:12.441] Import state                             index=688343 elapsed=1m12.001983189s
+[INFO] [06-07|16:05:20.440] Import state                             index=802209 elapsed=1m20.000846713s
+[INFO] [06-07|16:05:28.439] Import state                             index=913661 elapsed=1m28.000068691s
+[INFO] [06-07|16:05:36.440] Import state                             index=913662 elapsed=1m36.000618122s
+[INFO] [06-07|16:05:44.440] Import state                             index=915188 elapsed=1m44.001026334s
+[INFO] [06-07|16:05:52.441] Import state                             index=964994 elapsed=1m52.002524398s
+[INFO] [06-07|16:06:00.090] [p2p] GoodPeers 
+[INFO] [06-07|16:06:00.439] Import state                             index=1023184 elapsed=2m0.000058273s
+[INFO] [06-07|16:06:08.439] Import state                             index=1102125 elapsed=2m8.000465568s
+[INFO] [06-07|16:06:16.440] Import state                             index=1213440 elapsed=2m16.000896295s
+[INFO] [06-07|16:06:24.440] Import state                             index=1213441 elapsed=2m24.001304464s
+[INFO] [06-07|16:06:32.441] Import state                             index=1215716 elapsed=2m32.002345251s
+[INFO] [06-07|16:06:40.440] Import state                             index=1267287 elapsed=2m40.00062114s
+[INFO] [06-07|16:06:48.440] Import state                             index=1362691 elapsed=2m48.001021769s
+[INFO] [06-07|16:06:56.440] Import state                             index=1382368 elapsed=2m56.0009283s
+[INFO] [06-07|16:07:04.440] Import state                             index=1382369 elapsed=3m4.001315118s
+[INFO] [06-07|16:07:12.441] Import state                             index=1382369 elapsed=3m12.001821174s
+[INFO] [06-07|16:07:20.440] Import state                             index=1397438 elapsed=3m20.000997353s
+[INFO] [06-07|16:07:28.440] Import state                             index=1406406 elapsed=3m28.000710798s
+[INFO] [06-07|16:07:36.439] Import state                             index=1485532 elapsed=3m36.000581927s
+[INFO] [06-07|16:07:44.440] Import state                             index=1547746 elapsed=3m44.000851536s
+[INFO] [06-07|16:07:52.441] Import state                             index=1593981 elapsed=3m52.001754801s
+[INFO] [06-07|16:08:00.091] [p2p] GoodPeers 
+[INFO] [06-07|16:08:00.439] Import state                             index=1618089 elapsed=4m0.000101957s
+[INFO] [06-07|16:08:08.440] Import state                             index=1618089 elapsed=4m8.000823793s
+[INFO] [06-07|16:08:16.439] Import state                             index=1648508 elapsed=4m16.000118505s
+[INFO] [06-07|16:08:24.440] Import state                             index=1733994 elapsed=4m24.001388206s
+[INFO] [06-07|16:08:32.441] Import state                             index=1889408 elapsed=4m32.001636829s
+[INFO] [06-07|16:08:40.439] Import state                             index=2022851 elapsed=4m40.00048317s
+[INFO] [06-07|16:08:48.440] Import state                             index=2098673 elapsed=4m48.000883203s
+[INFO] [06-07|16:08:56.439] Import state                             index=2107567 elapsed=4m56.000044762s
+[INFO] [06-07|16:09:04.440] Import state                             index=2176122 elapsed=5m4.001361986s
+[INFO] [06-07|16:09:12.441] Import state                             index=2312157 elapsed=5m12.002224488s
+[INFO] [06-07|16:09:20.440] Import state                             index=2404190 elapsed=5m20.000980929s
+[INFO] [06-07|16:09:28.439] Import state                             index=2473499 elapsed=5m28.000464199s
+[INFO] [06-07|16:09:36.440] Import state                             index=2586498 elapsed=5m36.000807721s
+[INFO] [06-07|16:09:44.440] Import state                             index=2595126 elapsed=5m44.00109132s
+[INFO] [06-07|16:09:52.441] Import state                             index=2595127 elapsed=5m52.002281279s
+[INFO] [06-07|16:10:00.090] [p2p] GoodPeers 
+[INFO] [06-07|16:10:00.440] Import state                             index=2595127 elapsed=6m0.00101944s
+[INFO] [06-07|16:10:08.440] Import state                             index=2650848 elapsed=6m8.000795745s
+[INFO] [06-07|16:10:16.440] Import state                             index=2680447 elapsed=6m16.000832344s
+[INFO] [06-07|16:10:24.440] Import state                             index=2709175 elapsed=6m24.000944451s
+[INFO] [06-07|16:10:32.441] Import state                             index=2775221 elapsed=6m32.002043006s
+[INFO] [06-07|16:10:40.440] Import state                             index=2800189 elapsed=6m40.000933181s
+[INFO] [06-07|16:10:48.440] Import state                             index=2800190 elapsed=6m48.000899888s
+[INFO] [06-07|16:10:56.440] Import state                             index=2800190 elapsed=6m56.000778329s
+[INFO] [06-07|16:11:04.439] Import state                             index=2886413 elapsed=7m4.00055642s
+[INFO] [06-07|16:11:12.441] Import state                             index=2929309 elapsed=7m12.001769323s
+[INFO] [06-07|16:11:20.439] Import state                             index=3008980 elapsed=7m20.000027352s
+[INFO] [06-07|16:11:28.440] Import state                             index=3024211 elapsed=7m28.000739246s
+[INFO] [06-07|16:11:36.444] Import state                             index=3122465 elapsed=7m36.005491793s
+[INFO] [06-07|16:11:44.440] Import state                             index=3202553 elapsed=7m44.001292122s
+[INFO] [06-07|16:11:52.441] Import state                             index=3258177 elapsed=7m52.002120817s
+[INFO] [06-07|16:12:00.090] [p2p] GoodPeers 
+[INFO] [06-07|16:12:00.440] Import state                             index=3258178 elapsed=8m0.000831093s
+[INFO] [06-07|16:12:08.440] Import state                             index=3258178 elapsed=8m8.000817822s
+[INFO] [06-07|16:12:16.440] Import state                             index=3355448 elapsed=8m16.000692197s
+[INFO] [06-07|16:12:24.440] Import state                             index=3410431 elapsed=8m24.000954157s
+[INFO] [06-07|16:12:32.441] Import state                             index=3494007 elapsed=8m32.002023646s
+[INFO] [06-07|16:12:40.440] Import state                             index=3555856 elapsed=8m40.00075978s
+[INFO] [06-07|16:12:48.440] Import state                             index=3581168 elapsed=8m48.000661828s
+[INFO] [06-07|16:12:56.440] Import state                             index=3581169 elapsed=8m56.000863947s
+[INFO] [06-07|16:13:04.440] Import state                             index=3581169 elapsed=9m4.001159124s
+[INFO] [06-07|16:13:12.441] Import state                             index=3594010 elapsed=9m12.001923879s
+[INFO] [06-07|16:13:20.440] Import state                             index=3599811 elapsed=9m20.000947775s
+[INFO] [06-07|16:13:28.439] Import state                             index=3599812 elapsed=9m28.000072243s
+[INFO] [06-07|16:13:36.439] Import state                             index=3599812 elapsed=9m36.000487715s
+[INFO] [06-07|16:13:44.440] Import state                             index=3683361 elapsed=9m44.000812797s
+[INFO] [06-07|16:13:52.441] Import state                             index=3726651 elapsed=9m52.001649191s
+[INFO] [06-07|16:14:00.090] [p2p] GoodPeers 
+[INFO] [06-07|16:14:00.439] Import state                             index=3726652 elapsed=10m0.000021261s
+[INFO] [06-07|16:14:08.440] Import state                             index=3726652 elapsed=10m8.0006614s
+[INFO] [06-07|16:14:16.439] Import state                             index=3760539 elapsed=10m16.000057732s
+[INFO] [06-07|16:14:24.440] Import state                             index=3833165 elapsed=10m24.001351346s
+[INFO] [06-07|16:14:32.441] Import state                             index=3960103 elapsed=10m32.002246998s
+[INFO] [06-07|16:14:37.773] Import state                             index=4007565 elapsed=10m37.334044337s
+[INFO] [06-07|16:16:00.091] [p2p] GoodPeers 
+[INFO] [06-07|16:18:00.090] [p2p] GoodPeers 
+[INFO] [06-07|16:20:00.090] [p2p] GoodPeers 
+[INFO] [06-07|16:22:00.090] [p2p] GoodPeers 
+[INFO] [06-07|16:24:00.090] [p2p] GoodPeers 
+[INFO] [06-07|16:25:59.740] [regenesis] Calculating Merkle root      current key=3878c629
+[INFO] [06-07|16:26:00.089] [p2p] GoodPeers 
+[INFO] [06-07|16:26:35.773] [regenesis] Calculating Merkle root      current key=583e23db
+[INFO] [06-07|16:26:59.786] [regenesis] Calculating Merkle root      current key=70c869d3
+[INFO] [06-07|16:27:34.080] [regenesis] Calculating Merkle root      current key=a5ac64e1
+[INFO] [06-07|16:28:00.089] [p2p] GoodPeers 
+[INFO] [06-07|16:28:00.285] [regenesis] Calculating Merkle root      current key=bb3931c9
+[INFO] [06-07|16:28:30.324] [regenesis] Calculating Merkle root      current key=e31bb405
+[INFO] [06-07|16:29:00.588] [regenesis] Calculating Merkle root      current key=ee5321d5
+[INFO] [06-07|16:29:09.111] newly calculated root                    root=0x920314c198da844a041d63bf6cbe8b59583165fd2229d1b3f599da812fd424cb
+[INFO] [06-07|16:30:00.091] [p2p] GoodPeers 
+[INFO] [06-07|16:32:00.090] [p2p] GoodPeers 
+[INFO] [06-07|16:34:00.090] [p2p] GoodPeers 
+[INFO] [06-07|16:36:01.926] [p2p] GoodPeers 
+[INFO] [06-07|16:37:11.885] commit block                             elapsed=8m2.774583717s
+[INFO] [06-07|16:38:00.089] [p2p] GoodPeers 
+[INFO] [06-07|16:40:00.090] [p2p] GoodPeers 
+[INFO] [06-07|16:42:00.091] [p2p] GoodPeers 
+[INFO] [06-07|16:42:20.260] write change sets                        elapsed=5m8.374605192s
+[INFO] [06-07|16:44:00.091] [p2p] GoodPeers 
+[INFO] [06-07|16:46:00.090] [p2p] GoodPeers 
+[INFO] [06-07|16:48:00.091] [p2p] GoodPeers 
+[INFO] [06-07|16:50:00.091] [p2p] GoodPeers 
+[INFO] [06-07|16:52:00.091] [p2p] GoodPeers 
+[INFO] [06-07|16:54:00.090] [p2p] GoodPeers 
+[INFO] [06-07|16:56:00.091] [p2p] GoodPeers 
+[INFO] [06-07|16:56:53.826] write history                            elapsed=14m33.565674252s
+[INFO] [06-07|16:56:53.826] state root stored at blockheader         root=0x920314c198da844a041d63bf6cbe8b59583165fd2229d1b3f599da812fd424cb
+[INFO] [06-07|16:56:53.826] state root consistent with block header's state root 

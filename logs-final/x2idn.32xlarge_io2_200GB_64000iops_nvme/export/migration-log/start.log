@@ -1,0 +1,87 @@
+INFO [06-07|05:10:45.196] Starting Geth on Ethereum mainnet... 
+INFO [06-07|05:10:45.197] Bumping default cache on mainnet         provided=1024 updated=4096
+INFO [06-07|05:10:45.198] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [06-07|05:10:45.200] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [06-07|05:10:45.202] Set global gas cap                       cap=50,000,000
+INFO [06-07|05:10:45.203] Allocated trie memory caches             clean=614.00MiB dirty=1024.00MiB
+INFO [06-07|05:10:45.276] Using leveldb as the backing database 
+INFO [06-07|05:10:45.276] Allocated cache and file handles         database=/data1/geth_db/geth/chaindata cache=2.00GiB handles=524,288
+INFO [06-07|05:10:45.954] Using LevelDB as the backing database 
+INFO [06-07|05:10:45.954] Found legacy ancient chain path          location=/data1/geth_db/geth/chaindata/ancient
+INFO [06-07|05:10:46.265] Opened ancient database                  database=/data1/geth_db/geth/chaindata/ancient readonly=false
+INFO [06-07|05:10:46.554] Disk storage enabled for ethash caches   dir=/data1/geth_db/geth/ethash count=3
+INFO [06-07|05:10:46.554] Disk storage enabled for ethash DAGs     dir=/home/ubuntu/.ethash       count=2
+WARN [06-07|05:10:46.555] Upgrade blockchain database version      from=7 to=8
+INFO [06-07|05:10:46.555]  
+INFO [06-07|05:10:46.555] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [06-07|05:10:46.555] Chain ID:  10 (unknown) 
+INFO [06-07|05:10:46.555] Consensus: Optimism 
+INFO [06-07|05:10:46.555]  
+INFO [06-07|05:10:46.555] Pre-Merge hard forks (block based): 
+INFO [06-07|05:10:46.555]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [06-07|05:10:46.555]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [06-07|05:10:46.555]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [06-07|05:10:46.555]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [06-07|05:10:46.555]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [06-07|05:10:46.555]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [06-07|05:10:46.555]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [06-07|05:10:46.555]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [06-07|05:10:46.555]  - Muir Glacier:                #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md) 
+INFO [06-07|05:10:46.555]  - Berlin:                      #3950000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [06-07|05:10:46.555]  - London:                      #105235063 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [06-07|05:10:46.556]  - Arrow Glacier:               #105235063 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md) 
+INFO [06-07|05:10:46.556]  - Gray Glacier:                #105235063 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md) 
+INFO [06-07|05:10:46.556]  
+INFO [06-07|05:10:46.556] Merge configured: 
+INFO [06-07|05:10:46.556]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [06-07|05:10:46.556]  - Network known to be merged: true 
+INFO [06-07|05:10:46.556]  - Total terminal difficulty:  0 
+INFO [06-07|05:10:46.556]  - Merge netsplit block:       #105235063 
+INFO [06-07|05:10:46.556]  
+INFO [06-07|05:10:46.556] Post-Merge hard forks (timestamp based): 
+INFO [06-07|05:10:46.556]  - Regolith:                    @0          
+INFO [06-07|05:10:46.556]  
+INFO [06-07|05:10:46.556] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [06-07|05:10:46.556]  
+INFO [06-07|05:10:46.556] Loaded most recent local block           number=105,235,063 hash=dbf6a8..c2afd3 td=0 age=12h42m23s
+INFO [06-07|05:10:46.556] Loaded most recent local finalized block number=105,235,063 hash=dbf6a8..c2afd3 td=0 age=12h42m23s
+WARN [06-07|05:10:46.557] Failed to load snapshot                  err="missing or corrupted snapshot"
+INFO [06-07|05:10:46.557] Rebuilding state snapshot 
+INFO [06-07|05:10:46.557] Initialising Ethereum protocol           network=10 dbversion=7
+INFO [06-07|05:10:46.557] Entered PoS stage 
+INFO [06-07|05:10:46.557] Resuming state snapshot generation       root=920314..d424cb accounts=0 slots=0 storage=0.00B dangling=0 elapsed="261.609µs"
+INFO [06-07|05:10:46.557] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [06-07|05:10:46.557] Switch sync mode from snap sync to full sync 
+INFO [06-07|05:10:46.557] Chain post-merge, sync via beacon client 
+INFO [06-07|05:10:46.557] Gasprice oracle is ignoring threshold set threshold=2
+WARN [06-07|05:10:46.558] Error reading unclean shutdown markers   error="leveldb: not found"
+WARN [06-07|05:10:46.558] Engine API enabled                       protocol=eth
+INFO [06-07|05:10:46.558] Starting peer-to-peer node               instance=Geth/v0.1.0-unstable-29062eb0-20230606/linux-amd64/go1.19.6
+INFO [06-07|05:10:46.589] New local node record                    seq=1,686,114,646,588 id=aff14f9e8ced5ba5 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [06-07|05:10:46.589] Started P2P networking                   self=enode://f3424a77e87a98fd294340be64fb934e01a514f13c725e89eb8dd4375914115d597e811f65c76bf087c4d316a77bb7b3022662bad9dd64177e9e0005595245f1@127.0.0.1:30303
+INFO [06-07|05:10:46.590] IPC endpoint opened                      url=/data1/geth_db/geth.ipc
+INFO [06-07|05:10:46.590] Generated JWT secret                     path=/data1/geth_db/geth/jwtsecret
+INFO [06-07|05:10:46.590] HTTP server started                      endpoint=127.0.0.1:8545 auth=false prefix= cors= vhosts=localhost
+INFO [06-07|05:10:46.590] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [06-07|05:10:46.590] HTTP server started                      endpoint=127.0.0.1:8551 auth=true  prefix= cors=localhost vhosts=localhost
+INFO [06-07|05:10:49.099] New local node record                    seq=1,686,114,646,589 id=aff14f9e8ced5ba5 ip=3.91.50.90 udp=30303 tcp=30303
+INFO [06-07|05:10:54.557] Generating state snapshot                root=920314..d424cb in=005784..87caff at=a1745b..6cb237 accounts=5296 slots=59865 storage=4.75MiB dangling=0 elapsed=8.000s      eta=1h39m43.277s
+INFO [06-07|05:10:55.170] Got interrupt, shutting down... 
+INFO [06-07|05:10:55.170] HTTP server stopped                      endpoint=127.0.0.1:8545
+INFO [06-07|05:10:55.170] HTTP server stopped                      endpoint=127.0.0.1:8551
+INFO [06-07|05:10:55.170] IPC endpoint closed                      url=/data1/geth_db/geth.ipc
+INFO [06-07|05:10:55.170] Ethereum protocol stopped 
+INFO [06-07|05:10:55.170] Transaction pool stopped 
+INFO [06-07|05:10:55.170] Aborting state snapshot generation       root=920314..d424cb in=005784..87caff at=c63c0b..3e3ba6 accounts=5296 slots=67650 storage=5.37MiB dangling=0 elapsed=8.613s      eta=1h47m21.688s
+INFO [06-07|05:10:55.170] Journalling in-progress snapshot         root=920314..d424cb in=005784..87caff at=c63c0b..3e3ba6 accounts=5296 slots=67650 storage=5.37MiB dangling=0 elapsed=8.613s      eta=1h47m21.688s
+INFO [06-07|05:10:55.171] Writing cached state to disk             block=105,235,063 hash=dbf6a8..c2afd3 root=920314..d424cb
+INFO [06-07|05:10:55.171] Persisted trie from memory database      nodes=0 size=0.00B time="2.657µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [06-07|05:10:55.171] Writing cached state to disk             block=105,235,062 hash=21a168..e4ca50 root=4adc41..363bd3
+INFO [06-07|05:10:55.171] Persisted trie from memory database      nodes=0 size=0.00B time=598ns     gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [06-07|05:10:55.171] Writing cached state to disk             block=105,234,936 hash=903f04..834f08 root=52f2da..e8a2b0
+INFO [06-07|05:10:55.171] Persisted trie from memory database      nodes=0 size=0.00B time="1.129µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [06-07|05:10:55.171] Writing snapshot state to disk           root=920314..d424cb
+INFO [06-07|05:10:55.171] Persisted trie from memory database      nodes=0 size=0.00B time=459ns     gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [06-07|05:10:55.171] Writing clean trie cache to disk         path=/data1/geth_db/geth/triecache threads=128
+INFO [06-07|05:10:55.175] Persisted the clean trie cache           path=/data1/geth_db/geth/triecache elapsed=4.037ms
+INFO [06-07|05:10:55.175] Blockchain stopped 
