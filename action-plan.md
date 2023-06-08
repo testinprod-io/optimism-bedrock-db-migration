@@ -116,7 +116,7 @@ Upload to GCP:
 ```sh
 cd /data1
 tar cf op-erigon-goerli-bedrock-genesis.tar erigon_db/chaindata/
-gsutil -m cp op-erigon-goerli-bedrock-genesis.tar gs://op-erigon-misc/op-erigon-mainnet-goerli-genesis.tar
+gsutil -m cp op-erigon-goerli-bedrock-genesis.tar gs://op-erigon-misc/op-erigon-goerli-bedrock-genesis.tar
 # for mainnet:
 #  tar cf op-erigon-mainnet-bedrock-genesis.tar erigon_db/chaindata/
 #  gsutil -m cp op-erigon-mainnet-bedrock-genesis.tar gs://op-erigon-misc/op-erigon-mainnet-bedrock-genesis.tar
@@ -127,7 +127,7 @@ gsutil -m cp op-erigon-goerli-bedrock-genesis.tar gs://op-erigon-misc/op-erigon-
 State transition:
 
 ```sh
-cd https://github.com/testinprod-io/op-fast-sync
+cd
 git clone https://github.com/testinprod-io/op-fast-sync
 cd op-fast-sync
 pip install -r requirements.txt
