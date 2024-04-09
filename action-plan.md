@@ -72,6 +72,7 @@ At `bedrock-migration` instance,
 
 ```sh
 cd
+git clone https://github.com/testinprod-io/op-geth.git
 cd op-geth
 git fetch origin pull/1/head:pcw109550/bedrock-db-migration
 git checkout pcw109550/bedrock-db-migration
