@@ -68,21 +68,26 @@ This is for exposing grafana dashboard.
 
 At `bedrock-migration` instance,
 
-### DB import
+### DB export
 
 ```sh
 cd
+git clone https://github.com/testinprod-io/op-geth.git
 cd op-geth
+git fetch origin pull/1/head:pcw109550/bedrock-db-migration
+git checkout pcw109550/bedrock-db-migration
 ./migrate.sh [bedrock_start_block_num] [geth_bedrock_archive_location] [optional:artifact_path] 2>&1 | tee migration.log
 # ex) ./migrate.sh 4061224 /home/ubuntu/geth_db  2>&1 | tee migration.log
 # ex) ./migrate.sh 4061224 /data1/geth_db /data1/migration-artifact 2>&1 | tee migration.log
 ```
 
-### DB export
+### DB import
 
 ```sh
 cd
 cd op-erigon
+git fetch origin pull/61/head:pcw109550/bedrock-db-migration
+git checkout pcw109550/bedrock-db-migration
 ./migrate.sh [chain_name] [bedrock_start_block_num] [optional:artifact_path] [optional:erigon_db_path] 2>&1 | tee migration.log
 # ex) ./migrate.sh optimism-goerli 4061224 2>&1 | tee migration.log
 # ex) ./migrate.sh optimism-goerli 4061224 /data1/migration-artifact /data2/erigon_db | tee migration.log
